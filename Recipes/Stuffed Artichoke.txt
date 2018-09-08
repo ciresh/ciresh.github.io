@@ -23,7 +23,7 @@ print a shopping list for this recipeview wine pairings
 preparation
 
 Make stuffing:
-Preheat oven to 350°F with rack in middle.
+Preheat oven to 350Â°F with rack in middle.
 Spread bread crumbs in a shallow baking pan and toast in oven, stirring once or twice, until pale golden, about 10 minutes. Cool completely, then toss with parmesan, garlic, parsley, soppressata, provolone, 1 teaspoon salt, and 1/2 teaspoon pepper in a bowl. Drizzle oil (1/4 cup) over crumbs and toss to coat.
 Trim and stuff artichokes:
 Cut off artichoke stems and discard. Cut off top 1/2 inch of 1 artichoke with a serrated knife, then cut about inch off all remaining leaf tips with kitchen shears. Rub cut leaves with a lemon half.

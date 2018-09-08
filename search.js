@@ -33,18 +33,24 @@ const app = new Vue({
         filteredItems: _.debounce(function () {
             console.log("Generating list...");
             var list = [];
+            var terms = this.searchQuery.split(" ");
+            var termsRe = terms.map(function(t){ return new RegExp(t, "i"); });
             productRe = new RegExp(this.searchQuery, "i");
-            //platformRe = new RegExp(this.checkedPlatforms.join("|"), "i");
+
 
             this.masterList.forEach(function (recipe) {
-                var add = recipe.name.match(productRe);
+                //var add = recipe.name.match(productRe);
+                var add = termsRe.every(function(re){
+                    return recipe.name.match(re)
+                });
+
                 if (add) {
                     list.push(recipe)
                 }
             });
 
             this.recipes = list;
-        }, 1000)
+        }, 500)
     }
 
 });

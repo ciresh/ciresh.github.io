@@ -120,7 +120,7 @@
 <tr><td>gravy.txt</td></tr>
 <tr><td>Greek-American Lamb Gyros.txt</td></tr>
 <tr><td>Greek-Style Beef Pita Sandwiches with Tzatziki Sauce.txt</td></tr>
-<tr><td>Greek-Style Lamb Pita Sandwiches with Tzatziki Sauce—Gyros.txt</td></tr>
+<tr><td>Greek-Style Lamb Pita Sandwiches with Tzatziki Sauceâ€”Gyros.txt</td></tr>
 <tr><td>Green Bean Casserole - Grammy's.txt</td></tr>
 <tr><td>Green Monster Spinach Soup.txt</td></tr>
 <tr><td>Grilled Chocolate Sandwiches.txt</td></tr>
@@ -250,7 +250,7 @@
 <tr><td>SKILLET APPLE PIE.txt</td></tr>
 <tr><td>Skillet Baked Ziti.txt</td></tr>
 <tr><td>Skillet Lasagna.txt</td></tr>
-<tr><td>SKILLET LEMON SOUFFLÉ.txt</td></tr>
+<tr><td>SKILLET LEMON SOUFFLÃ‰.txt</td></tr>
 <tr><td>Skillet Ziti with Chicken and Broccoli.txt</td></tr>
 <tr><td>Skinny Turkey-Spinach Meat Loaf.txt</td></tr>
 <tr><td>Sloppy Joes.txt</td></tr>
