@@ -60,7 +60,7 @@
 
         var headingText = lines[0];
         lines = lines.slice(1);
-
+        document.title = headingText;
         var heading = document.createElement("h3");
         var headingNode = document.createTextNode(headingText);
         heading.appendChild(headingNode);

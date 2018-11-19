@@ -1,9 +1,5 @@
 var recipes = [
   {
-    "path": "org/0.txt", 
-    "name": "0"
-  }, 
-  {
     "path": "org/Alenas Mac and Pasta Salad - Copy.txt", 
     "name": "Alenas Mac and Pasta Salad - Copy"
   }, 
