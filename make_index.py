@@ -84,6 +84,8 @@ def main():
         if root == ".":
             continue
 
+        if not root == ".\Recipes":
+            continue
         #if ".git" in dirs:
         #    dirs.remove(".git")
         #if ".git" in dirs:
