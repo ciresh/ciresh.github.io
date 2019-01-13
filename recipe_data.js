@@ -260,6 +260,10 @@ var recipes = [
     "name": "Brighams Hot Fudge Sauce"
   }, 
   {
+    "path": "Recipes/Brown Butter Blondies.txt", 
+    "name": "Brown Butter Blondies"
+  }, 
+  {
     "path": "Recipes/Burnt Sugar Ice Cream.txt", 
     "name": "Burnt Sugar Ice Cream"
   }, 
@@ -334,6 +338,10 @@ var recipes = [
   {
     "path": "Recipes/Chef John's Italian Meatballs.txt", 
     "name": "Chef John's Italian Meatballs"
+  }, 
+  {
+    "path": "Recipes/Chef John's Scones.txt", 
+    "name": "Chef John's Scones"
   }, 
   {
     "path": "Recipes/Chick Peas.txt", 
@@ -424,6 +432,10 @@ var recipes = [
     "name": "Chocolate Macarons"
   }, 
   {
+    "path": "Recipes/Chocolate Peanut Butter Pie.txt", 
+    "name": "Chocolate Peanut Butter Pie"
+  }, 
+  {
     "path": "Recipes/Chocolate Sour Cream Bundt Cake.txt", 
     "name": "Chocolate Sour Cream Bundt Cake"
   }, 
@@ -496,6 +508,10 @@ var recipes = [
     "name": "Classic Cr\u00e8me Caramel"
   }, 
   {
+    "path": "Recipes/Clotted Cream.txt", 
+    "name": "Clotted Cream"
+  }, 
+  {
     "path": "Recipes/Coconut Ice Cream.txt", 
     "name": "Coconut Ice Cream"
   }, 
@@ -530,6 +546,10 @@ var recipes = [
   {
     "path": "Recipes/Cooks Extra Recipes.txt", 
     "name": "Cooks Extra Recipes"
+  }, 
+  {
+    "path": "Recipes/Cooks Illustrated Millionaires Shortbread.txt", 
+    "name": "Cooks Illustrated Millionaires Shortbread"
   }, 
   {
     "path": "Recipes/Cooks Illustrated Shepards Pie.txt", 
@@ -710,6 +730,10 @@ var recipes = [
   {
     "path": "Recipes/Easy Peppermint Buttercream.txt", 
     "name": "Easy Peppermint Buttercream"
+  }, 
+  {
+    "path": "Recipes/Easy, Creamy One-Pot Salmon Chowder Recipe.txt", 
+    "name": "Easy, Creamy One-Pot Salmon Chowder Recipe"
   }, 
   {
     "path": "Recipes/Easy-Peel Hard-Cooked Eggs.txt", 
@@ -1056,6 +1080,10 @@ var recipes = [
     "name": "Instant Homemade Cocoa"
   }, 
   {
+    "path": "Recipes/Instant Pot Award Winning Chili Recipe.txt", 
+    "name": "Instant Pot Award Winning Chili Recipe"
+  }, 
+  {
     "path": "Recipes/Instant Pot Chick Peas.txt", 
     "name": "Instant Pot Chick Peas"
   }, 
@@ -1308,6 +1336,10 @@ var recipes = [
     "name": "Monique's Pumpkin Ice Cream"
   }, 
   {
+    "path": "Recipes/Monkey Bread - Load Pan.txt", 
+    "name": "Monkey Bread - Load Pan"
+  }, 
+  {
     "path": "Recipes/Monkey Bread - metric.txt", 
     "name": "Monkey Bread - metric"
   }, 
@@ -1354,6 +1386,10 @@ var recipes = [
   {
     "path": "Recipes/New England Fish Chowder.txt", 
     "name": "New England Fish Chowder"
+  }, 
+  {
+    "path": "Recipes/New Orleans\u0096Style Red Beans and Rice Recipe.txt", 
+    "name": "New Orleans\u0096Style Red Beans and Rice Recipe"
   }, 
   {
     "path": "Recipes/New Text Document (2).txt", 
@@ -1406,6 +1442,10 @@ var recipes = [
   {
     "path": "Recipes/Orange-Spice Banana Bread.txt", 
     "name": "Orange-Spice Banana Bread"
+  }, 
+  {
+    "path": "Recipes/Our Favorite Turkey Gravy.txt", 
+    "name": "Our Favorite Turkey Gravy"
   }, 
   {
     "path": "Recipes/Oven Fries.txt", 
@@ -1582,6 +1622,10 @@ var recipes = [
   {
     "path": "Recipes/Pressure Cooker Pork Chile Verde.txt", 
     "name": "Pressure Cooker Pork Chile Verde"
+  }, 
+  {
+    "path": "Recipes/Pressure Cooker Split Pea and Ham Soup.txt", 
+    "name": "Pressure Cooker Split Pea and Ham Soup"
   }, 
   {
     "path": "Recipes/Pull Pork May 2017.txt", 
@@ -2072,6 +2116,10 @@ var recipes = [
     "name": "Thanks Giving 2016 List"
   }, 
   {
+    "path": "Recipes/Thanks Giving 2018 Grocery List.txt", 
+    "name": "Thanks Giving 2018 Grocery List"
+  }, 
+  {
     "path": "Recipes/Thanksgiving 2012-final dishes.txt", 
     "name": "Thanksgiving 2012-final dishes"
   }, 
@@ -2082,6 +2130,10 @@ var recipes = [
   {
     "path": "Recipes/Thanksgiving 2017.txt", 
     "name": "Thanksgiving 2017"
+  }, 
+  {
+    "path": "Recipes/Thanksgiving 2018.txt", 
+    "name": "Thanksgiving 2018"
   }, 
   {
     "path": "Recipes/Thanksgiving.txt", 
