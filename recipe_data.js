@@ -1388,8 +1388,8 @@ var recipes = [
     "name": "New England Fish Chowder"
   }, 
   {
-    "path": "Recipes/New Orleans\u0096Style Red Beans and Rice Recipe.txt", 
-    "name": "New Orleans\u0096Style Red Beans and Rice Recipe"
+    "path": "Recipes/New Orleans Style Red Beans and Rice Recipe.txt", 
+    "name": "New Orleans Style Red Beans and Rice Recipe"
   }, 
   {
     "path": "Recipes/New Text Document (2).txt", 
