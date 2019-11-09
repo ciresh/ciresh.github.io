@@ -144,8 +144,16 @@ var recipes = [
     "name": "Basic BBQ Chicken"
   }, 
   {
+    "path": "Recipes/Basic Pancakes.txt", 
+    "name": "Basic Pancakes"
+  }, 
+  {
     "path": "Recipes/Basket Burgers.txt", 
     "name": "Basket Burgers"
+  }, 
+  {
+    "path": "Recipes/BBQ Chicken Sliders.txt", 
+    "name": "BBQ Chicken Sliders"
   }, 
   {
     "path": "Recipes/BBQ Macaroni Salad.txt", 
@@ -260,6 +268,10 @@ var recipes = [
     "name": "Brighams Hot Fudge Sauce"
   }, 
   {
+    "path": "Recipes/Broccoli Cheese Soup.txt", 
+    "name": "Broccoli Cheese Soup"
+  }, 
+  {
     "path": "Recipes/Brown Butter Blondies.txt", 
     "name": "Brown Butter Blondies"
   }, 
@@ -282,6 +294,10 @@ var recipes = [
   {
     "path": "Recipes/Buttermilk Mashed Potatoes.txt", 
     "name": "Buttermilk Mashed Potatoes"
+  }, 
+  {
+    "path": "Recipes/Buttermilk Pancakes.txt", 
+    "name": "Buttermilk Pancakes"
   }, 
   {
     "path": "Recipes/Buttermilk Waffles (Seltzer).txt", 
@@ -346,6 +362,10 @@ var recipes = [
   {
     "path": "Recipes/Chick Peas.txt", 
     "name": "Chick Peas"
+  }, 
+  {
+    "path": "Recipes/Chick-Fil-A Sandwiches.txt", 
+    "name": "Chick-Fil-A Sandwiches"
   }, 
   {
     "path": "Recipes/Chicken and Rice with Broccoli.txt", 
@@ -556,6 +576,10 @@ var recipes = [
     "name": "Cooks Illustrated Shepards Pie"
   }, 
   {
+    "path": "Recipes/Cooks Make Ahead Waffles.txt", 
+    "name": "Cooks Make Ahead Waffles"
+  }, 
+  {
     "path": "Recipes/Copy of Malaysian Chicken Pizza.txt", 
     "name": "Copy of Malaysian Chicken Pizza"
   }, 
@@ -644,6 +668,10 @@ var recipes = [
     "name": "Crispy Potato Pancakes"
   }, 
   {
+    "path": "Recipes/Crunchy Corn Meal Waffles.txt", 
+    "name": "Crunchy Corn Meal Waffles"
+  }, 
+  {
     "path": "Recipes/Crunchy Oven Fried Fish.txt", 
     "name": "Crunchy Oven Fried Fish"
   }, 
@@ -708,12 +736,20 @@ var recipes = [
     "name": "Dreamy Creamy Chocolate Pudding"
   }, 
   {
+    "path": "Recipes/Drop Biscuits.txt", 
+    "name": "Drop Biscuits"
+  }, 
+  {
     "path": "Recipes/Easier Fried Chicken.txt", 
     "name": "Easier Fried Chicken"
   }, 
   {
     "path": "Recipes/Easter 2017.txt", 
     "name": "Easter 2017"
+  }, 
+  {
+    "path": "Recipes/Easter Notes.txt", 
+    "name": "Easter Notes"
   }, 
   {
     "path": "Recipes/Eastrer 2018.txt", 
@@ -776,8 +812,16 @@ var recipes = [
     "name": "Fabulous Flonder Cooked in Foil"
   }, 
   {
+    "path": "Recipes/Falafel.txt", 
+    "name": "Falafel"
+  }, 
+  {
     "path": "Recipes/Feather's McGraw Drink.txt", 
     "name": "Feather's McGraw Drink"
+  }, 
+  {
+    "path": "Recipes/Fiesta Pasta Salad.txt", 
+    "name": "Fiesta Pasta Salad"
   }, 
   {
     "path": "Recipes/Firecracker Chicken.txt", 
@@ -1032,8 +1076,8 @@ var recipes = [
     "name": "Hearty Scambled Eggs - Bacon Onion and Pepper Jack"
   }, 
   {
-    "path": "Recipes/Hershey'S Perfectly Chocolate Chocolate Cake.Txt", 
-    "name": "Hershey'S Perfectly Chocolate Chocolate Cake"
+    "path": "Recipes/Hershey's Perfectly Chocolate Chocolate Cake.Txt", 
+    "name": "Hershey's Perfectly Chocolate Chocolate Cake"
   }, 
   {
     "path": "Recipes/High Heat Brisket.txt", 
@@ -1072,6 +1116,10 @@ var recipes = [
     "name": "Huli Huli Chicken"
   }, 
   {
+    "path": "Recipes/Indian Spiced Roasted Chickpeas.txt", 
+    "name": "Indian Spiced Roasted Chickpeas"
+  }, 
+  {
     "path": "Recipes/Individual Fallen Chocolate Cakes.txt", 
     "name": "Individual Fallen Chocolate Cakes"
   }, 
@@ -1094,6 +1142,10 @@ var recipes = [
   {
     "path": "Recipes/Instant Pot Chili.txt", 
     "name": "Instant Pot Chili"
+  }, 
+  {
+    "path": "Recipes/Instant Pot Corned Beef and Cabbage.txt", 
+    "name": "Instant Pot Corned Beef and Cabbage"
   }, 
   {
     "path": "Recipes/Instant Pot Honey Bourbon Chicken - Traditional Version.txt", 
@@ -1376,6 +1428,10 @@ var recipes = [
     "name": "New England Boiled Dinner"
   }, 
   {
+    "path": "Recipes/New England Clam Chowder Recipe.txt", 
+    "name": "New England Clam Chowder Recipe"
+  }, 
+  {
     "path": "Recipes/New England Crabmeat Stuffing.txt", 
     "name": "New England Crabmeat Stuffing"
   }, 
@@ -1388,8 +1444,8 @@ var recipes = [
     "name": "New England Fish Chowder"
   }, 
   {
-    "path": "Recipes/New Orleans Style Red Beans and Rice Recipe.txt", 
-    "name": "New Orleans Style Red Beans and Rice Recipe"
+    "path": "Recipes/New Orleans\u0096Style Red Beans and Rice Recipe.txt", 
+    "name": "New Orleans\u0096Style Red Beans and Rice Recipe"
   }, 
   {
     "path": "Recipes/New Text Document (2).txt", 
@@ -1422,6 +1478,10 @@ var recipes = [
   {
     "path": "Recipes/One Minute Salsa.txt", 
     "name": "One Minute Salsa"
+  }, 
+  {
+    "path": "Recipes/One Pot Salmon Chowder Recipe.txt", 
+    "name": "One Pot Salmon Chowder Recipe"
   }, 
   {
     "path": "Recipes/Onion rings etc.txt", 
@@ -1920,6 +1980,10 @@ var recipes = [
     "name": "Slow Cooker Beef Shanks with Garlic and Herbs"
   }, 
   {
+    "path": "Recipes/Slow Cooker Chili.txt", 
+    "name": "Slow Cooker Chili"
+  }, 
+  {
     "path": "Recipes/Slow-Cooker Cherry Grunt.txt", 
     "name": "Slow-Cooker Cherry Grunt"
   }, 
@@ -1956,6 +2020,10 @@ var recipes = [
     "name": "Smoked Sausage with Cabbage and Sweet Potatoes"
   }, 
   {
+    "path": "Recipes/Sour and Cream Cheese Chocolate Frosting.txt", 
+    "name": "Sour and Cream Cheese Chocolate Frosting"
+  }, 
+  {
     "path": "Recipes/Sour Cream Coffee Cake with Brown Sugar-Pecan Streusel.txt", 
     "name": "Sour Cream Coffee Cake with Brown Sugar-Pecan Streusel"
   }, 
@@ -1966,6 +2034,10 @@ var recipes = [
   {
     "path": "Recipes/Sour Cream-Chocolate Chip Scones.txt", 
     "name": "Sour Cream-Chocolate Chip Scones"
+  }, 
+  {
+    "path": "Recipes/Southern Fried Chicken.txt", 
+    "name": "Southern Fried Chicken"
   }, 
   {
     "path": "Recipes/Southern Succor Rub.txt", 
@@ -2100,6 +2172,10 @@ var recipes = [
     "name": "Sweet Dark Cherry Cobbler"
   }, 
   {
+    "path": "Recipes/sync.ffs_db", 
+    "name": "sync"
+  }, 
+  {
     "path": "Recipes/Tagliatelle With Artichokes And Olive Oil For Two.txt", 
     "name": "Tagliatelle With Artichokes And Olive Oil For Two"
   }, 
@@ -2144,6 +2220,10 @@ var recipes = [
     "name": "The Best Banana Bread"
   }, 
   {
+    "path": "Recipes/The Best Chocolate Chip Cookies Recipe abbr.txt", 
+    "name": "The Best Chocolate Chip Cookies Recipe abbr"
+  }, 
+  {
     "path": "Recipes/The Best Chocolate Chip Cookies Recipe.txt", 
     "name": "The Best Chocolate Chip Cookies Recipe"
   }, 
@@ -2164,6 +2244,10 @@ var recipes = [
     "name": "Three Layer Lasagna"
   }, 
   {
+    "path": "Recipes/Toasted Thanksgiving Sub.txt", 
+    "name": "Toasted Thanksgiving Sub"
+  }, 
+  {
     "path": "Recipes/Tomato and Artichoke Casserole.txt", 
     "name": "Tomato and Artichoke Casserole"
   }, 
@@ -2182,6 +2266,10 @@ var recipes = [
   {
     "path": "Recipes/Touch of Grace Biscuits.txt", 
     "name": "Touch of Grace Biscuits"
+  }, 
+  {
+    "path": "Recipes/Tres Leches Cake Recipe,txt.txt", 
+    "name": "Tres Leches Cake Recipe,txt"
   }, 
   {
     "path": "Recipes/Turkey Meat Loaf.txt", 
@@ -2228,11 +2316,15 @@ var recipes = [
     "name": "Wacky Cake"
   }, 
   {
+    "path": "Recipes/Waffle Maker Black and Decker.txt", 
+    "name": "Waffle Maker Black and Decker"
+  }, 
+  {
     "path": "Recipes/Waffles Alton Brown.txt", 
     "name": "Waffles Alton Brown"
   }, 
   {
-    "path": "Recipes/Waldorf Chicken Salad.Txt", 
+    "path": "Recipes/Waldorf Chicken Salad.txt", 
     "name": "Waldorf Chicken Salad"
   }, 
   {
