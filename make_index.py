@@ -98,14 +98,16 @@ def main():
             path = convert(path)
             li.append('    <li><a href="{}">{}</a></li>'.format(path, name))
             recipes.append({"name": name,"path":path})
-        print INDEX_TEMPLATE.format("Recipes", "\n".join(li))
+        print (INDEX_TEMPLATE.format("Recipes", "\n".join(li)))
 
-    with open("recipe_data.js", "w") as f:
+    with open("recipe_data.js", "w",  encoding="utf-8") as f:
         f.write("var recipes = {};".format(json.dumps(recipes, indent=2)))
 
 
 def convert(str):
-    return str.decode("iso-8859-1").encode("utf-8")
+    return str;
+    # assume correct encoding
+    #return str.decode("iso-8859-1").encode("utf-8")
 
 
 def mainz():
@@ -115,7 +117,7 @@ def mainz():
     args = parser.parse_args()
     fnames = [fname for fname in sorted(os.listdir(args.directory))
               if fname not in EXCLUDED]
-    print fnames
+    print (fnames)
     header = (args.header if args.header else os.path.basename(args.directory))
     Template(INDEX_TEMPLATE, default_filters=['decode.utf8']).render(names=fnames, header=header)
 
