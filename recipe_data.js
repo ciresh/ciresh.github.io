@@ -124,6 +124,10 @@ var recipes = [
     "path": "Recipes/Baked Meatballs.txt"
   },
   {
+    "name": "Baked Mushroom Risotto",
+    "path": "Recipes/Baked Mushroom Risotto.txt"
+  },
+  {
     "name": "Baked Stuffed Shrimp with Crabmeat Stuffing Recipe",
     "path": "Recipes/Baked Stuffed Shrimp with Crabmeat Stuffing Recipe.txt"
   },
