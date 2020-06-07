@@ -1496,6 +1496,10 @@ var recipes = [
     "path": "Recipes/Onion rings etc.txt"
   },
   {
+    "name": "Open Faced Thai Chicken Sandwiches",
+    "path": "Recipes/Open Faced Thai Chicken Sandwiches.txt"
+  },
+  {
     "name": "Orange Molasses Glazed Chicken",
     "path": "Recipes/Orange Molasses Glazed Chicken.txt"
   },
