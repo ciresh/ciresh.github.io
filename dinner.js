@@ -134,7 +134,7 @@ var app = new Vue({
         },
         dformat: function(d) {
             if (d instanceof Date)
-                return  (d.getMonth()+1) + "-" + d.getDate()  + "-" + d.getFullYear();
+                return  (d.getMonth()+1) + "/" + d.getDate() ;// + "-" + d.getFullYear();
             return d;
         }
 
