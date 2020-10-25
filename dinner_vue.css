@@ -7,18 +7,21 @@ body {
 
 .entry {
     display: flex;
+
     align-items: center;
-    justify-content: space-between;
     padding: 10px 27px 10px 27px;
 }
 
 .desc {
-    /*flex: 1 1 auto;*/
-    flex: 0 0 14em;
+    flex: 1 1 auto;
 }
 
 .date {
     flex: 0 0 5.5em;
+}
+
+.destroy2 {
+    flex: 0 0 40px;
 }
 
 button {
