@@ -24,6 +24,10 @@ var recipes = [
     "path": "Recipes/All Day Apple Butter.txt"
   },
   {
+    "name": "All Purpose Cornbread",
+    "path": "Recipes/All Purpose Cornbread.txt"
+  },
+  {
     "name": "All-American Potato Salad",
     "path": "Recipes/All-American Potato Salad.txt"
   },
@@ -88,6 +92,10 @@ var recipes = [
     "path": "Recipes/Apple-Cinnamon Bundt Cake.txt"
   },
   {
+    "name": "Applesauce Barbecue Chicken",
+    "path": "Recipes/Applesauce Barbecue Chicken.txt"
+  },
+  {
     "name": "Arugula and Escarole Salad with Blue Cheese, Figs, and Warm Port Dressing",
     "path": "Recipes/Arugula and Escarole Salad with Blue Cheese, Figs, and Warm Port Dressing.txt"
   },
@@ -112,8 +120,16 @@ var recipes = [
     "path": "Recipes/Authentic Guacamole.txt"
   },
   {
+    "name": "Bacon and Spinach Stuffed Chicken",
+    "path": "Recipes/Bacon and Spinach Stuffed Chicken.txt"
+  },
+  {
     "name": "Bacon Bourbon BBQ Chicken Kebabs",
     "path": "Recipes/Bacon Bourbon BBQ Chicken Kebabs.txt"
+  },
+  {
+    "name": "Bake Autin Pestos",
+    "path": "Recipes/Bake Autin Pestos.txt"
   },
   {
     "name": "Baked French Toast Casserole with Maple Syrup",
@@ -138,6 +154,10 @@ var recipes = [
   {
     "name": "Barbara's Milk Chocolate Fudge",
     "path": "Recipes/Barbara's Milk Chocolate Fudge.txt"
+  },
+  {
+    "name": "Barbecued Pork Skewers",
+    "path": "Recipes/Barbecued Pork Skewers.txt"
   },
   {
     "name": "Barbecued Pulled Chicken For Charcoal Grill",
@@ -288,6 +308,10 @@ var recipes = [
     "path": "Recipes/Burnt Sugar Ice Cream.txt"
   },
   {
+    "name": "Butter Scotch Pudding",
+    "path": "Recipes/Butter Scotch Pudding.txt"
+  },
+  {
     "name": "Buttermilk Coleslaw",
     "path": "Recipes/Buttermilk Coleslaw.txt"
   },
@@ -318,6 +342,10 @@ var recipes = [
   {
     "name": "Butternut Squash Soup",
     "path": "Recipes/Butternut Squash Soup.txt"
+  },
+  {
+    "name": "Butterscotch Budino",
+    "path": "Recipes/Butterscotch Budino.txt"
   },
   {
     "name": "Caldo Verde Soup",
@@ -446,6 +474,10 @@ var recipes = [
   {
     "name": "Chocolate Cream Pie2",
     "path": "Recipes/Chocolate Cream Pie2.txt"
+  },
+  {
+    "name": "Chocolate Creme Caramel",
+    "path": "Recipes/Chocolate Creme Caramel.txt"
   },
   {
     "name": "Chocolate Ice Cream",
@@ -784,6 +816,10 @@ var recipes = [
     "path": "Recipes/Easy-Peel Hard-Cooked Eggs.txt"
   },
   {
+    "name": "Eggnog Brioche Cinnamon Rolls",
+    "path": "Recipes/Eggnog Brioche Cinnamon Rolls.txt"
+  },
+  {
     "name": "Elote Appetizer from the Elote Cafe",
     "path": "Recipes/Elote Appetizer from the Elote Cafe.txt"
   },
@@ -808,12 +844,20 @@ var recipes = [
     "path": "Recipes/Eric Recipe Markup Language.txt"
   },
   {
+    "name": "Eric's Shawarma",
+    "path": "Recipes/Eric's Shawarma.txt"
+  },
+  {
     "name": "Esquites (Mexican Corn Salad)",
     "path": "Recipes/Esquites (Mexican Corn Salad).txt"
   },
   {
     "name": "Everyday Lighter Macaroni and Cheese",
     "path": "Recipes/Everyday Lighter Macaroni and Cheese.txt"
+  },
+  {
+    "name": "Extra Crispy Baked Chicken Wings",
+    "path": "Recipes/Extra Crispy Baked Chicken Wings.txt"
   },
   {
     "name": "Fabulous Flonder Cooked in Foil",
@@ -834,6 +878,10 @@ var recipes = [
   {
     "name": "Firecracker Chicken",
     "path": "Recipes/Firecracker Chicken.txt"
+  },
+  {
+    "name": "Fish and Chips",
+    "path": "Recipes/Fish and Chips.txt"
   },
   {
     "name": "Fish Meuniere for Two",
@@ -1172,6 +1220,10 @@ var recipes = [
     "path": "Recipes/ITALIAN VEGETABLE STEW (CIAMBOTTA).txt"
   },
   {
+    "name": "Jamaican Brown Stew Chicken",
+    "path": "Recipes/Jamaican Brown Stew Chicken.txt"
+  },
+  {
     "name": "Jasmine Rice",
     "path": "Recipes/Jasmine Rice.txt"
   },
@@ -1214,6 +1266,10 @@ var recipes = [
   {
     "name": "Latin_Love",
     "path": "Recipes/Latin_Love.txt"
+  },
+  {
+    "name": "Latkes",
+    "path": "Recipes/Latkes.txt"
   },
   {
     "name": "Leaner Fresh Peach Ice Cream abbr",
@@ -1398,6 +1454,10 @@ var recipes = [
   {
     "name": "Monkey Bread - Load Pan",
     "path": "Recipes/Monkey Bread - Load Pan.txt"
+  },
+  {
+    "name": "Monkey Bread - Loaf Pan",
+    "path": "Recipes/Monkey Bread - Loaf Pan.txt"
   },
   {
     "name": "Monkey Bread - metric",
@@ -1712,6 +1772,10 @@ var recipes = [
     "path": "Recipes/Pusser's Pain Killer.txt"
   },
   {
+    "name": "Quick and Crispy Home Fries",
+    "path": "Recipes/Quick and Crispy Home Fries.txt"
+  },
+  {
     "name": "Quick and Easy French Toast Casserole - Rachael Ray",
     "path": "Recipes/Quick and Easy French Toast Casserole - Rachael Ray.txt"
   },
@@ -1892,12 +1956,20 @@ var recipes = [
     "path": "Recipes/Sauteed Spinach With Pecans And Feta.txt"
   },
   {
+    "name": "Scacce Ragusane (Sicilian Stuffed Flatbread)",
+    "path": "Recipes/Scacce Ragusane (Sicilian Stuffed Flatbread).txt"
+  },
+  {
     "name": "seafood lasagna",
     "path": "Recipes/seafood lasagna.txt"
   },
   {
     "name": "Seared Scallops with Cilantro Pesto",
     "path": "Recipes/Seared Scallops with Cilantro Pesto.txt"
+  },
+  {
+    "name": "Shawarma - Binging With Babish",
+    "path": "Recipes/Shawarma - Binging With Babish.txt"
   },
   {
     "name": "Shepherd's Pie",
