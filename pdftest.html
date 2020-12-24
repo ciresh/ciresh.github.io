@@ -123,18 +123,21 @@
 
         doc
             .font('Barlow-Bold', 18)
-            .text(headingText, 18, 18)
-            .moveDown(.5)
-            .font('SourceSerifPro-Regular', 11)
-            .text(lines.join("\n"), 18, 54, {
+            .text(headingText , 18, 54, {
                 width: 10.5*72,
                 height:72*7.5,
                 align: 'left',
                 indent: 0,
                 columns: 2,
                 columnGap: 36,
-                ellipsis: true
-            });
+                ellipsis: true,
+                continued: true
+            })
+            .font('SourceSerifPro-Regular', 11)
+            .text("\n\n" + lines.join("\n"))
+        ;
+
+
 
         // end and display the document in the iframe to the right
         doc.end();
