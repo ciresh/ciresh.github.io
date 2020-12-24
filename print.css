@@ -1,0 +1,39 @@
+
+body {
+    font-family: sans-serif;
+}
+
+@media print {
+    header, footer, aside, form, … {
+        display: none;
+    }
+    article {
+        width:100%!important;
+        padding:0!important;
+        margin:0!important;
+    }
+
+    body{
+        font-size: 12pt;
+        line-height: 1.5;
+        column-count: 2;
+        column-gap: .5in;
+        height: 8in;
+        column-fill: auto;
+    }
+
+}
+h3{
+    font-size: 28px;
+    margin: 0 0 8px;
+    font-weight: 500;
+}
+body{
+    font-size: 1.2rem;
+    line-height: 1.5;
+
+}
+@page {
+    margin: .25in;
+    size: Letter landscape;
+}
