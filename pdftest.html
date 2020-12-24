@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDF Test</title>
+
+    <script src="lib/pdfkit.standalone.js"></script>
+    <script src="lib/blob-stream.js"></script>
+</head>
+<body>
+
+<iframe  id="iframe" width="600" height="775"></iframe>
+<button onclick="openPdf()">OpenPdf</button>
+</body>
+<script>
+    var pdfBlob;
+    var barlowMedium;
+    var barlowRegular;
+    var data;
+    var source = window.location.search.substr(1);
+    //var source = "Recipes/Ben Mims Perfect Cornbread.txt"
+    //var source = "Recipes/Fruit Tray with Fruit Dip.txt"
+    fetch(source)
+        .then(function (response) {
+            return response.text();
+        })
+        .then(function (text) {
+            data = text;
+            return fetch("fonts/Barlow-Medium.ttf")
+        })
+        .then(function (response) {
+            return response.arrayBuffer();
+        })
+        .then(function (arrayBuffer) {
+            barlowMedium = arrayBuffer;
+            return fetch("fonts/Barlow-Regular.ttf")
+        })
+        .then(function (response) {
+            return response.arrayBuffer();
+        })
+        .then(function (arrayBuffer) {
+            barlowRegular = arrayBuffer;
+            createPdf(data)
+        });
+
+    function loadFont(doc, path, id) {
+        return new Promise(function(resolve, reject) {
+            fetch(path).then(function(response){
+                return response.arrayBuffer();
+            }).then(function(fontBytes){
+                doc.registerFont(id, fontBytes)
+                resolve();
+            });
+        });
+    }
+
+    /*
+    function registerFonts()
+    {
+        var oReq = new XMLHttpRequest();
+        oReq.open("GET", "fonts/Barlow-Medium.ttf", true);
+        oReq.responseType = "arraybuffer";
+
+        oReq.onload = function(oEvent) {
+            var arrayBuffer = oReq.response; // Note: not oReq.responseText
+            if (arrayBuffer) {
+                PdfExporter.doc.registerFont('Barlow-Medium', arrayBuffer)
+            }
+        };
+
+        oReq.send(null);
+
+    }
+*/
+    async function createPdf(text) {
+
+        // Fix line endings
+        text = text.replace(/\r\n|\r/g, '\n')
+
+        //text = text + text + text + text;
+
+        var lines = text.split(/\r?\n/);
+
+        // Create a document and pipe to a blob
+        var doc = new PDFDocument({margin:18, layout:"landscape"});
+        var stream = doc.pipe(blobStream());
+
+        doc.registerFont('Barlow-Medium', barlowMedium)
+        doc.registerFont('Barlow-Regular', barlowRegular)
+
+        await loadFont(doc, "fonts/Barlow-Bold.ttf", "Barlow-Bold");
+        await loadFont(doc, "fonts/SourceSerifPro-Regular.ttf", "SourceSerifPro-Regular");
+
+        // draw some text
+
+/*
+        // some vector graphics
+        doc
+            .save()
+            .moveTo(100, 150)
+            .lineTo(100, 250)
+            .lineTo(200, 250)
+            .fill('#FF3300');
+
+        doc.circle(280, 200, 50).fill('#6600FF');
+
+        // an SVG path
+        doc
+            .scale(0.6)
+            .translate(470, 130)
+            .path('M 250,75 L 323,301 131,161 369,161 177,301 z')
+            .fill('red', 'even-odd')
+            .restore();
+*/
+        // and some justified text wrapped into columns
+
+        // Barlow-Medium Barlow-Regular
+        var headingText = lines[0];
+        if (lines[1] == null || lines[1].trim() === '')
+            lines = lines.slice(2);
+        else
+            lines = lines.slice(1);
+
+        doc
+            .font('Barlow-Bold', 18)
+            .text(headingText, 18, 18)
+            .moveDown(.5)
+            .font('SourceSerifPro-Regular', 11)
+            .text(lines.join("\n"), 18, 54, {
+                width: 10.5*72,
+                height:72*7.5,
+                align: 'left',
+                indent: 0,
+                columns: 2,
+                columnGap: 36,
+                ellipsis: true
+            });
+
+        // end and display the document in the iframe to the right
+        doc.end();
+
+
+
+        stream.on('finish', function() {
+            var iframe = document.getElementById("iframe");
+            pdfBlob = stream.toBlobURL('application/pdf');
+            iframe.src = pdfBlob;
+
+            //window.open("data:application/pdf," + encodeURI(pdfBlob));
+
+        });
+    }
+
+    function openPdf() {
+        window.open(pdfBlob);
+    }
+</script>
+</html>

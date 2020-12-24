@@ -76,6 +76,10 @@ var recipes = [
     "path": "Recipes/Altons's Devil's Food Cake.txt"
   },
   {
+    "name": "Amy's Ricotta Pie",
+    "path": "Recipes/Amy's Ricotta Pie.txt"
+  },
+  {
     "name": "Apple Butter - Cooks Illustrated",
     "path": "Recipes/Apple Butter - Cooks Illustrated.txt"
   },
@@ -198,6 +202,10 @@ var recipes = [
   {
     "name": "Beef Tacos",
     "path": "Recipes/Beef Tacos.txt"
+  },
+  {
+    "name": "Ben Mims Perfect Cornbread",
+    "path": "Recipes/Ben Mims Perfect Cornbread.txt"
   },
   {
     "name": "Best Baked Potatoes",
@@ -666,6 +674,10 @@ var recipes = [
   {
     "name": "Creamed Spinach - Diana Rattray",
     "path": "Recipes/Creamed Spinach - Diana Rattray.txt"
+  },
+  {
+    "name": "Creamed Spinach Chicken",
+    "path": "Recipes/Creamed Spinach Chicken.txt"
   },
   {
     "name": "Creamed Spinach",

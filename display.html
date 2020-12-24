@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
           integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-
+    -->
     <title>Filters</title>
 
     <!-- Used to hide html that functions as template on startup -->
@@ -17,8 +17,9 @@
         }
     </style>
 
-    <!-- Custom styles for this template -->
-    <link href="search.css" rel="stylesheet">
+    <!-- Custom styles for this template
+    <link href="search.css" rel="stylesheet">-->
+    <link rel="stylesheet"  href="print.css" />
 </head>
 <body>
 
@@ -59,7 +60,11 @@
         var contentDiv = document.getElementById("content");
 
         var headingText = lines[0];
-        lines = lines.slice(1);
+        if (lines[1] == null || lines[1].trim() === '')
+            lines = lines.slice(2);
+        else
+            lines = lines.slice(1);
+
         document.title = headingText;
         var heading = document.createElement("h3");
         var headingNode = document.createTextNode(headingText);
@@ -75,6 +80,15 @@
             contentDiv.appendChild(document.createElement("br"));
             body.appendChild(heading)
         })
+
+
+        newlink = document.createElement('a');
+        newlink.innerHTML = 'PDF';
+        newlink.setAttribute('title', 'Google');
+        newlink.setAttribute('href', 'pdftest.html' + window.location.search);
+        contentDiv.appendChild(newlink);
+
+
     }
 </script>
 

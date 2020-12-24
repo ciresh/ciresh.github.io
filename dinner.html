@@ -77,8 +77,10 @@
 
                  <div class="entry">
                      <div class="desc" @dblclick="editTodo(todo)">{{ todo.description }}</div>
-                     <div class="date">{{ todo.date | dformat }}</div>
-                     <button class="destroy2" @click="removeTodo(todo)">×</button>
+                     <div class="rcolumn">
+                         <span class="date">{{ todo.date | dformat }}</span>
+                         <button class="destroy2" @click="removeTodo(todo)">×</button>
+                     </div>
                  </div>
 
                 <input
