@@ -6,6 +6,15 @@ const FreezerList = Parse.Object.extend("FreezerList");
 // Full spec-compliant TodoMVC with localStorage persistence
 // and hash-based routing in ~120 effective lines of JavaScript.
 
+/*
+
+Visibility of during editing is controlled by the css in dinner_vue.css
+
+
+
+
+ */
+
 // localStorage persistence
 var STORAGE_KEY = "todos-vuejs-2.0";
 var todoStorage = {
@@ -27,11 +36,15 @@ var todoStorage = {
                 todos = JSON.parse(itemsString);
             }
 
-
             todos.forEach(function(todo, index) {
                 todo.id = index;
-                todo.date = new Date(todo.date);
+                todo.date = (new Date(todo.date)).toISOString().substr(0,10);
             });
+
+            todos.sort(function(a, b){
+                return b.date.localeCompare(a.date);
+            });
+
             todoStorage.uid = todos.length;
             vueObject.todos = todos
             return todos;
@@ -39,9 +52,6 @@ var todoStorage = {
     },
     save: function(todos) {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(todos));
-
-
-
 
         const query = new Parse.Query(FreezerList);
         query.equalTo('user', 'ciresh');
@@ -134,7 +144,12 @@ var app = new Vue({
         },
         dformat: function(d) {
             if (d instanceof Date)
-                return  (d.getMonth()+1) + "/" + d.getDate() ;// + "-" + d.getFullYear();
+                return  (d.getMonth()+1) + "/" + d.getDate();
+            if (typeof d === "string")
+                if (d.length === 10)
+                if (d.length === 10)
+                    return d.substr(5);
+
             return d;
         }
 
@@ -151,8 +166,8 @@ var app = new Vue({
             this.todos.unshift({
                 id: todoStorage.uid++,
                 description: value,
-                date: new Date(),
-                completed: false
+                date: (new Date()).toISOString().substr(0,10),
+                completed: false,
             });
             this.newTodo = "";
         },
@@ -163,6 +178,12 @@ var app = new Vue({
         },
 
         editTodo: function(todo) {
+            this.beforeEditCache = todo.description;
+            this.editedTodo = todo;
+        },
+
+        editTodoDate: function(todo) {
+            this.beforeEditCacheDate = todo.date;
             this.beforeEditCache = todo.description;
             this.editedTodo = todo;
         },

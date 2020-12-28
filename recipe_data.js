@@ -76,6 +76,14 @@ var recipes = [
     "path": "Recipes/Altons's Devil's Food Cake.txt"
   },
   {
+    "name": "American Sandwich Bread",
+    "path": "Recipes/American Sandwich Bread.txt"
+  },
+  {
+    "name": "Amy's Ricotta Pie (3 pies)",
+    "path": "Recipes/Amy's Ricotta Pie (3 pies).txt"
+  },
+  {
     "name": "Amy's Ricotta Pie",
     "path": "Recipes/Amy's Ricotta Pie.txt"
   },
@@ -198,6 +206,10 @@ var recipes = [
   {
     "name": "Bearnaise Sauce",
     "path": "Recipes/Bearnaise Sauce.txt"
+  },
+  {
+    "name": "Beatty's Chocolate Cake",
+    "path": "Recipes/Beatty's Chocolate Cake.txt"
   },
   {
     "name": "Beef Tacos",
@@ -1462,10 +1474,6 @@ var recipes = [
   {
     "name": "Monique's Pumpkin Ice Cream",
     "path": "Recipes/Monique's Pumpkin Ice Cream.txt"
-  },
-  {
-    "name": "Monkey Bread - Load Pan",
-    "path": "Recipes/Monkey Bread - Load Pan.txt"
   },
   {
     "name": "Monkey Bread - Loaf Pan",

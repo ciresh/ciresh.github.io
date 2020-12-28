@@ -123,9 +123,9 @@
 
         doc
             .font('Barlow-Bold', 18)
-            .text(headingText , 18, 54, {
+            .text(headingText , 18, 18, {
                 width: 10.5*72,
-                height:72*7.5,
+                height:72*8,
                 align: 'left',
                 indent: 0,
                 columns: 2,
@@ -134,15 +134,11 @@
                 continued: true
             })
             .font('SourceSerifPro-Regular', 11)
-            .text("\n\n" + lines.join("\n"))
+            .text("\n\n\n" + lines.join("\n"))
         ;
-
-
 
         // end and display the document in the iframe to the right
         doc.end();
-
-
 
         stream.on('finish', function() {
             var iframe = document.getElementById("iframe");

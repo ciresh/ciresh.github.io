@@ -31,6 +31,7 @@
             display: none;
         }
     </style>
+
     <link href="pricing.css" rel="stylesheet">
 </head>
 <body>
@@ -65,33 +66,37 @@
                     v-for="todo in filteredTodos"
                     class="todo"
                     :key="todo.id"
-                    :class="{ completed: todo.completed, editing: todo == editedTodo }"
+                    v-bind:class="{ completed: todo.completed, editing: todo == editedTodo }"
             >
-                <!--
-                 <div class="view">
-                     <input class="toggle" type="checkbox" v-model="todo.completed" />
-                     <label @dblclick="editTodo(todo)">{{ todo.description }} {{ todo.date | dformat }}</label>
-                     <button class="destroy" @click="removeTodo(todo)"></button>
-                 </div>
-                  -->
-
                  <div class="entry">
                      <div class="desc" @dblclick="editTodo(todo)">{{ todo.description }}</div>
                      <div class="rcolumn">
-                         <span class="date">{{ todo.date | dformat }}</span>
+                         <span @dblclick="editTodoDate(todo)" class="date">{{ todo.date | dformat }}</span>
                          <button class="destroy2" @click="removeTodo(todo)">×</button>
                      </div>
                  </div>
 
-                <input
-                        class="edit"
-                        type="text"
-                        v-model="todo.description"
-                        v-todo-focus="todo == editedTodo"
-                        @blur="doneEdit(todo)"
-                        @keyup.enter="doneEdit(todo)"
-                        @keyup.esc="cancelEdit(todo)"
-                />
+                <div @blur="doneEdit(todo)">
+                    <input
+                            class="edit"
+                            type="text"
+                            v-model="todo.description"
+                            v-todo-focus="todo == editedTodo"
+                            @keyup.enter="doneEdit(todo)"
+                            @keyup.esc="cancelEdit(todo)"
+                    />
+
+                    <input  class="edit"
+                            type="date"
+                            id="start"
+                            name="trip-start"
+                            v-model="todo.date"
+                            @blur="doneEdit(todo)"
+                            @keyup.enter="doneEdit(todo)"
+                            @keyup.esc="cancelEdit(todo)"
+                    >
+                </div>
+
 <!--
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
