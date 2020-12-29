@@ -1,0 +1,1 @@
+start "" C:\Users\cires\scoop\apps\winmerge\current\WinMergeU.exe  d:\Recipes %cd%\Recipes

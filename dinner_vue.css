@@ -16,6 +16,22 @@ body {
     flex: 1 1 auto;
 }
 
+.rcolumn {
+    display: inline-block;
+    flex: 0 0 3.5em;
+}
+
+.date {
+    width: 3em;
+    margin: 0;
+}
+
+.destroy2 {
+    width: 40px;
+}
+
+
+/*
 .date {
     flex: 0 0 2.5em;
 }
@@ -23,6 +39,7 @@ body {
 .destroy2 {
     flex: 0 0 40px;
 }
+*/
 
 button {
     margin: 0;
