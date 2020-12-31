@@ -12,13 +12,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
           integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-    <!--
-       <link
-               rel="stylesheet"
-               type="text/css"
-               href="https://unpkg.com/todomvc-app-css@2.2.0/index.css"
-       />
-     -->
+
 
        <link
                rel="stylesheet"
@@ -32,7 +26,6 @@
         }
     </style>
 
-    <link href="pricing.css" rel="stylesheet">
 </head>
 <body>
 
@@ -72,9 +65,9 @@
                      <div class="desc" @dblclick="editTodo(todo)">{{ todo.description }}</div>
                      <div class="rcolumn">
                          <span @dblclick="editTodoDate(todo)" class="date">{{ todo.date | dformat }}</span>
-                         <!--
+                         <!---->
                          <button class="destroy2" @click="removeTodo(todo)">×</button>
-                         -->
+
                      </div>
                  </div>
 
@@ -113,6 +106,7 @@
             </li>
         </ul>
     </section>
+    <!--
     <footer class="footer" v-show="todos.length" v-cloak>
         <span class="todo-count">
           <strong>{{ remaining }}</strong> {{ remaining | pluralize }} left
@@ -126,6 +120,7 @@
             Clear completed
         </button>
     </footer>
+    -->
 </section>
 </div>
 <footer class="info">

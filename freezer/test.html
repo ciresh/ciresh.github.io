@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+
+.freezer-list {
+    list-style-type:none;
+}
+
+.entry {
+    display: flex;
+    align-items: center; /* vert alignment */
+    /*padding: 10px 27px 10px 27px;*/
+}
+
+.desc {
+    flex: 1 1 auto;
+}
+/**/
+.date {
+    display: inline-block;
+
+
+    flex: 0 0 3.5rem;
+       text-align: right;
+
+}
+
+</style>
+
+
+<body>
+
+<div style="max-width: 520px;">
+    <ul class="freezer-list">
+        <li class="entry">
+            <div class="date">12-30</div>
+            <div class="desc">Lots and lots and lots and lots of food Lots and lots and lots and lots of food Lots and lots and lots and lots of food</div>
+            <div class="delete">x</div></li>
+    </ul>
+
+    <ul class="freezer-list">
+        <li class="entry">
+            <div class="date">12-30</div>
+            <div class="desc">lots and lots and lots of food</div>
+            <div class="delete">x</div></li>
+    </ul>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>What's in the Freezer</title>
+    <script src="https://unpkg.com/vue"></script>
+
+    <!-- Here goes the Parse SDK for JavaScript -->
+    <script src="https://unpkg.com/parse/dist/parse.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+          integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="freezer.css"
+    />
+
+    <style>
+        [v-cloak] {
+            display: none;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4">What's in the Freezer</h1>
+    <p class="lead">Record what is in the freezer. So Exciting!</p>
+</div>
+
+<div class="container">
+    <section class="todoapp">
+        <header class="header">
+            <input
+                    class="new-todo form-control"
+                    autofocus
+                    autocomplete="off"
+                    placeholder="What did you have for dinner?"
+                    v-model="newTodo"
+                    @keyup.enter="addTodo"
+            />
+        </header>
+        <section class="main" v-show="todos.length" v-cloak>
+            <input
+                    id="toggle-all"
+                    class="toggle-all"
+                    type="checkbox"
+                    v-model="allDone"
+            />
+            <label for="toggle-all"></label>
+            <ul class="todo-list">
+                <li
+                        v-for="todo in filteredTodos"
+                        class="todo"
+                        :key="todo.id"
+                        v-bind:class="{ completed: todo.completed, editing: todo == editedTodo }"
+                >
+                    <div class="entry">
+                        <div class="date">
+                            <span @dblclick="editTodoDate(todo)" class="date">{{ todo.date | dformat }}</span>
+                        </div>
+                        <div class="desc" @dblclick="editTodo(todo)">{{ todo.description }}</div>
+                        <div class="rcolumn">
+                            <button class="destroy2" @click="removeTodo(todo)">×</button>
+                        </div>
+                    </div>
+
+                    <div @blur="doneEdit(todo)">
+                        <input
+                                class="edit"
+                                type="text"
+                                v-model="todo.description"
+                                v-todo-focus="todo == editedTodo"
+                                @keyup.enter="doneEdit(todo)"
+                                @keyup.esc="cancelEdit(todo)"
+                        />
+
+                        <input  class="edit"
+                                type="date"
+                                id="start"
+                                name="trip-start"
+                                v-model="todo.date"
+                                @blur="doneEdit(todo)"
+                                @keyup.enter="doneEdit(todo)"
+                                @keyup.esc="cancelEdit(todo)"
+                        >
+                    </div>
+
+                    <!--
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">
+                                                <input type="checkbox" aria-label="Checkbox for following text input">
+                                                <label @dblclick="editTodo(todo)">{{ todo.description }} {{ todo.date | dformat }}</label>
+                                            </div>
+                                        </div>
+                                        <input type="text" class="form-control" aria-label="Text input with checkbox">
+                                    </div>
+                                    -->
+                </li>
+            </ul>
+        </section>
+        <!--
+        <footer class="footer" v-show="todos.length" v-cloak>
+            <span class="todo-count">
+              <strong>{{ remaining }}</strong> {{ remaining | pluralize }} left
+            </span>
+
+            <button
+                    class="clear-completed"
+                    @click="removeCompleted"
+                    v-show="todos.length > remaining"
+            >
+                Clear completed
+            </button>
+        </footer>
+        -->
+    </section>
+</div>
+<footer class="info">
+    <p>Double-click to edit a mean</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script src="freezer.js"></script>
+<script>
+
+</script>
+</body>
+</html>

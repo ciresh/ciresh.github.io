@@ -1140,6 +1140,10 @@ var recipes = [
     "path": "Recipes/ham and chicken.txt"
   },
   {
+    "name": "Ham and Potato Soup",
+    "path": "Recipes/Ham and Potato Soup.txt"
+  },
+  {
     "name": "Heart Pan Chocolate Cakes",
     "path": "Recipes/Heart Pan Chocolate Cakes.txt"
   },

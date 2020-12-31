@@ -1,7 +1,7 @@
 
 Parse.initialize("gfJsg1LSUS8hn3KXB1D5SoGaGUjvbd67cQUbW3rm", "SmwTlhFBTtsKqAYdbn3hwPOYlR6wCyNfq4mOUJeH"); //PASTE HERE YOUR Back4App APPLICATION ID AND YOUR JavaScript KEY
 Parse.serverURL = "https://parseapi.back4app.com/";
-const FreezerList = Parse.Object.extend("DinnerList");
+const FreezerList = Parse.Object.extend("FreezerList");
 
 // Full spec-compliant TodoMVC with localStorage persistence
 // and hash-based routing in ~120 effective lines of JavaScript.
@@ -9,6 +9,8 @@ const FreezerList = Parse.Object.extend("DinnerList");
 /*
 
 Visibility of during editing is controlled by the css in dinner_vue.css
+
+
 
 
  */
@@ -145,8 +147,8 @@ var app = new Vue({
                 return  (d.getMonth()+1) + "/" + d.getDate();
             if (typeof d === "string")
                 if (d.length === 10)
-                if (d.length === 10)
-                    return d.substr(5);
+                    if (d.length === 10)
+                        return d.substr(5);
 
             return d;
         }

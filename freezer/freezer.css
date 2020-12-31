@@ -12,16 +12,17 @@
 .desc {
     flex: 1 1 auto;
 }
-
+/*
 .rcolumn {
     display: inline-block;
     flex: 0 0 4.5rem;
     text-align: right;
 }
-
+*/
 .date {
-    width: 3em;
-    margin: 0;
+    flex: 0 0 6ch;
+    margin: 5px;
+    text-align: right;
 }
 
 .destroy2 {
