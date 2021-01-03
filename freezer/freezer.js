@@ -42,7 +42,10 @@ var todoStorage = {
             });
 
             todos.sort(function(a, b){
-                return b.date.localeCompare(a.date);
+                var result =  b.date.localeCompare(a.date);
+                if (result === 0)
+                    result = b.description.localeCompare(a.description);
+                return result;
             });
 
             todoStorage.uid = todos.length;
@@ -110,10 +113,12 @@ var app = new Vue({
     // watch todos change for localStorage persistence
     watch: {
         todos: {
+            /*  */
             handler: function(todos) {
-                todoStorage.save(todos);
+                //todoStorage.save(todos);
             },
             deep: true
+
         }
     },
 
@@ -189,17 +194,20 @@ var app = new Vue({
         },
 
         doneEdit: function(todo) {
+            console.log("Done Edit")
             if (!this.editedTodo) {
                 return;
             }
             this.editedTodo = null;
             todo.description = todo.description.trim();
+            todoStorage.save(this.todos);
             if (!todo.description) {
                 this.removeTodo(todo);
             }
         },
 
         cancelEdit: function(todo) {
+            console.log("Cancel Edit")
             this.editedTodo = null;
             todo.description = this.beforeEditCache;
         },
@@ -213,11 +221,13 @@ var app = new Vue({
     // before focusing on the input field.
     // http://vuejs.org/guide/custom-directive.html
     directives: {
+        /*
         "todo-focus": function(el, binding) {
             if (binding.value) {
                 el.focus();
             }
         }
+       */
     }
 });
 

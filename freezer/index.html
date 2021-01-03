@@ -70,8 +70,8 @@
                             <button class="destroy2" @click="removeTodo(todo)">×</button>
                         </div>
                     </div>
-
-                    <div @blur="doneEdit(todo)">
+<!-- @blur="doneEdit(todo)" -->
+                    <div >
                         <input
                                 class="edit"
                                 type="text"
@@ -86,10 +86,24 @@
                                 id="start"
                                 name="trip-start"
                                 v-model="todo.date"
-                                @blur="doneEdit(todo)"
-                                @keyup.enter="doneEdit(todo)"
-                                @keyup.esc="cancelEdit(todo)"
+
                         >
+
+
+                        <button  class="edit"
+                                type="button"
+                                id="ok"
+                                 @click="doneEdit(todo)"
+                        >OK</button>
+                            <button  class="edit"
+                                     type="button"
+                                     id="cancel"
+                                     @click="cancelEdit(todo)"
+
+                            >Cancel</button>
+                        <!-- @blur="doneEdit(todo)"
+                                @keyup.enter="doneEdit(todo)"
+                                @keyup.esc="cancelEdit(todo)"-->
                     </div>
 
                     <!--
