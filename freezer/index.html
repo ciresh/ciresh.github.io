@@ -41,7 +41,7 @@
                     class="new-todo form-control"
                     autofocus
                     autocomplete="off"
-                    placeholder="What did you have for dinner?"
+                    placeholder="What's in the freezer?"
                     v-model="newTodo"
                     @keyup.enter="addTodo"
             />
@@ -72,11 +72,12 @@
                     </div>
 <!-- @blur="doneEdit(todo)" -->
                     <div >
+                        <!-- v-todo-focus="todo == editedTodo" -->
                         <input
                                 class="edit"
                                 type="text"
                                 v-model="todo.description"
-                                v-todo-focus="todo == editedTodo"
+
                                 @keyup.enter="doneEdit(todo)"
                                 @keyup.esc="cancelEdit(todo)"
                         />
@@ -86,21 +87,24 @@
                                 id="start"
                                 name="trip-start"
                                 v-model="todo.date"
-
                         >
 
+                        <select class="edit" name="location" v-model="todo.location">
+                            <option value="Basement">Basement</option>
+                            <option value="Kitchen" selected>Kitchen</option>
+                        </select>
 
                         <button  class="edit"
                                 type="button"
                                 id="ok"
                                  @click="doneEdit(todo)"
                         >OK</button>
-                            <button  class="edit"
-                                     type="button"
-                                     id="cancel"
-                                     @click="cancelEdit(todo)"
+                        <button  class="edit"
+                                 type="button"
+                                 id="cancel"
+                                 @click="cancelEdit(todo)"
 
-                            >Cancel</button>
+                        >Cancel</button>
                         <!-- @blur="doneEdit(todo)"
                                 @keyup.enter="doneEdit(todo)"
                                 @keyup.esc="cancelEdit(todo)"-->

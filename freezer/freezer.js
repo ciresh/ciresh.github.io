@@ -39,6 +39,8 @@ var todoStorage = {
             todos.forEach(function(todo, index) {
                 todo.id = index;
                 todo.date = (new Date(todo.date)).toISOString().substr(0,10);
+                if (!todo.hasOwnProperty("location"))
+                    todo.location = "Basement"
             });
 
             todos.sort(function(a, b){
@@ -70,10 +72,10 @@ var todoStorage = {
                 // You can use the "get" method to get the value of an attribute
                 // Ex: response.get("<ATTRIBUTE_NAME>")
                 // if (typeof document !== 'undefined') document.write(`Updated GameScore: ${JSON.stringify(response)}`);
-                console.log('Updated GameScore', response);
+                console.log('Updated Freezer list', response);
             }, (error) => {
                 // if (typeof document !== 'undefined') document.write(`Error while updating GameScore: ${JSON.stringify(error)}`);
-                console.error('Error while updating GameScore', error);
+                console.error('Error while updating Freezer', error);
             });
         });
     }
@@ -115,7 +117,7 @@ var app = new Vue({
         todos: {
             /*  */
             handler: function(todos) {
-                //todoStorage.save(todos);
+                todoStorage.save(todos);
             },
             deep: true
 
@@ -171,7 +173,9 @@ var app = new Vue({
             this.todos.unshift({
                 id: todoStorage.uid++,
                 description: value,
+                //date: new Date().toLocaleDateString('en-US'),
                 date: (new Date()).toISOString().substr(0,10),
+                location: "Basement",
                 completed: false,
             });
             this.newTodo = "";
