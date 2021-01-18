@@ -408,6 +408,10 @@ var recipes = [
     "path": "Recipes/Cheesy Garlic Bread.txt"
   },
   {
+    "name": "Chef John Cast Iron Cornbread",
+    "path": "Recipes/Chef John Cast Iron Cornbread.txt"
+  },
+  {
     "name": "Chef John's Italian Meatballs",
     "path": "Recipes/Chef John's Italian Meatballs.txt"
   },
@@ -702,6 +706,10 @@ var recipes = [
   {
     "name": "Creamy Chocolate Pudding",
     "path": "Recipes/Creamy Chocolate Pudding.txt"
+  },
+  {
+    "name": "Creamy Cod and Potato Gratin",
+    "path": "Recipes/Creamy Cod and Potato Gratin.txt"
   },
   {
     "name": "Creamy Coleslaw",
@@ -1554,6 +1562,10 @@ var recipes = [
   {
     "name": "New York Style Pizza Sauce",
     "path": "Recipes/New York Style Pizza Sauce.txt"
+  },
+  {
+    "name": "No-Knead Country Bread",
+    "path": "Recipes/No-Knead Country Bread.txt"
   },
   {
     "name": "No. 5 Sauce",
