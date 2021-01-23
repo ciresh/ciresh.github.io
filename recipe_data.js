@@ -412,6 +412,10 @@ var recipes = [
     "path": "Recipes/Chef John Cast Iron Cornbread.txt"
   },
   {
+    "name": "Chef John's Country Bread",
+    "path": "Recipes/Chef John's Country Bread.txt"
+  },
+  {
     "name": "Chef John's Italian Meatballs",
     "path": "Recipes/Chef John's Italian Meatballs.txt"
   },
