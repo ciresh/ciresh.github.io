@@ -5,7 +5,7 @@ Chef John Country Bread
 or
 1/4 cup (30 grams) whole wheat & cup rye
 1/4 teaspoon active dry yeast
-2 cups cold water (
+2 cups cold water (473g)
 1 1/2 teaspoons fine kosher salt
 
 Place white bread flour, whole wheat bread flour, and yeast into a large mixing bowl and stir with a wooden spoon. Pour in cold water and mix with a wooden spoon or spatula until a very wet, sticky dough comes together, about 3 minutes. Add the salt and mix another 2 to 3 minutes. Scrape down the sides of the bowl. Cover with foil. Allow dough to rise at room temperature for 18 hours.
@@ -21,3 +21,4 @@ Preheat the oven to 450 degrees F (230 degrees C).
 Make 1 shallow slash down the middle of the dough with a very sharp knife or razor, being careful not to deflate the dough too much; the slash is optional. Spray the surface of the loaf very lightly with plain water to help the crust form.
 
 Bake in the center of the preheated oven until nicely browned, about 30 minutes. Let cool on a rack before cutting.
+Covered, cook 45-50 minutes, uncover cook for additional 5-15 until golden brown and internal tempature is 205F.

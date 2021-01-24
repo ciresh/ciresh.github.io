@@ -1,7 +1,10 @@
 
 Parse.initialize("gfJsg1LSUS8hn3KXB1D5SoGaGUjvbd67cQUbW3rm", "SmwTlhFBTtsKqAYdbn3hwPOYlR6wCyNfq4mOUJeH"); //PASTE HERE YOUR Back4App APPLICATION ID AND YOUR JavaScript KEY
 Parse.serverURL = "https://parseapi.back4app.com/";
-const FreezerList = Parse.Object.extend("DinnerList");
+const DinnerList = Parse.Object.extend("DinnerList");
+
+import * as Utils from './utils.js'
+
 
 // Full spec-compliant TodoMVC with localStorage persistence
 // and hash-based routing in ~120 effective lines of JavaScript.
@@ -20,25 +23,25 @@ var todoStorage = {
         //var todos = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
         var todos = [];
 
-        const query = new Parse.Query(FreezerList);
+        const query = new Parse.Query(DinnerList);
         query.equalTo('user', 'ciresh');
 
-        // here you put the objectId that you want to update
-        query.first().then((freezerList) => {
-            if (freezerList === undefined) {
+        // Load the Dinner list
+        query.first().then((dinnerList) => {
+            if (dinnerList === undefined) {
                 todos = []
             }
             else {
-                var itemsString = freezerList.get("items");
+                var itemsString = dinnerList.get("items");
                 console.log(itemsString);
                 todos = JSON.parse(itemsString);
             }
-
+            /* This was to update property values
             todos.forEach(function(todo, index) {
                 todo.id = index;
-                todo.date = (new Date(todo.date)).toISOString().substr(0,10);
+                todo.date = Utils.currentDate  (); //(new Date(todo.date)).toISOString().substr(0,10);
             });
-
+            */
             todos.sort(function(a, b){
                 return b.date.localeCompare(a.date);
             });
@@ -51,17 +54,17 @@ var todoStorage = {
     save: function(todos) {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(todos));
 
-        const query = new Parse.Query(FreezerList);
+        const query = new Parse.Query(DinnerList);
         query.equalTo('user', 'ciresh');
 
         // here you put the objectId that you want to update
-        query.first().then((freezerList) => {
-            if (freezerList === undefined){
-                freezerList = new FreezerList();
-                freezerList.set("user",'ciresh');
+        query.first().then((dinnerList) => {
+            if (dinnerList === undefined){
+                dinnerList = new DinnerList();
+                dinnerList.set("user",'ciresh');
             }
-            freezerList.set("items",JSON.stringify(todos));
-            freezerList.save().then((response) => {
+            dinnerList.set("items",JSON.stringify(todos));
+            dinnerList.save().then((response) => {
                 // You can use the "get" method to get the value of an attribute
                 // Ex: response.get("<ATTRIBUTE_NAME>")
                 // if (typeof document !== 'undefined') document.write(`Updated GameScore: ${JSON.stringify(response)}`);
@@ -164,7 +167,7 @@ var app = new Vue({
             this.todos.unshift({
                 id: todoStorage.uid++,
                 description: value,
-                date: (new Date()).toISOString().substr(0,10),
+                date: Utils.currentDate(),
                 completed: false,
             });
             this.newTodo = "";
