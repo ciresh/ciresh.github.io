@@ -12,7 +12,7 @@ import json
 
 def main():
     recipes = []
-    for root, dirs, files in os.walk(".", topdown=True):
+    for root, dirs, files in os.walk("Recipes", topdown=True):
         for d in list(dirs):
             if d.startswith("."):
                 dirs.remove(d)
@@ -20,7 +20,7 @@ def main():
         if root == ".":
             continue
 
-        if not root == ".\Recipes":
+        if not root == ".\data":
             continue
         #if ".git" in dirs:
         #    dirs.remove(".git")
@@ -33,12 +33,12 @@ def main():
             name = convert(name)
             path = convert(path)        
             recipes.append({"name": name,"path":path})        
-    with open("recipe_data.js", "w",  encoding="utf-8") as f:
+    with open("Recipes/recipe_data.js", "w",  encoding="utf-8") as f:
         f.write("var recipes = {};".format(json.dumps(recipes, indent=2)))
 
 
 def convert(str):
-    return str;
+    return str
     # assume correct encoding
     #return str.decode("iso-8859-1").encode("utf-8")
 

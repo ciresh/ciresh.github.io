@@ -3,7 +3,7 @@ Parse.initialize("gfJsg1LSUS8hn3KXB1D5SoGaGUjvbd67cQUbW3rm", "SmwTlhFBTtsKqAYdbn
 Parse.serverURL = "https://parseapi.back4app.com/";
 const DinnerList = Parse.Object.extend("DinnerList");
 
-import * as Utils from './utils.js'
+import * as Utils from '../utils.js'
 
 
 // Full spec-compliant TodoMVC with localStorage persistence

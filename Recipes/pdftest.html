@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>PDF Test</title>
 
-    <script src="lib/pdfkit.standalone.js"></script>
-    <script src="lib/blob-stream.js"></script>
+    <script src="../lib/pdfkit.standalone.js"></script>
+    <script src="../lib/blob-stream.js"></script>
 </head>
 <body>
 
@@ -26,14 +26,14 @@
         })
         .then(function (text) {
             data = text;
-            return fetch("fonts/Barlow-Medium.ttf")
+            return fetch("../fonts/Barlow-Medium.ttf")
         })
         .then(function (response) {
             return response.arrayBuffer();
         })
         .then(function (arrayBuffer) {
             barlowMedium = arrayBuffer;
-            return fetch("fonts/Barlow-Regular.ttf")
+            return fetch("../fonts/Barlow-Regular.ttf")
         })
         .then(function (response) {
             return response.arrayBuffer();
@@ -88,8 +88,8 @@
         doc.registerFont('Barlow-Medium', barlowMedium)
         doc.registerFont('Barlow-Regular', barlowRegular)
 
-        await loadFont(doc, "fonts/Barlow-Bold.ttf", "Barlow-Bold");
-        await loadFont(doc, "fonts/SourceSerifPro-Regular.ttf", "SourceSerifPro-Regular");
+        await loadFont(doc, "../fonts/Barlow-Bold.ttf", "Barlow-Bold");
+        await loadFont(doc, "../fonts/SourceSerifPro-Regular.ttf", "SourceSerifPro-Regular");
 
         // draw some text
 
