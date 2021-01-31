@@ -33,12 +33,23 @@ const app = new Vue({
     },
     mounted: function () {
         this.showLoading = false;
-        this.filterSimple();
+        const storedValue = localStorage.getItem('searchQuery') ;
+        if (storedValue != null)
+            this.searchQuery = storedValue;
     },
     methods: {
+
+        clearIt: function(){
+            this.searchQuery = "";
+        },
+
         filteredItems: _.debounce(function () {
+            if (this.searchQuery == null)
+                return;
+
             console.log("Generating list...");
             var list = [];
+            localStorage.setItem('searchQuery', this.searchQuery);
             var terms = this.searchQuery.split(" ");
             var termsRe = terms.map(function(t){ return new RegExp(t, "i"); });
             productRe = new RegExp(this.searchQuery, "i");
@@ -56,30 +67,7 @@ const app = new Vue({
             });
 
             this.recipes = list;
-        }, 500),
-
-        filterSimple: function(){
-            console.log("Generating list...");
-            var list = [];
-            var terms = this.searchQuery.split(" ");
-            var termsRe = terms.map(function(t){ return new RegExp(t, "i"); });
-            productRe = new RegExp(this.searchQuery, "i");
-
-
-            this.masterList.forEach(function (recipe) {
-                //var add = recipe.name.match(productRe);
-                var add = termsRe.every(function(re){
-                    return recipe.name.match(re)
-                });
-
-                if (add) {
-                    list.push(recipe)
-                }
-            });
-
-            this.recipes = list;
-        }
-
+        }, 500)
     }
 
 });
