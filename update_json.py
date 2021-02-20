@@ -13,6 +13,9 @@ import json
 def main():
     recipes = []
     for root, dirs, files in os.walk("Recipes", topdown=True):
+        
+        print (root, len(files))
+        
         for d in list(dirs):
             if d.startswith("."):
                 dirs.remove(d)
@@ -20,7 +23,7 @@ def main():
         if root == ".":
             continue
 
-        if not root == ".\data":
+        if not root == "Recipes\data":
             continue
         #if ".git" in dirs:
         #    dirs.remove(".git")
@@ -28,7 +31,7 @@ def main():
         #    dirs.remove(".git")
         
         for name in files:
-            path = os.path.join(root[2:], name).replace("\\","/")
+            path = os.path.join(root[8:], name).replace("\\","/")
             name =  os.path.splitext(name)[0]
             name = convert(name)
             path = convert(path)        
