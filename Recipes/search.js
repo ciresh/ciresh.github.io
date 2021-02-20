@@ -36,6 +36,13 @@ const app = new Vue({
         const storedValue = localStorage.getItem('searchQuery') ;
         if (storedValue != null)
             this.searchQuery = storedValue;
+        
+        this.$nextTick(() => {
+            this.$refs.searchBox.focus();
+            this.$refs.searchBox.setSelectionRange(0, this.$refs.searchBox.value.length)
+            console.log(this.$refs.searchBox.value.length)
+        });
+
     },
     methods: {
 
