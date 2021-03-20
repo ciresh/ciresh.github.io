@@ -16,10 +16,10 @@ Visibility of during editing is controlled by the css in dinner_vue.css
  */
 
 // localStorage persistence
-var STORAGE_KEY = "todos-vuejs-2.0";
+var STORAGE_KEY = "freezerList";
 var todoStorage = {
     fetch: function(vueObject) {
-        //var todos = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+
         var todos = [];
 
         const query = new Parse.Query(FreezerList);
@@ -43,20 +43,23 @@ var todoStorage = {
                     todo.location = "Basement"
             });
 
+            todos.sort(vueObject.sortfn);
+
+            /*
             todos.sort(function(a, b){
                 var result =  b.date.localeCompare(a.date);
                 if (result === 0)
                     result = b.description.localeCompare(a.description);
                 return result;
             });
-
+            */
             todoStorage.uid = todos.length;
             vueObject.todos = todos
             return todos;
         });
     },
     save: function(todos) {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(todos));
+        //localStorage.setItem(STORAGE_KEY, JSON.stringify(todos));
 
         const query = new Parse.Query(FreezerList);
         query.equalTo('user', 'ciresh');
@@ -95,6 +98,16 @@ var filters = {
         return todos.filter(function(todo) {
             return todo.completed;
         });
+    },
+    kitchen: function(todos) {
+        return todos.filter(function(todo) {
+            return todo.location === 'Kitchen';
+        });
+    },
+    basement: function(todos) {
+        return todos.filter(function(todo) {
+            return todo.location === 'Basement';
+        });
     }
 };
 
@@ -105,14 +118,18 @@ var app = new Vue({
         todos: [],//todoStorage.fetch(),
         newTodo: "",
         editedTodo: null,
-        visibility: "all"
+        visibility: "all",
+        sortType: "SortName",
+        showType: "Both"
     },
 
     mounted: function() {
         todoStorage.fetch(this);
+
+
     },
 
-    // watch todos change for localStorage persistence
+    // Watch variables for changes
     watch: {
         todos: {
             /*  */
@@ -121,12 +138,36 @@ var app = new Vue({
             },
             deep: true
 
+        },
+        sortType: {
+            handler: function (sortType) {
+                console.log("sortType changed!");
+                if (sortType === "SortName")
+                    this.todos.sort(this.sortNameFn);
+                else if (sortType === "SortLocation")
+                    this.todos.sort(this.sortLocationFn);
+                else
+                    this.todos.sort(this.sortDateFn);
+
+            }
+        },
+        showType: {
+            handler: function (sortType) {
+                console.log("Show Type changed!");
+                if (sortType === "ShowBasement")
+                    app.visibility = "basement";
+                else if (sortType === "ShowKitchen")
+                    app.visibility = "kitchen";
+                else
+                    app.visibility = "all";
+            }
         }
     },
 
     // computed properties
     // http://vuejs.org/guide/computed.html
     computed: {
+        // This is the list used in the html for display
         filteredTodos: function() {
             return filters[this.visibility](this.todos);
         },
@@ -181,6 +222,56 @@ var app = new Vue({
             this.newTodo = "";
         },
 
+        sortLocationFn: function(a, b) {
+
+            var result = b.location.localeCompare(a.location)
+            if (result !== 0)
+                return result;
+
+            result =  b.date.localeCompare(a.date);
+            if (result !== 0)
+                return result;
+
+            result = b.description.localeCompare(a.description);
+            return result;
+        },
+
+        sortDateFn: function(a, b) {
+            var result =  b.date.localeCompare(a.date);
+            if (result !== 0)
+                return result;
+
+            result = b.description.localeCompare(a.description);
+            return result;
+        },
+
+        sortNameFn: function(a, b) {
+
+            result = b.description.localeCompare(a.description);
+            if (result !== 0)
+                return -1 * result;
+            result =  b.date.localeCompare(a.date);
+
+            /*
+            var result = b.location.localeCompare(a.location)
+            if (result !== 0)
+                return result;
+
+            result =  b.date.localeCompare(a.date);
+            if (result !== 0)
+                return result;
+
+            result = b.description.localeCompare(a.description);
+
+             */
+            return result;
+        },
+/*
+
+        sort: function() {
+            todos.sort(this.sortDateFn);
+        },
+*/
         removeTodo: function(todo) {
             // No delete!
             this.todos.splice(this.todos.indexOf(todo), 1);
