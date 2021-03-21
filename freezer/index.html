@@ -38,6 +38,27 @@
     <section class="todoapp">
         <header class="header">
 
+
+            <div style="display:flex; justify-content: Space-around; align-items: center">
+
+                <button type="button" class="btn btn-primary" data-toggle="button" autocomplete="off">Kitchen</button>
+                <button type="button" class="btn btn-primary" data-toggle="button" autocomplete="off">Basement</button>
+
+                <!--
+
+                <label class="btn btn-primary active">
+                    <input type="radio" name="options" id="ShowBoth" autocomplete="off" checked v-model="showType"  value="ShowBoth"> Both
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="options" id="ShowKitchen" autocomplete="off" v-model="showType"  value="ShowKitchen"> Kitchen
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="options" id="ShowBasement" autocomplete="off" v-model="showType"  value="ShowBasement">  Basement
+                </label>
+        -->
+            </div>
+<br>
+            <!---->
             <div class="btn-group btn-group-toggle" xdata-toggle="buttons" style="display:flex; justify-content: Space-around; align-items: center">
                 <label class="btn btn-primary active">
                     <input type="radio" name="options" id="ShowBoth" autocomplete="off" checked v-model="showType"  value="ShowBoth"> Both
@@ -52,47 +73,56 @@
 
             <br>
 
-            <div class="btn-group btn-group-toggle" xdata-toggle="buttons" style="display:flex; justify-content: Space-around; align-items: center">
+            <div class="btn-group btn-group-toggle" xdata-toggle="buttons"
+                 style="display:flex; justify-content: Space-around; align-items: center">
                 <label class="btn btn-primary active">
-                    <input type="radio" name="options" id="SortDate" autocomplete="off" checked v-model="sortType"  value="SortDate"> Date
+                    <input type="radio" name="options" id="SortDate" autocomplete="off" checked v-model="sortType"
+                           value="SortDate"> Date
                 </label>
                 <label class="btn btn-primary">
-                    <input type="radio" name="options" id="SortLocation" autocomplete="off" v-model="sortType"  value="SortLocation"> Location
+                    <input type="radio" name="options" id="SortLocation" autocomplete="off" v-model="sortType"
+                           value="SortLocation"> Location
                 </label>
                 <label class="btn btn-primary">
-                    <input type="radio" name="options" id="SortName" autocomplete="off" v-model="sortType"  value="SortName">  Name
+                    <input type="radio" name="options" id="SortName" autocomplete="off" v-model="sortType"
+                           value="SortName"> Name
                 </label>
             </div>
 
             <br>
 
             <ul class="filters">
+                <!-- this changes the url. The URL change will then be noticed by onHashChange() -->
                 <li><a href="#/all" :class="{ selected: visibility == 'all' }">All</a></li>
-                <li><a href="#/active" :class="{ selected: visibility == 'active' }">Active</a></li>
-                <li><a href="#/completed" :class="{ selected: visibility == 'completed' }">Completed</a></li>
+                <li><a href="#/kitchen" :class="{ selected: visibility == 'kitchen' }">Kitchen</a></li>
+                <li><a href="#/basement" :class="{ selected: visibility == 'basement' }">Basement</a></li>
             </ul>
             <br>
-            <div style="display:flex; justify-content: Space-around; align-items: center" >
+            <div style="display:flex; justify-content: Space-around; align-items: center">
 
-            <div>
-                <a href="#/all" :class="{ selected: visibility == 'all' }">All</a>
+                <div>
+                    <a href="#/all" :class="{ selected: visibility == 'all' }">All</a>
+                </div>
+                <div>
+                    <a href="#/kitchen" :class="{ selected: visibility == 'kitchen' }">Kitchen</a>
+                </div>
+                <div>
+                    <a href="#/basement" :class="{ selected: visibility == 'basement' }">Basement</a>
+                </div>
             </div>
-                <div><a href="#/active" :class="{ selected: visibility == 'active' }">Active</a></div>
-                    <div><a href="#/completed" :class="{ selected: visibility == 'completed' }">Completed</a></div>
-            </div>
-<!--
-            <div class="btn-group btn-group-toggle">
+            <!--
+                        <div class="btn-group btn-group-toggle">
 
-                    <input type="radio" name="options" id="SortDate" autocomplete="off" checked v-model="sortType"  value="0"> Date
+                                <input type="radio" name="options" id="SortDate" autocomplete="off" checked v-model="sortType"  value="0"> Date
 
 
-                    <input type="radio" name="options" id="SortLocatin" autocomplete="off" v-model="sortType"  value="2"> Location
+                                <input type="radio" name="options" id="SortLocatin" autocomplete="off" v-model="sortType"  value="2"> Location
 
 
-                    <input type="radio" name="options" id="SortName" autocomplete="off" v-model="sortType"  value="3">  Name
+                                <input type="radio" name="options" id="SortName" autocomplete="off" v-model="sortType"  value="3">  Name
 
-            </div>
-            -->
+                        </div>
+                        -->
             <span>sortType: {{sortType}}</span>
 
             <input
@@ -129,8 +159,8 @@
                             <button class="destroy2" @click="removeTodo(todo)">×</button>
                         </div>
                     </div>
-<!-- @blur="doneEdit(todo)" -->
-                    <div >
+                    <!-- @blur="doneEdit(todo)" -->
+                    <div>
                         <!-- v-todo-focus="todo == editedTodo" -->
                         <input
                                 class="edit"
@@ -141,11 +171,11 @@
                                 @keyup.esc="cancelEdit(todo)"
                         />
 
-                        <input  class="edit"
-                                type="date"
-                                id="start"
-                                name="trip-start"
-                                v-model="todo.date"
+                        <input class="edit"
+                               type="date"
+                               id="start"
+                               name="trip-start"
+                               v-model="todo.date"
                         >
 
                         <select class="edit" name="location" v-model="todo.location">
@@ -153,17 +183,19 @@
                             <option value="Kitchen" selected>Kitchen</option>
                         </select>
 
-                        <button  class="edit"
+                        <button class="edit"
                                 type="button"
                                 id="ok"
-                                 @click="doneEdit(todo)"
-                        >OK</button>
-                        <button  class="edit"
-                                 type="button"
-                                 id="cancel"
-                                 @click="cancelEdit(todo)"
+                                @click="doneEdit(todo)"
+                        >OK
+                        </button>
+                        <button class="edit"
+                                type="button"
+                                id="cancel"
+                                @click="cancelEdit(todo)"
 
-                        >Cancel</button>
+                        >Cancel
+                        </button>
                         <!-- @blur="doneEdit(todo)"
                                 @keyup.enter="doneEdit(todo)"
                                 @keyup.esc="cancelEdit(todo)"-->
@@ -204,9 +236,15 @@
     <p>Double-click to edit a mean</p>
 </footer>
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 
 <script src="freezer.js"></script>
 <script>
