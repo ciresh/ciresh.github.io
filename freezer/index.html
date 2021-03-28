@@ -38,40 +38,14 @@
     <section class="todoapp">
         <header class="header">
 
-
-            <div style="display:flex; justify-content: Space-around; align-items: center">
-
-                <button type="button" class="btn btn-primary" data-toggle="button" autocomplete="off">Kitchen</button>
-                <button type="button" class="btn btn-primary" data-toggle="button" autocomplete="off">Basement</button>
-
-                <!--
-
-                <label class="btn btn-primary active">
-                    <input type="radio" name="options" id="ShowBoth" autocomplete="off" checked v-model="showType"  value="ShowBoth"> Both
-                </label>
-                <label class="btn btn-primary">
-                    <input type="radio" name="options" id="ShowKitchen" autocomplete="off" v-model="showType"  value="ShowKitchen"> Kitchen
-                </label>
-                <label class="btn btn-primary">
-                    <input type="radio" name="options" id="ShowBasement" autocomplete="off" v-model="showType"  value="ShowBasement">  Basement
-                </label>
-        -->
-            </div>
-<br>
-            <!---->
-            <div class="btn-group btn-group-toggle" xdata-toggle="buttons" style="display:flex; justify-content: Space-around; align-items: center">
-                <label class="btn btn-primary active">
-                    <input type="radio" name="options" id="ShowBoth" autocomplete="off" checked v-model="showType"  value="ShowBoth"> Both
-                </label>
-                <label class="btn btn-primary">
-                    <input type="radio" name="options" id="ShowKitchen" autocomplete="off" v-model="showType"  value="ShowKitchen"> Kitchen
-                </label>
-                <label class="btn btn-primary">
-                    <input type="radio" name="options" id="ShowBasement" autocomplete="off" v-model="showType"  value="ShowBasement">  Basement
-                </label>
+            <div  style="display:flex; justify-content: Space-around; align-items: center; margin: 10px 10px 10px 10px">
+                <button type="button" class="btn btn-outline-secondary btn-sm" @click="setStort('SortDate')" >Date</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm" @click="setStort('SortLocation')" >Location</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm" @click="setStort('SortName')" >Name</button>
             </div>
 
-            <br>
+
+            <!--
 
             <div class="btn-group btn-group-toggle" xdata-toggle="buttons"
                  style="display:flex; justify-content: Space-around; align-items: center">
@@ -88,48 +62,33 @@
                            value="SortName"> Name
                 </label>
             </div>
-
+-->
             <br>
 
-            <ul class="filters">
+            <ul class="filters" style="display:flex; justify-content: Space-around; align-items: center">
                 <!-- this changes the url. The URL change will then be noticed by onHashChange() -->
                 <li><a href="#/all" :class="{ selected: visibility == 'all' }">All</a></li>
                 <li><a href="#/kitchen" :class="{ selected: visibility == 'kitchen' }">Kitchen</a></li>
                 <li><a href="#/basement" :class="{ selected: visibility == 'basement' }">Basement</a></li>
             </ul>
             <br>
-            <div style="display:flex; justify-content: Space-around; align-items: center">
-
-                <div>
-                    <a href="#/all" :class="{ selected: visibility == 'all' }">All</a>
-                </div>
-                <div>
-                    <a href="#/kitchen" :class="{ selected: visibility == 'kitchen' }">Kitchen</a>
-                </div>
-                <div>
-                    <a href="#/basement" :class="{ selected: visibility == 'basement' }">Basement</a>
-                </div>
-            </div>
-            <!--
-                        <div class="btn-group btn-group-toggle">
-
-                                <input type="radio" name="options" id="SortDate" autocomplete="off" checked v-model="sortType"  value="0"> Date
-
-
-                                <input type="radio" name="options" id="SortLocatin" autocomplete="off" v-model="sortType"  value="2"> Location
-
-
-                                <input type="radio" name="options" id="SortName" autocomplete="off" v-model="sortType"  value="3">  Name
-
-                        </div>
-                        -->
-            <span>sortType: {{sortType}}</span>
 
             <input
                     class="new-todo form-control"
                     autofocus
                     autocomplete="off"
-                    placeholder="What's in the freezer?"
+                    placeholder="Search?"
+                    v-model="searchTerm"
+            />
+            <br>
+            <!--
+            <div>{{searchTerm}}</div>
+            <br> -->
+            <input
+                    class="new-todo form-control"
+                    autofocus
+                    autocomplete="off"
+                    placeholder="Add new item..."
                     v-model="newTodo"
                     @keyup.enter="addTodo"
             />
@@ -141,7 +100,7 @@
                     type="checkbox"
                     v-model="allDone"
             />
-            <label for="toggle-all"></label>
+
             <ul class="todo-list">
                 <li
                         v-for="todo in filteredTodos"

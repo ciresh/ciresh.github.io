@@ -106,6 +106,8 @@ var filters = {
     },
     basement: function(todos) {
         return todos.filter(function(todo) {
+            //if (!todo.description.startsWith(this.app.searchTerm))
+            //    return false
             return todo.location === 'Basement';
         });
     }
@@ -120,7 +122,9 @@ var app = new Vue({
         editedTodo: null,
         visibility: "all",
         sortType: "SortName",
-        showType: "Both"
+        showType: "Both",
+        searchTerm: "",
+        termsRe: null
     },
 
     mounted: function() {
@@ -161,6 +165,19 @@ var app = new Vue({
                 else
                     app.visibility = "all";
             }
+        },
+        searchTerm:{
+            handler: function (searchTerm) {
+
+                //_.debounce(function () {
+                if (searchTerm === "") {
+                    this.termsRe = null;
+                    return;
+                }
+                var terms = searchTerm.split(" ");
+                this.termsRe = terms.map(function(t){ return new RegExp(t, "i"); });
+
+            }
         }
     },
 
@@ -169,7 +186,9 @@ var app = new Vue({
     computed: {
         // This is the list used in the html for display
         filteredTodos: function() {
-            return filters[this.visibility](this.todos);
+            var filteredList = this.filteredList();
+            return filters[this.visibility](filteredList);
+            //return filters[this.visibility](this.todos);
         },
         remaining: function() {
             return filters.active(this.todos).length;
@@ -266,6 +285,11 @@ var app = new Vue({
              */
             return result;
         },
+
+
+        setStort: function(value) {
+            this.sortType = value;
+        },
 /*
 
         sort: function() {
@@ -309,7 +333,29 @@ var app = new Vue({
 
         removeCompleted: function() {
             this.todos = filters.active(this.todos);
+        },
+
+        filteredList: function()
+        {
+            if (this.termsRe === null)
+                return this.todos;
+
+            list = []
+            this.todos.forEach(function (entry) {
+
+                var add = this.app.termsRe.every(function(re){
+                    return entry.description.match(re)
+                });
+
+                if (add) {
+                    list.push(entry)
+                }
+            });
+
+            return list;
+
         }
+
     },
 
     // a custom directive to wait for the DOM to be updated
