@@ -312,6 +312,10 @@ var recipes = [
     "path": "data/Breakfast pizza.txt"
   },
   {
+    "name": "Breakfast Strata with Sausage, Mushrooms, and Monterey Jack",
+    "path": "data/Breakfast Strata with Sausage, Mushrooms, and Monterey Jack.txt"
+  },
+  {
     "name": "Brighams Hot Fudge Sauce",
     "path": "data/Brighams Hot Fudge Sauce.txt"
   },
@@ -760,8 +764,8 @@ var recipes = [
     "path": "data/Cup of Everything.txt"
   },
   {
-    "name": "CURRIED CHICKEN SALAD WITH CASHEWS",
-    "path": "data/CURRIED CHICKEN SALAD WITH CASHEWS.txt"
+    "name": "Curried Chicken Salad With Cashews.txt",
+    "path": "data/Curried Chicken Salad With Cashews.txt.txt"
   },
   {
     "name": "Dad's Meat Loaf",
@@ -776,8 +780,8 @@ var recipes = [
     "path": "data/data.txt"
   },
   {
-    "name": "DECADENT HOT CHOCOLATE",
-    "path": "data/DECADENT HOT CHOCOLATE.txt"
+    "name": "Decdanet Hot Chocolate",
+    "path": "data/Decdanet Hot Chocolate.txt"
   },
   {
     "name": "Delmonico Potatoes - Grammy's",
@@ -874,6 +878,10 @@ var recipes = [
   {
     "name": "English Muffin Loaf Bread",
     "path": "data/English Muffin Loaf Bread.txt"
+  },
+  {
+    "name": "English Muffins - Alton Brown",
+    "path": "data/English Muffins - Alton Brown.txt"
   },
   {
     "name": "Eric Recipe Markup Language",
@@ -1566,6 +1574,14 @@ var recipes = [
   {
     "name": "New York Style Pizza Sauce",
     "path": "data/New York Style Pizza Sauce.txt"
+  },
+  {
+    "name": "No-Knead Brioche",
+    "path": "data/No-Knead Brioche.txt"
+  },
+  {
+    "name": "No-Knead Country Bread - King Arthur",
+    "path": "data/No-Knead Country Bread - King Arthur.txt"
   },
   {
     "name": "No-Knead Country Bread",
