@@ -2164,6 +2164,10 @@ var recipes = [
     "path": "data/Smoked Sausage with Cabbage and Sweet Potatoes.txt"
   },
   {
+    "name": "Soft Sandwich Bread with Flax",
+    "path": "data/Soft Sandwich Bread with Flax.txt"
+  },
+  {
     "name": "Sour and Cream Cheese Chocolate Frosting",
     "path": "data/Sour and Cream Cheese Chocolate Frosting.txt"
   },
