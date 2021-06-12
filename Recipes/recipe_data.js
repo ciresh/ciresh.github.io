@@ -856,6 +856,10 @@ var recipes = [
     "path": "data/Easy-Peel Hard-Cooked Eggs.txt"
   },
   {
+    "name": "Egg Roll in a Bowl",
+    "path": "data/Egg Roll in a Bowl.txt"
+  },
+  {
     "name": "Eggnog Brioche Cinnamon Rolls",
     "path": "data/Eggnog Brioche Cinnamon Rolls.txt"
   },
@@ -2185,7 +2189,7 @@ var recipes = [
   },
   {
     "name": "Sous Vide Fried Chicken",
-    "path": "data/Sous Vide Fried Chicken"
+    "path": "data/Sous Vide Fried Chicken.txt"
   },
   {
     "name": "Southern Fried Chicken",
@@ -2222,6 +2226,10 @@ var recipes = [
   {
     "name": "Spanish Rice",
     "path": "data/Spanish Rice.txt"
+  },
+  {
+    "name": "Spanish Tortilla de Patatas 2.0",
+    "path": "data/Spanish Tortilla de Patatas 2.0.txt"
   },
   {
     "name": "Speedy No-Knead Bread",
@@ -2456,8 +2464,8 @@ var recipes = [
     "path": "data/Ultimate Spicy Beef Nachos.txt"
   },
   {
-    "name": "Upside Down Pineapple or Fruit Cak",
-    "path": "data/Upside Down Pineapple or Fruit Cak.txt"
+    "name": "Upside Down Pineapple or Fruit Cake",
+    "path": "data/Upside Down Pineapple or Fruit Cake.txt"
   },
   {
     "name": "Usenet Pizza dough",

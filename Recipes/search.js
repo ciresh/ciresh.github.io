@@ -36,7 +36,7 @@ const app = new Vue({
         const storedValue = localStorage.getItem('searchQuery') ;
         if (storedValue != null)
             this.searchQuery = storedValue;
-        
+
         this.$nextTick(() => {
             this.$refs.searchBox.focus();
             this.$refs.searchBox.setSelectionRange(0, this.$refs.searchBox.value.length)
@@ -59,7 +59,7 @@ const app = new Vue({
             localStorage.setItem('searchQuery', this.searchQuery);
             var terms = this.searchQuery.split(" ");
             var termsRe = terms.map(function(t){ return new RegExp(t, "i"); });
-            productRe = new RegExp(this.searchQuery, "i");
+            //productRe = new RegExp(this.searchQuery, "i");
 
 
             this.masterList.forEach(function (recipe) {

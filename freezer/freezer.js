@@ -3,16 +3,8 @@ Parse.initialize("gfJsg1LSUS8hn3KXB1D5SoGaGUjvbd67cQUbW3rm", "SmwTlhFBTtsKqAYdbn
 Parse.serverURL = "https://parseapi.back4app.com/";
 const FreezerList = Parse.Object.extend("FreezerList");
 
-// Full spec-compliant TodoMVC with localStorage persistence
-// and hash-based routing in ~120 effective lines of JavaScript.
-
 /*
-
 Visibility of during editing is controlled by the css in dinner_vue.css
-
-
-
-
  */
 
 // localStorage persistence
@@ -36,12 +28,15 @@ var todoStorage = {
                 todos = JSON.parse(itemsString);
             }
 
+            // Update Data Coming in
+            /*
             todos.forEach(function(todo, index) {
                 todo.id = index;
                 todo.date = (new Date(todo.date)).toISOString().substr(0,10);
                 if (!todo.hasOwnProperty("location"))
                     todo.location = "Basement"
             });
+            */
 
             todos.sort(vueObject.sortfn);
 
@@ -63,6 +58,12 @@ var todoStorage = {
 
         const query = new Parse.Query(FreezerList);
         query.equalTo('user', 'ciresh');
+
+        if (todos.length === 0){
+            alert("List is zero! Not saving!")
+            return;
+        }
+
 
         // here you put the objectId that you want to update
         query.first().then((freezerList) => {
@@ -121,10 +122,12 @@ var app = new Vue({
         newTodo: "",
         editedTodo: null,
         visibility: "all",
-        sortType: "SortName",
+        sortType: "SortDate",
+        sortAscending: false,
         showType: "Both",
         searchTerm: "",
-        termsRe: null
+        termsRe: null,
+        editableTodo: {description:"",date:"1971-03-17",location:"Kitchen"}
     },
 
     mounted: function() {
@@ -138,7 +141,7 @@ var app = new Vue({
         todos: {
             /*  */
             handler: function(todos) {
-                todoStorage.save(todos);
+                //todoStorage.save(todos);
             },
             deep: true
 
@@ -187,7 +190,21 @@ var app = new Vue({
         // This is the list used in the html for display
         filteredTodos: function() {
             var filteredList = this.filteredList();
-            return filters[this.visibility](filteredList);
+
+            var list = filters[this.visibility](filteredList)
+/**/
+            if (this.sortType === "SortName")
+                list.sort(this.sortNameFn);
+            else if (this.sortType === "SortLocation")
+                list.sort(this.sortLocationFn);
+            else
+                list.sort(this.sortDateFn);
+
+            if (this.sortAscending)
+                list.reverse();
+
+            return list;
+
             //return filters[this.visibility](this.todos);
         },
         remaining: function() {
@@ -230,15 +247,27 @@ var app = new Vue({
             if (!value) {
                 return;
             }
+
+            var dateString = (new Date()).toISOString().substr(0,10);
+
+            // Search description for date in mm/dd/yy format
+            var re = /(\d{1,2}\/\d{1,2}\/\d{2})/;
+            var hasDate = re.exec(value);
+            if (hasDate){
+                value = value.replace(re, "").trim();
+                dateString = (new Date(hasDate[0])).toISOString().substr(0,10);
+            }
+
             this.todos.unshift({
                 id: todoStorage.uid++,
                 description: value,
                 //date: new Date().toLocaleDateString('en-US'),
-                date: (new Date()).toISOString().substr(0,10),
-                location: "Basement",
+                date: dateString,
+                location: "Kitchen",
                 completed: false,
             });
             this.newTodo = "";
+            todoStorage.save(this.todos);
         },
 
         sortLocationFn: function(a, b) {
@@ -286,8 +315,10 @@ var app = new Vue({
             return result;
         },
 
-
         setStort: function(value) {
+            this.cancelEdit();
+            if (this.sortType === value)
+                sortType = !sortType;
             this.sortType = value;
         },
 /*
@@ -299,26 +330,37 @@ var app = new Vue({
         removeTodo: function(todo) {
             // No delete!
             this.todos.splice(this.todos.indexOf(todo), 1);
+            todoStorage.save(this.todos);
         },
 
         editTodo: function(todo) {
+            console.log("editTodo")
             this.beforeEditCache = todo.description;
             this.editedTodo = todo;
-        },
 
+            this.editableTodo.description = todo.description;
+            this.editableTodo.date = todo.date;
+            this.editableTodo.location = todo.location;
+        },
+/*
         editTodoDate: function(todo) {
+            console.log("editTodoDate")
             this.beforeEditCacheDate = todo.date;
             this.beforeEditCache = todo.description;
             this.editedTodo = todo;
         },
-
+*/
         doneEdit: function(todo) {
-            console.log("Done Edit")
+            console.log("doneEdit")
             if (!this.editedTodo) {
                 return;
             }
             this.editedTodo = null;
-            todo.description = todo.description.trim();
+
+            todo.description = this.editableTodo.description.trim();
+            todo.date = this.editableTodo.date;
+            todo.location = this.editableTodo.location;
+
             todoStorage.save(this.todos);
             if (!todo.description) {
                 this.removeTodo(todo);
@@ -328,7 +370,8 @@ var app = new Vue({
         cancelEdit: function(todo) {
             console.log("Cancel Edit")
             this.editedTodo = null;
-            todo.description = this.beforeEditCache;
+            if (todo !== undefined)
+                todo.description = this.beforeEditCache;
         },
 
         removeCompleted: function() {

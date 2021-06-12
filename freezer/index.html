@@ -36,6 +36,13 @@
 
 <div class="container">
     <section class="todoapp">
+
+        <!--
+        <div id="loading" class="loading">
+
+        </div>
+        -->
+
         <header class="header">
 
             <div  style="display:flex; justify-content: Space-around; align-items: center; margin: 10px 10px 10px 10px">
@@ -108,9 +115,12 @@
                         :key="todo.id"
                         v-bind:class="{ completed: todo.completed, editing: todo == editedTodo }"
                 >
+                    <!--
+                            List entry template
+                    -->
                     <div class="entry">
                         <div class="date">
-                            <span @dblclick="editTodoDate(todo)" class="date">{{ todo.date | dformat }}</span>
+                            <span @dblclick="editTodo(todo)" class="date">{{ todo.date | dformat }}</span>
                         </div>
                         <div class="desc" @dblclick="editTodo(todo)">{{ todo.description }}</div>
                         <div>{{ todo.location[0] }}</div>
@@ -119,13 +129,16 @@
                         </div>
                     </div>
                     <!-- @blur="doneEdit(todo)" -->
+
+                    <!--
+                            Editing List Template
+                    -->
                     <div>
                         <!-- v-todo-focus="todo == editedTodo" -->
                         <input
                                 class="edit"
                                 type="text"
-                                v-model="todo.description"
-
+                                v-model="editableTodo.description"
                                 @keyup.enter="doneEdit(todo)"
                                 @keyup.esc="cancelEdit(todo)"
                         />
@@ -134,10 +147,10 @@
                                type="date"
                                id="start"
                                name="trip-start"
-                               v-model="todo.date"
+                               v-model="editableTodo.date"
                         >
 
-                        <select class="edit" name="location" v-model="todo.location">
+                        <select class="edit" name="location" v-model="editableTodo.location">
                             <option value="Basement">Basement</option>
                             <option value="Kitchen" selected>Kitchen</option>
                         </select>

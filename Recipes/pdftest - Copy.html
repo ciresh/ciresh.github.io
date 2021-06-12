@@ -121,61 +121,58 @@
             lines = lines.slice(2);
         else
             lines = lines.slice(1);
-        /**/
+        /*
+                doc
+                    .font('Barlow-Bold', 18)
+                    .text(headingText , 18, 18, {
+                        width: 10.5*72,
+                        height:72*8,
+                        align: 'left',
+                        indent: 0,
+                        columns: 2,
+                        columnGap: 36,
+                        ellipsis: true,
+                        continued: true
+                    })
+                    .font('SourceSerifPro-Regular', 11)
+                    .text("\n\n\n" + lines.join("\n"))
+                ;
+        */
+        var body = lines.join("\n");
+        bodyParts = body.split("*")
 
-        doc
-            .font('Barlow-Bold', 18)
-            .text(headingText , 18, 18, {
-                width: 10.5*72,
-                height:72*8,
-                align: 'left',
-                indent: 0,
-                columns: 2,
-                columnGap: 36,
-                ellipsis: true,
-                continued: true
-            })
-            .font('SourceSerifPro-Regular', 11)
-            .text("\n\n\n" + lines.join("\n"))
-        ;
-
-
-        if (false) {
-            var body = lines.join("\n");
-            bodyParts = body.split("*")
-
-            doc.font('Barlow-Bold', 18);
-            doc.text(headingText, 18, 18, {
-                width: 10.5 * 72,
-                height: 72 * 8,
-                align: 'left',
-                indent: 0,
-                columns: 2,
-                columnGap: 36,
-                ellipsis: true,
-                continued: true
-            });
-            doc.font('SourceSerifPro-Regular', 11);
-            doc.text("\n\n\n");
-            var isBold = false;
+        doc.font('Barlow-Bold', 18);
+        doc.text(headingText, 18, 18, {
+            width: 10.5 * 72,
+            height: 72 * 8,
+            align: 'left',
+            indent: 0,
+            columns: 2,
+            columnGap: 36,
+            ellipsis: true,
+            continued: true
+        });
+        doc.font('SourceSerifPro-Regular', 11);
+        doc.text("\n\n\n");
+        var isBold = false;
 
 
-            for (const part of bodyParts) {
-                if (isBold)
-                    doc.font('SourceSerifPro-Bold', 11,);
-                else
-                    doc.font('SourceSerifPro-Regular', 11);
+        for (const part of bodyParts) {
+            if (isBold)
+                doc.font('SourceSerifPro-Bold', 11,);
+            else
+                doc.font('SourceSerifPro-Regular', 11);
 
+            doc.text(part, {continued: true})
+            /*
+            if (part.endsWith("\n"))
+                doc.text(part, {continued: false, x:0})
+            else
                 doc.text(part, {continued: true})
-                /*
-                if (part.endsWith("\n"))
-                    doc.text(part, {continued: false, x:0})
-                else
-                    doc.text(part, {continued: true})
-                */
-                isBold = !isBold;
-            }
+            */
+            isBold = !isBold;
         }
+
 
         // end and display the document in the iframe to the right
         doc.end();
