@@ -164,6 +164,10 @@ var recipes = [
     "path": "data/Baltimore Baked Stuffed Shrimp with Crab.txt"
   },
   {
+    "name": "Banana Bread Mug Cake in a Minute",
+    "path": "data/Banana Bread Mug Cake in a Minute.txt"
+  },
+  {
     "name": "Barbara's Milk Chocolate Fudge",
     "path": "data/Barbara's Milk Chocolate Fudge.txt"
   },
@@ -622,6 +626,10 @@ var recipes = [
   {
     "name": "Cook's Illustrated Restaurant-Style Hummus",
     "path": "data/Cook's Illustrated Restaurant-Style Hummus.txt"
+  },
+  {
+    "name": "Cook's Make Ahead Waffles",
+    "path": "data/Cook's Make Ahead Waffles.txt"
   },
   {
     "name": "Cookie Dough for Icecream",
@@ -1828,6 +1836,10 @@ var recipes = [
     "path": "data/Pull Pork May 2017.txt"
   },
   {
+    "name": "Pulled Chicken Sloppy Joes",
+    "path": "data/Pulled Chicken Sloppy Joes.txt"
+  },
+  {
     "name": "Pulled Pork Alton Brown",
     "path": "data/Pulled Pork Alton Brown.txt"
   },
@@ -1842,6 +1854,10 @@ var recipes = [
   {
     "name": "Quick and Easy French Toast Casserole - Rachael Ray",
     "path": "data/Quick and Easy French Toast Casserole - Rachael Ray.txt"
+  },
+  {
+    "name": "Quick Chicken Couscous",
+    "path": "data/Quick Chicken Couscous.txt"
   },
   {
     "name": "Quick Cinnamon Buns with Buttermilk Icing",
@@ -2066,6 +2082,10 @@ var recipes = [
   {
     "name": "Simple Chocolate Sheet Cake",
     "path": "data/Simple Chocolate Sheet Cake.txt"
+  },
+  {
+    "name": "Simple Red Lentil Curry",
+    "path": "data/Simple Red Lentil Curry.txt"
   },
   {
     "name": "Simple Refried Beans",
@@ -2464,6 +2484,10 @@ var recipes = [
     "path": "data/Ultimate Spicy Beef Nachos.txt"
   },
   {
+    "name": "Un-Stuffed Chicken Breasts with Dijon, Ham and Gruyere",
+    "path": "data/Un-Stuffed Chicken Breasts with Dijon, Ham and Gruyere.txt"
+  },
+  {
     "name": "Upside Down Pineapple or Fruit Cake",
     "path": "data/Upside Down Pineapple or Fruit Cake.txt"
   },
@@ -2518,5 +2542,9 @@ var recipes = [
   {
     "name": "Yellow Cupcakes with Chocolate Ganache Frosting",
     "path": "data/Yellow Cupcakes with Chocolate Ganache Frosting.txt"
+  },
+  {
+    "name": "Zelda Fruitcake",
+    "path": "data/Zelda Fruitcake.txt"
   }
 ];
