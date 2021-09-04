@@ -660,6 +660,10 @@ var recipes = [
     "path": "data/Cooks Make Ahead Waffles.txt"
   },
   {
+    "name": "Cool Ranch Crockpot Chicken Tacos",
+    "path": "data/Cool Ranch Crockpot Chicken Tacos.txt"
+  },
+  {
     "name": "Copy of Malaysian Chicken Pizza",
     "path": "data/Copy of Malaysian Chicken Pizza.txt"
   },
