@@ -24,6 +24,10 @@ var recipes = [
     "path": "data/All Day Apple Butter.txt"
   },
   {
+    "name": "All Purpose Cornbread abbr",
+    "path": "data/All Purpose Cornbread abbr.txt"
+  },
+  {
     "name": "All Purpose Cornbread",
     "path": "data/All Purpose Cornbread.txt"
   },
@@ -38,10 +42,6 @@ var recipes = [
   {
     "name": "All-Occasion Downy Yellow Butter Cup Cake",
     "path": "data/All-Occasion Downy Yellow Butter Cup Cake.txt"
-  },
-  {
-    "name": "All-Purpose Cornbread",
-    "path": "data/All-Purpose Cornbread.txt"
   },
   {
     "name": "All-purpose Gravy",
@@ -1324,12 +1324,16 @@ var recipes = [
     "path": "data/key lime pie.txt"
   },
   {
-    "name": "King Author Italian Merigue",
-    "path": "data/King Author Italian Merigue.txt"
+    "name": "King Arthur Cream Scone",
+    "path": "data/King Arthur Cream Scone.txt"
   },
   {
-    "name": "Latin_Love",
-    "path": "data/Latin_Love.txt"
+    "name": "King Arthur Italian Merigue",
+    "path": "data/King Arthur Italian Merigue.txt"
+  },
+  {
+    "name": "Latin Love",
+    "path": "data/Latin Love.txt"
   },
   {
     "name": "Latkes",
@@ -1498,6 +1502,10 @@ var recipes = [
   {
     "name": "Milk Chocolate Cheesecake",
     "path": "data/Milk Chocolate Cheesecake.txt"
+  },
+  {
+    "name": "Mississippi Pot Roast",
+    "path": "data/Mississippi Pot Roast.txt"
   },
   {
     "name": "Mixed Berry Scones",
