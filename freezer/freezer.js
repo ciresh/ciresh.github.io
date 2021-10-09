@@ -263,7 +263,7 @@ var app = new Vue({
                 description: value,
                 //date: new Date().toLocaleDateString('en-US'),
                 date: dateString,
-                location: "Kitchen",
+                location: "Basement",
                 completed: false,
             });
             this.newTodo = "";
