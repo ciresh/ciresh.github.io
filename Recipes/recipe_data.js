@@ -460,6 +460,10 @@ var recipes = [
     "path": "data/Chicken Noodle Soup.txt"
   },
   {
+    "name": "Chicken Pan Pie",
+    "path": "data/Chicken Pan Pie.txt"
+  },
+  {
     "name": "Chicken Pasta e Fagiole with Smoked Paprika",
     "path": "data/Chicken Pasta e Fagiole with Smoked Paprika.txt"
   },
@@ -2074,6 +2078,10 @@ var recipes = [
   {
     "name": "Shrimp Cocktail - Alton Brown",
     "path": "data/Shrimp Cocktail - Alton Brown.txt"
+  },
+  {
+    "name": "Shrimp Scampi",
+    "path": "data/Shrimp Scampi.txt"
   },
   {
     "name": "Shrimp with Spicy Garlic Paste",
