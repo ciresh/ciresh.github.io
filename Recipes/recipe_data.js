@@ -2324,6 +2324,10 @@ var recipes = [
     "path": "data/SteakTips.txt"
   },
   {
+    "name": "Steel Cut Oats in Instant-Pot",
+    "path": "data/Steel Cut Oats in Instant-Pot.txt"
+  },
+  {
     "name": "Stovetop Macaroni and Cheese",
     "path": "data/Stovetop Macaroni and Cheese.txt"
   },
@@ -2506,6 +2510,10 @@ var recipes = [
   {
     "name": "Un-Stuffed Chicken Breasts with Dijon, Ham and Gruyere",
     "path": "data/Un-Stuffed Chicken Breasts with Dijon, Ham and Gruyere.txt"
+  },
+  {
+    "name": "Unstuffed Chicken Breasts with Dijon, Ham, and Gruyere",
+    "path": "data/Unstuffed Chicken Breasts with Dijon, Ham, and Gruyere.txt"
   },
   {
     "name": "Upside Down Pineapple or Fruit Cake",
