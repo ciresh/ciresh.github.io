@@ -760,6 +760,10 @@ var recipes = [
     "path": "data/Crispy Mexican Bites.txt"
   },
   {
+    "name": "Crispy Onion Rings",
+    "path": "data/Crispy Onion Rings.txt"
+  },
+  {
     "name": "Crispy Potato Pancakes",
     "path": "data/Crispy Potato Pancakes.txt"
   },
@@ -1548,6 +1552,10 @@ var recipes = [
     "path": "data/Monkey Bread.txt"
   },
   {
+    "name": "Moroccan Lamb Tangine with Green Couscous",
+    "path": "data/Moroccan Lamb Tangine with Green Couscous.txt"
+  },
+  {
     "name": "Mrs. Gartner's Banana Bread",
     "path": "data/Mrs. Gartner's Banana Bread.txt"
   },
@@ -1826,6 +1834,10 @@ var recipes = [
   {
     "name": "Portobello Quesadillas with Pico de Gallo",
     "path": "data/Portobello Quesadillas with Pico de Gallo.txt"
+  },
+  {
+    "name": "Potato and Cheese Pierogi",
+    "path": "data/Potato and Cheese Pierogi.txt"
   },
   {
     "name": "Potatoes Lyonnaise",
@@ -2286,6 +2298,10 @@ var recipes = [
   {
     "name": "Spicy pork tacos",
     "path": "data/Spicy pork tacos.txt"
+  },
+  {
+    "name": "Spiked and Spiced Apple Cider",
+    "path": "data/Spiked and Spiced Apple Cider.txt"
   },
   {
     "name": "Spinach Dip with Blue Cheese and Bacon",
