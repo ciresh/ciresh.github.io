@@ -552,12 +552,20 @@ var recipes = [
     "path": "data/Chocolate Volcano Cakes with Espresso Ice Cream.txt"
   },
   {
+    "name": "Chocolate Yule Log",
+    "path": "data/Chocolate Yule Log.txt"
+  },
+  {
     "name": "Chocolate-Caramel Layer Cake",
     "path": "data/Chocolate-Caramel Layer Cake.txt"
   },
   {
     "name": "Chocolate-peanut-butter-pie",
     "path": "data/Chocolate-peanut-butter-pie.txt"
+  },
+  {
+    "name": "Chorizo-Potato Tacos",
+    "path": "data/Chorizo-Potato Tacos.txt"
   },
   {
     "name": "Christmas 2014",
@@ -1278,6 +1286,10 @@ var recipes = [
   {
     "name": "Instant Pot Honey Bourbon Chicken - Traditional Version",
     "path": "data/Instant Pot Honey Bourbon Chicken - Traditional Version.txt"
+  },
+  {
+    "name": "Instant Pot Leftofter Hambone Soup",
+    "path": "data/Instant Pot Leftofter Hambone Soup.txt"
   },
   {
     "name": "Instant Pot Yogurt",
@@ -2024,6 +2036,10 @@ var recipes = [
     "path": "data/Robin's Spinach Dip.txt"
   },
   {
+    "name": "Roman-Style Gnocchi",
+    "path": "data/Roman-Style Gnocchi.txt"
+  },
+  {
     "name": "Rustic Free-Form Apple Tartlets",
     "path": "data/Rustic Free-Form Apple Tartlets.txt"
   },
@@ -2102,6 +2118,10 @@ var recipes = [
   {
     "name": "Silky Butternut Squash Soup",
     "path": "data/Silky Butternut Squash Soup.txt"
+  },
+  {
+    "name": "Simple Au Gratin Potatoes",
+    "path": "data/Simple Au Gratin Potatoes.txt"
   },
   {
     "name": "Simple Carrot Cake with Cream Cheese Frosting",
@@ -2566,6 +2586,10 @@ var recipes = [
   {
     "name": "Whirley Pop Popcorn",
     "path": "data/Whirley Pop Popcorn.txt"
+  },
+  {
+    "name": "Whoopie Pie",
+    "path": "data/Whoopie Pie.txt"
   },
   {
     "name": "Wilton Buttercream Icing",

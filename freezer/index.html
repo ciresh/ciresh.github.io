@@ -46,6 +46,7 @@
         <header class="header">
 
             <div  style="display:flex; justify-content: Space-around; align-items: center; margin: 10px 10px 10px 10px">
+                <p>Sort:</p>
                 <button type="button" class="btn btn-outline-secondary btn-sm" @click="setStort('SortDate')" >Date</button>
                 <button type="button" class="btn btn-outline-secondary btn-sm" @click="setStort('SortLocation')" >Location</button>
                 <button type="button" class="btn btn-outline-secondary btn-sm" @click="setStort('SortName')" >Name</button>
@@ -71,9 +72,10 @@
             </div>
 -->
             <br>
-
+            <p>Show:</p>
             <ul class="filters" style="display:flex; justify-content: Space-around; align-items: center">
                 <!-- this changes the url. The URL change will then be noticed by onHashChange() -->
+
                 <li><a href="#/all" :class="{ selected: visibility == 'all' }">All</a></li>
                 <li><a href="#/kitchen" :class="{ selected: visibility == 'kitchen' }">Kitchen</a></li>
                 <li><a href="#/basement" :class="{ selected: visibility == 'basement' }">Basement</a></li>
@@ -100,6 +102,7 @@
                     @keyup.enter="addTodo"
             />
         </header>
+        <p>Number of entries: {{ filteredTodos.length }}</p>
         <section class="main" v-show="todos.length" v-cloak>
             <input
                     id="toggle-all"
@@ -119,12 +122,14 @@
                             List entry template
                     -->
                     <div class="entry">
+                        <input type="checkbox"/>
                         <div class="date">
                             <span @dblclick="editTodo(todo)" class="date">{{ todo.date | dformat }}</span>
                         </div>
                         <div class="desc" @dblclick="editTodo(todo)">{{ todo.description }}</div>
                         <div>{{ todo.location[0] }}</div>
                         <div class="rcolumn">
+
                             <button class="destroy2" @click="removeTodo(todo)">×</button>
                         </div>
                     </div>

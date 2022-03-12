@@ -32,11 +32,11 @@ var todoStorage = {
             /*
             todos.forEach(function(todo, index) {
                 todo.id = index;
-                todo.date = (new Date(todo.date)).toISOString().substr(0,10);
-                if (!todo.hasOwnProperty("location"))
-                    todo.location = "Basement"
+                //todo.date = (new Date(todo.date)).toISOString().substr(0,10);
+                //if (!todo.hasOwnProperty("location"))
+                //    todo.location = "Basement"
             });
-            */
+*/
 
             todos.sort(vueObject.sortfn);
 
@@ -48,7 +48,16 @@ var todoStorage = {
                 return result;
             });
             */
-            todoStorage.uid = todos.length;
+            //todoStorage.uid = todos.length;
+            /*
+            todoStorage.uid= todos.reduce(function(a, b) {
+                return Math.max(a.id, b.id);
+            });
+            */
+            // ... is the same as *
+            // This finds the hightest id
+            todoStorage.uid = Math.max(...todos.map(o => o.id), 0);
+
             vueObject.todos = todos
             return todos;
         });
@@ -191,6 +200,8 @@ var app = new Vue({
         filteredTodos: function() {
             var filteredList = this.filteredList();
 
+            // Filters contains functions that perform filtering based on
+            // the visibility
             var list = filters[this.visibility](filteredList)
 /**/
             if (this.sortType === "SortName")
@@ -258,12 +269,27 @@ var app = new Vue({
                 dateString = (new Date(hasDate[0])).toISOString().substr(0,10);
             }
 
+            // Search description for location
+            var location = "Kitchen";
+            const locations = { 'k':'Kitchen', 'b':'Basement'};
+            for (const key of Object.keys(locations)) {
+                // Searches beginning, end, and in the middle
+                const locRegex = new RegExp('^' + key + '\\s|\\s' + key + '$|\\s' + key + '(?=\\s)');
+                var hasLoc = locRegex.exec(value);
+                if (hasLoc){
+                    console.log("Found loc")
+                    value = value.replace(locRegex, "");
+                    location = locations[key]
+                }
+            }
+
+            // Add to begining of list
             this.todos.unshift({
                 id: todoStorage.uid++,
                 description: value,
                 //date: new Date().toLocaleDateString('en-US'),
                 date: dateString,
-                location: "Kitchen",
+                location: location,
                 completed: false,
             });
             this.newTodo = "";
