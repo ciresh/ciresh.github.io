@@ -480,8 +480,8 @@ var recipes = [
     "path": "data/Chicken with Coconut Curry Sauce.txt"
   },
   {
-    "name": "Chicken Yakiisoba",
-    "path": "data/Chicken Yakiisoba.txt"
+    "name": "Chicken Yakisoba",
+    "path": "data/Chicken Yakisoba.txt"
   },
   {
     "name": "Chicken-and-Brie Sandwich with Roasted Cherry Tomatoes",
