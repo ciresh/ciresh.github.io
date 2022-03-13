@@ -480,6 +480,10 @@ var recipes = [
     "path": "data/Chicken with Coconut Curry Sauce.txt"
   },
   {
+    "name": "Chicken Yakiisoba",
+    "path": "data/Chicken Yakiisoba.txt"
+  },
+  {
     "name": "Chicken-and-Brie Sandwich with Roasted Cherry Tomatoes",
     "path": "data/Chicken-and-Brie Sandwich with Roasted Cherry Tomatoes.txt"
   },
@@ -602,6 +606,10 @@ var recipes = [
   {
     "name": "City Ham with Gingersnap Crust",
     "path": "data/City Ham with Gingersnap Crust.txt"
+  },
+  {
+    "name": "Clam Chowder Shell Pasta",
+    "path": "data/Clam Chowder Shell Pasta.txt"
   },
   {
     "name": "Clambake",
@@ -2094,6 +2102,10 @@ var recipes = [
   {
     "name": "Shawarma - Binging With Babish",
     "path": "data/Shawarma - Binging With Babish.txt"
+  },
+  {
+    "name": "Sheet Pan Kielbasa Potatoes and Green Beeens",
+    "path": "data/Sheet Pan Kielbasa Potatoes and Green Beeens.txt"
   },
   {
     "name": "Shepherd's Pie",
