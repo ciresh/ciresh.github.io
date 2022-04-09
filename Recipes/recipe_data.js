@@ -188,6 +188,10 @@ var recipes = [
     "path": "data/Basic BBQ Chicken.txt"
   },
   {
+    "name": "Basic Corn Muffins",
+    "path": "data/Basic Corn Muffins.txt"
+  },
+  {
     "name": "Basic Pancakes",
     "path": "data/Basic Pancakes.txt"
   },
@@ -290,6 +294,10 @@ var recipes = [
   {
     "name": "Blueberry Scones",
     "path": "data/Blueberry Scones.txt"
+  },
+  {
+    "name": "Bohemian Orange Chicken",
+    "path": "data/Bohemian Orange Chicken.txt"
   },
   {
     "name": "Bouillabaisse Style Fish Stew",
@@ -802,6 +810,10 @@ var recipes = [
   {
     "name": "Curried Chicken Salad With Cashews.txt",
     "path": "data/Curried Chicken Salad With Cashews.txt.txt"
+  },
+  {
+    "name": "Czech Bread Dumplings (Knedl\u00edky)",
+    "path": "data/Czech Bread Dumplings (Knedl\u00edky).txt"
   },
   {
     "name": "Dad's Meat Loaf",
@@ -1678,6 +1690,10 @@ var recipes = [
   {
     "name": "Orange Molasses Glazed Chicken",
     "path": "data/Orange Molasses Glazed Chicken.txt"
+  },
+  {
+    "name": "Orange Pound Cake (Bake Austin)",
+    "path": "data/Orange Pound Cake (Bake Austin).txt"
   },
   {
     "name": "Orange-Flavored Chicken",
