@@ -2424,6 +2424,10 @@ var recipes = [
     "path": "data/Summer Peach Cake.txt"
   },
   {
+    "name": "Sweet and Sour Chicken",
+    "path": "data/Sweet and Sour Chicken.txt"
+  },
+  {
     "name": "Sweet and tangy coleslaw",
     "path": "data/Sweet and tangy coleslaw.txt"
   },
