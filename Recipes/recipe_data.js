@@ -948,10 +948,6 @@ var recipes = [
     "path": "data/Esquites (Mexican Corn Salad).txt"
   },
   {
-    "name": "Everyday Lighter Macaroni and Cheese",
-    "path": "data/Everyday Lighter Macaroni and Cheese.txt"
-  },
-  {
     "name": "Extra Crispy Baked Chicken Wings",
     "path": "data/Extra Crispy Baked Chicken Wings.txt"
   },
@@ -1002,6 +998,10 @@ var recipes = [
   {
     "name": "Fluffy Mashed Potatoes",
     "path": "data/Fluffy Mashed Potatoes.txt"
+  },
+  {
+    "name": "Foolproof Bearnaise Sauce",
+    "path": "data/Foolproof Bearnaise Sauce.txt"
   },
   {
     "name": "Foolproof Pan Pizza and Sauce abbr",
@@ -1986,6 +1986,10 @@ var recipes = [
   {
     "name": "Restaurant-Style Hummus",
     "path": "data/Restaurant-Style Hummus.txt"
+  },
+  {
+    "name": "Reverse-Seared Steak Recipe",
+    "path": "data/Reverse-Seared Steak Recipe.txt"
   },
   {
     "name": "Rice Pilaf",
