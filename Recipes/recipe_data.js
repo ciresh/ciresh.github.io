@@ -1352,6 +1352,10 @@ var recipes = [
     "path": "data/Kale Chips.txt"
   },
   {
+    "name": "Kenji Updated Chicken Wings",
+    "path": "data/Kenji Updated Chicken Wings.txt"
+  },
+  {
     "name": "Keri's Blue Ribbon Corn Bread",
     "path": "data/Keri's Blue Ribbon Corn Bread.txt"
   },
@@ -1370,6 +1374,10 @@ var recipes = [
   {
     "name": "King Arthur Italian Merigue",
     "path": "data/King Arthur Italian Merigue.txt"
+  },
+  {
+    "name": "Kofta Kebabs",
+    "path": "data/Kofta Kebabs.txt"
   },
   {
     "name": "Latin Love",
