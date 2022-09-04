@@ -984,6 +984,10 @@ var recipes = [
     "path": "data/Fish Stew.txt"
   },
   {
+    "name": "Fish Tacos (NY Times)",
+    "path": "data/Fish Tacos (NY Times).txt"
+  },
+  {
     "name": "Fleur De Sel Caramels",
     "path": "data/Fleur De Sel Caramels.txt"
   },
@@ -1374,6 +1378,14 @@ var recipes = [
   {
     "name": "King Arthur Italian Merigue",
     "path": "data/King Arthur Italian Merigue.txt"
+  },
+  {
+    "name": "Kofta Kebabs (3x)",
+    "path": "data/Kofta Kebabs (3x).txt"
+  },
+  {
+    "name": "Kofta Kebabs - 2",
+    "path": "data/Kofta Kebabs - 2.txt"
   },
   {
     "name": "Kofta Kebabs",
@@ -2278,6 +2290,10 @@ var recipes = [
   {
     "name": "Smoked Sausage with Cabbage and Sweet Potatoes",
     "path": "data/Smoked Sausage with Cabbage and Sweet Potatoes.txt"
+  },
+  {
+    "name": "Smores Bar (8x8)",
+    "path": "data/Smores Bar (8x8).txt"
   },
   {
     "name": "Soft Sandwich Bread with Flax",
