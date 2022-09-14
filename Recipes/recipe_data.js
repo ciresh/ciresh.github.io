@@ -1536,6 +1536,10 @@ var recipes = [
     "path": "data/Meat Loaf.txt"
   },
   {
+    "name": "Meathead's Memphis Dust Rub Recipe",
+    "path": "data/Meathead's Memphis Dust Rub Recipe.txt"
+  },
+  {
     "name": "Meathead's Memphis Dust Rub",
     "path": "data/Meathead's Memphis Dust Rub.txt"
   },
