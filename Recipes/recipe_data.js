@@ -2192,6 +2192,10 @@ var recipes = [
     "path": "data/Simple Chocolate Sheet Cake.txt"
   },
   {
+    "name": "Simple Creamy Southern Coleslaw",
+    "path": "data/Simple Creamy Southern Coleslaw.txt"
+  },
+  {
     "name": "Simple Red Lentil Curry",
     "path": "data/Simple Red Lentil Curry.txt"
   },
