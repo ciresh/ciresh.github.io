@@ -96,6 +96,10 @@ var recipes = [
     "path": "data/Apple Crumble.txt"
   },
   {
+    "name": "Apple Fritter Pancakes",
+    "path": "data/Apple Fritter Pancakes.txt"
+  },
+  {
     "name": "Apple Muffins",
     "path": "data/Apple Muffins.txt"
   },
@@ -146,6 +150,10 @@ var recipes = [
   {
     "name": "Baked French Toast Casserole with Maple Syrup",
     "path": "data/Baked French Toast Casserole with Maple Syrup.txt"
+  },
+  {
+    "name": "Baked Macaroni and Cheese",
+    "path": "data/Baked Macaroni and Cheese.txt"
   },
   {
     "name": "Baked Meatballs",
@@ -2662,6 +2670,10 @@ var recipes = [
   {
     "name": "Wilton Buttercream Icing",
     "path": "data/Wilton Buttercream Icing.txt"
+  },
+  {
+    "name": "Worlds Best Baked Chicken",
+    "path": "data/Worlds Best Baked Chicken.txt"
   },
   {
     "name": "Xmas 2012",
