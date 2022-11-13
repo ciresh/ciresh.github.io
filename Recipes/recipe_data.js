@@ -468,6 +468,10 @@ var recipes = [
     "path": "data/Chicken Fingers with two dipping sauces.txt"
   },
   {
+    "name": "Chicken Karaage",
+    "path": "data/Chicken Karaage.txt"
+  },
+  {
     "name": "Chicken Mole",
     "path": "data/Chicken Mole.txt"
   },
@@ -1768,6 +1772,10 @@ var recipes = [
     "path": "data/Overnight Yeasted Waffles.txt"
   },
   {
+    "name": "Pan Pizza Dough",
+    "path": "data/Pan Pizza Dough.txt"
+  },
+  {
     "name": "Pan Roasted Flank Steaks",
     "path": "data/Pan Roasted Flank Steaks.txt"
   },
@@ -2098,6 +2106,10 @@ var recipes = [
   {
     "name": "Roman-Style Gnocchi",
     "path": "data/Roman-Style Gnocchi.txt"
+  },
+  {
+    "name": "Rotisserie Turkey Notes",
+    "path": "data/Rotisserie Turkey Notes.txt"
   },
   {
     "name": "Rustic Free-Form Apple Tartlets",
