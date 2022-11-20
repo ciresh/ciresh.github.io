@@ -24,8 +24,16 @@ var recipes = [
     "path": "data/All Day Apple Butter.txt"
   },
   {
+    "name": "All Purpose Cornbread - Eric's Mod",
+    "path": "data/All Purpose Cornbread - Eric's Mod.txt"
+  },
+  {
     "name": "All Purpose Cornbread abbr",
     "path": "data/All Purpose Cornbread abbr.txt"
+  },
+  {
+    "name": "All Purpose Cornbread Eric's Mod",
+    "path": "data/All Purpose Cornbread Eric's Mod.txt"
   },
   {
     "name": "All Purpose Cornbread",
@@ -102,6 +110,10 @@ var recipes = [
   {
     "name": "Apple Muffins",
     "path": "data/Apple Muffins.txt"
+  },
+  {
+    "name": "Apple Walnut Canadian Butter Tarts",
+    "path": "data/Apple Walnut Canadian Butter Tarts.txt"
   },
   {
     "name": "Apple-Cinnamon Bundt Cake",
@@ -2110,6 +2122,10 @@ var recipes = [
   {
     "name": "Rotisserie Turkey Notes",
     "path": "data/Rotisserie Turkey Notes.txt"
+  },
+  {
+    "name": "Rubs with Lawrys",
+    "path": "data/Rubs with Lawrys.txt"
   },
   {
     "name": "Rustic Free-Form Apple Tartlets",
