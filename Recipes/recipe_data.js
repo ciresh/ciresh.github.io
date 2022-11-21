@@ -916,6 +916,10 @@ var recipes = [
     "path": "data/Easy Chili Supper.txt"
   },
   {
+    "name": "Easy Homemade Soft Pretzel Bites",
+    "path": "data/Easy Homemade Soft Pretzel Bites.txt"
+  },
+  {
     "name": "Easy Peppermint Buttercream",
     "path": "data/Easy Peppermint Buttercream.txt"
   },
@@ -2676,8 +2680,8 @@ var recipes = [
     "path": "data/Waffles Alton Brown.txt"
   },
   {
-    "name": "WALDORF CHICKEN SALAD",
-    "path": "data/WALDORF CHICKEN SALAD.txt"
+    "name": "Waldorf Chicken Salad",
+    "path": "data/Waldorf Chicken Salad.txt"
   },
   {
     "name": "Walnut Strudel",
