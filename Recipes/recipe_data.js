@@ -456,6 +456,10 @@ var recipes = [
     "path": "data/Chef John's Italian Meatballs.txt"
   },
   {
+    "name": "Chef John's Loco Moco",
+    "path": "data/Chef John's Loco Moco.txt"
+  },
+  {
     "name": "Chef John's Scones",
     "path": "data/Chef John's Scones.txt"
   },
