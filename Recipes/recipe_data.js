@@ -428,6 +428,10 @@ var recipes = [
     "path": "data/Cast Iron Skillet Corn Bread.txt"
   },
   {
+    "name": "Chain Baker Sourdough Starter",
+    "path": "data/Chain Baker Sourdough Starter.txt"
+  },
+  {
     "name": "Charcoal-Grilled Bratwurst with Sauerkraut And Apples",
     "path": "data/Charcoal-Grilled Bratwurst with Sauerkraut And Apples.txt"
   },
@@ -548,8 +552,8 @@ var recipes = [
     "path": "data/Chocolate Cream Pie (CI).txt"
   },
   {
-    "name": "CHOCOLATE CREAM PIE",
-    "path": "data/CHOCOLATE CREAM PIE.txt"
+    "name": "Chocolate Cream Pie",
+    "path": "data/Chocolate Cream Pie.txt"
   },
   {
     "name": "Chocolate Cream Pie2",
@@ -634,6 +638,10 @@ var recipes = [
   {
     "name": "Cincinnati Chili",
     "path": "data/Cincinnati Chili.txt"
+  },
+  {
+    "name": "Cinnamon & Cardamom Brioche Buns",
+    "path": "data/Cinnamon & Cardamom Brioche Buns.txt"
   },
   {
     "name": "Cinnamon Rolls (Paula Deen)",
