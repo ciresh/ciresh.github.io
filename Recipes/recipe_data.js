@@ -828,6 +828,10 @@ var recipes = [
     "path": "data/Crispy Potato Pancakes.txt"
   },
   {
+    "name": "Crostata",
+    "path": "data/Crostata.txt"
+  },
+  {
     "name": "Crunchy Corn Meal Waffles",
     "path": "data/Crunchy Corn Meal Waffles.txt"
   },
@@ -1276,8 +1280,8 @@ var recipes = [
     "path": "data/Hearty Scambled Eggs - Bacon Onion and Pepper Jack.txt"
   },
   {
-    "name": "HERSHEY'S PERFECTLY CHOCOLATE Chocolate Cake",
-    "path": "data/HERSHEY'S PERFECTLY CHOCOLATE Chocolate Cake.txt"
+    "name": "Hershey's Perfectly Chocolate Chocolate Cake",
+    "path": "data/Hershey's Perfectly Chocolate Chocolate Cake.txt"
   },
   {
     "name": "High Heat Brisket",
@@ -1364,8 +1368,8 @@ var recipes = [
     "path": "data/Isabelle Ginger Soy Dipping Sauce.txt"
   },
   {
-    "name": "ITALIAN VEGETABLE STEW (CIAMBOTTA)",
-    "path": "data/ITALIAN VEGETABLE STEW (CIAMBOTTA).txt"
+    "name": "Italian Vegetable Stew (Ciambotta)",
+    "path": "data/Italian Vegetable Stew (Ciambotta).txt"
   },
   {
     "name": "Jamaican Brown Stew Chicken",
@@ -1606,6 +1610,10 @@ var recipes = [
   {
     "name": "Milk Chocolate Cheesecake",
     "path": "data/Milk Chocolate Cheesecake.txt"
+  },
+  {
+    "name": "Mini Meatloaf Ghosts",
+    "path": "data/Mini Meatloaf Ghosts.txt"
   },
   {
     "name": "Mississippi Pot Roast",
@@ -2004,8 +2012,8 @@ var recipes = [
     "path": "data/Quick Clam Chowder for Two.txt"
   },
   {
-    "name": "QUICK DUTCH APPLE CRISP",
-    "path": "data/QUICK DUTCH APPLE CRISP.txt"
+    "name": "Quick Dutch Apple Crisp",
+    "path": "data/Quick Dutch Apple Crisp.txt"
   },
   {
     "name": "Quick Pantry Clam Chowder",
@@ -2436,8 +2444,8 @@ var recipes = [
     "path": "data/Spicy Corn.txt"
   },
   {
-    "name": "SPICY PORK TACOS (AL PASTOR)",
-    "path": "data/SPICY PORK TACOS (AL PASTOR).txt"
+    "name": "Spicy Pork Tacos (Al Pastor)",
+    "path": "data/Spicy Pork Tacos (Al Pastor).txt"
   },
   {
     "name": "Spicy pork tacos",
