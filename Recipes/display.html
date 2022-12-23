@@ -41,7 +41,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.3/vue.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/lodash@4.13.1/lodash.min.js"></script>
-
+<script src="NoSleep.js"></script>
 <script>
     console.log(window.location.search);
 
@@ -88,6 +88,31 @@
         newlink.setAttribute('href', 'pdftest.html' + window.location.search);
         contentDiv.appendChild(newlink);
 
+        contentDiv.appendChild(document.createElement('br'));
+
+        nosleep = document.createElement('input');
+        nosleep.innerHTML = 'No Sleep';
+        nosleep.setAttribute('type', 'button');
+        nosleep.setAttribute('value', 'Keep Screen On');
+        nosleep.setAttribute('href', 'pdftest.html' + window.location.search);
+        contentDiv.appendChild(nosleep);
+
+
+        var wakeLockEnabled = false;
+        var noSleepObj = new NoSleep();
+        nosleep.addEventListener('click', function() {
+            if (!wakeLockEnabled) {
+                noSleepObj.enable(); // keep the screen on!
+                wakeLockEnabled = true;
+                nosleep.value = "Allow screen to dim";
+                //document.body.style.backgroundColor = "green";
+            } else {
+                noSleepObj.disable(); // let the screen turn off.
+                wakeLockEnabled = false;
+                nosleep.value = "Keep Screen On";
+                //document.body.style.backgroundColor = "";
+            }
+        }, false);
 
     }
 </script>
