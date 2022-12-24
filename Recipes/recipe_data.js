@@ -2112,6 +2112,10 @@ var recipes = [
     "path": "data/Ricotta Cheesecake.txt"
   },
   {
+    "name": "Ricotta Pie - From r-old_recipies",
+    "path": "data/Ricotta Pie - From r-old_recipies.txt"
+  },
+  {
     "name": "Ricotta Pie - Torta Ripiena di Ricotta",
     "path": "data/Ricotta Pie - Torta Ripiena di Ricotta.txt"
   },
