@@ -1916,8 +1916,8 @@ var recipes = [
     "path": "data/Pocketless Pita.txt"
   },
   {
-    "name": "polenta",
-    "path": "data/polenta.txt"
+    "name": "Polenta",
+    "path": "data/Polenta.txt"
   },
   {
     "name": "Popovers - King Authur",
@@ -2394,6 +2394,10 @@ var recipes = [
   {
     "name": "Sour Cream-Chocolate Chip Scones",
     "path": "data/Sour Cream-Chocolate Chip Scones.txt"
+  },
+  {
+    "name": "Sourdough Bread (Chain Baker)",
+    "path": "data/Sourdough Bread (Chain Baker).txt"
   },
   {
     "name": "Sous Vide Fried Chicken",
