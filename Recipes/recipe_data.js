@@ -936,6 +936,10 @@ var recipes = [
     "path": "data/Easy Homemade Soft Pretzel Bites.txt"
   },
   {
+    "name": "Easy Lasagna Recipe",
+    "path": "data/Easy Lasagna Recipe.txt"
+  },
+  {
     "name": "Easy Peppermint Buttercream",
     "path": "data/Easy Peppermint Buttercream.txt"
   },
