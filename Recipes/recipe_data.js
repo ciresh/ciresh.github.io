@@ -2628,6 +2628,10 @@ var recipes = [
     "path": "data/The Ultimate Flourless Chocolate Cake.txt"
   },
   {
+    "name": "Thousand Layer Chocolate Brioche",
+    "path": "data/Thousand Layer Chocolate Brioche.txt"
+  },
+  {
     "name": "Three Layer Lasagna",
     "path": "data/Three Layer Lasagna.txt"
   },
