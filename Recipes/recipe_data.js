@@ -808,6 +808,10 @@ var recipes = [
     "path": "data/Creme Brulee - Make ahead.txt"
   },
   {
+    "name": "Creole Crab and Corn Chowder",
+    "path": "data/Creole Crab and Corn Chowder.txt"
+  },
+  {
     "name": "Crisp Roast Chicken",
     "path": "data/Crisp Roast Chicken.txt"
   },
