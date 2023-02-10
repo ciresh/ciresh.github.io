@@ -592,6 +592,10 @@ var recipes = [
     "path": "data/Chocolate Tart.txt"
   },
   {
+    "name": "Chocolate Twists",
+    "path": "data/Chocolate Twists.txt"
+  },
+  {
     "name": "Chocolate Volcano Cakes with Espresso Ice Cream",
     "path": "data/Chocolate Volcano Cakes with Espresso Ice Cream.txt"
   },
@@ -1150,6 +1154,10 @@ var recipes = [
   {
     "name": "Gas-Grilled Sausages with Peppers and Onions",
     "path": "data/Gas-Grilled Sausages with Peppers and Onions.txt"
+  },
+  {
+    "name": "General Eric's Chicken",
+    "path": "data/General Eric's Chicken.txt"
   },
   {
     "name": "Giblet Pan Gravy for a Crowd",
