@@ -564,6 +564,10 @@ var recipes = [
     "path": "data/Chocolate Creme Caramel.txt"
   },
   {
+    "name": "Chocolate Flan",
+    "path": "data/Chocolate Flan.txt"
+  },
+  {
     "name": "Chocolate Ice Cream",
     "path": "data/Chocolate Ice Cream.txt"
   },
@@ -822,6 +826,10 @@ var recipes = [
   {
     "name": "Crisp-Skin High-Roast Butterflied Chicken with Potatoes",
     "path": "data/Crisp-Skin High-Roast Butterflied Chicken with Potatoes.txt"
+  },
+  {
+    "name": "Crispy Falafel-Coated Chicken with Cucumber Salad",
+    "path": "data/Crispy Falafel-Coated Chicken with Cucumber Salad.txt"
   },
   {
     "name": "Crispy Mexican Bites",
@@ -1086,6 +1094,10 @@ var recipes = [
   {
     "name": "French Apple Cake",
     "path": "data/French Apple Cake.txt"
+  },
+  {
+    "name": "French Fries",
+    "path": "data/French Fries.txt"
   },
   {
     "name": "French Toast Casserole",
@@ -1374,6 +1386,10 @@ var recipes = [
   {
     "name": "Instant Pot Leftofter Hambone Soup",
     "path": "data/Instant Pot Leftofter Hambone Soup.txt"
+  },
+  {
+    "name": "Instant Pot Risotto a la Carbonara",
+    "path": "data/Instant Pot Risotto a la Carbonara.txt"
   },
   {
     "name": "Instant Pot Yogurt",
@@ -1982,6 +1998,10 @@ var recipes = [
   {
     "name": "Prawleens (pralines)",
     "path": "data/Prawleens (pralines).txt"
+  },
+  {
+    "name": "Pressure Cooker Mushroom Risotto Recipe",
+    "path": "data/Pressure Cooker Mushroom Risotto Recipe.txt"
   },
   {
     "name": "Pressure Cooker Pork Chile Verde",
