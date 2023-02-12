@@ -2700,6 +2700,10 @@ var recipes = [
     "path": "data/Turkey Meat Loaf.txt"
   },
   {
+    "name": "Turkey Meatloaf - myrecipes",
+    "path": "data/Turkey Meatloaf - myrecipes"
+  },
+  {
     "name": "Tuscan White Bean Soup",
     "path": "data/Tuscan White Bean Soup.txt"
   },
