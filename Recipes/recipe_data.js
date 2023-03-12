@@ -236,6 +236,10 @@ var recipes = [
     "path": "data/Bearnaise Sauce.txt"
   },
   {
+    "name": "Beatty's Chocolate Cake 6 Inch",
+    "path": "data/Beatty's Chocolate Cake 6 Inch.txt"
+  },
+  {
     "name": "Beatty's Chocolate Cake",
     "path": "data/Beatty's Chocolate Cake.txt"
   },
