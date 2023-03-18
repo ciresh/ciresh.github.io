@@ -264,6 +264,10 @@ var recipes = [
     "path": "data/Best Crab Cakes.txt"
   },
   {
+    "name": "Best Ever Marinated Shrimp",
+    "path": "data/Best Ever Marinated Shrimp.txt"
+  },
+  {
     "name": "Best Ribs In The Universe Rub",
     "path": "data/Best Ribs In The Universe Rub.txt"
   },
@@ -926,6 +930,10 @@ var recipes = [
   {
     "name": "Drop Biscuits",
     "path": "data/Drop Biscuits.txt"
+  },
+  {
+    "name": "Dublin Coddle",
+    "path": "data/Dublin Coddle.txt"
   },
   {
     "name": "Easier Fried Chicken",
@@ -2482,6 +2490,10 @@ var recipes = [
   {
     "name": "Spanish Tortilla de Patatas 2.0",
     "path": "data/Spanish Tortilla de Patatas 2.0.txt"
+  },
+  {
+    "name": "Spanish-Style Hot Chocolate",
+    "path": "data/Spanish-Style Hot Chocolate.txt"
   },
   {
     "name": "Speedy No-Knead Bread",
