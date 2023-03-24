@@ -1168,6 +1168,10 @@ var recipes = [
     "path": "data/Garlic Mashed Cauliflower.txt"
   },
   {
+    "name": "Garlic Naan grilled on oven grates",
+    "path": "data/Garlic Naan grilled on oven grates.txt"
+  },
+  {
     "name": "Garlic-Herb Roast Pork",
     "path": "data/Garlic-Herb Roast Pork.txt"
   },
