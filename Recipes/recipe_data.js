@@ -1068,6 +1068,10 @@ var recipes = [
     "path": "data/Fleur De Sel Caramels.txt"
   },
   {
+    "name": "Fluffy Baked Polenta with Red Sauce",
+    "path": "data/Fluffy Baked Polenta with Red Sauce.txt"
+  },
+  {
     "name": "Fluffy Dinner Rolls abbr",
     "path": "data/Fluffy Dinner Rolls abbr.txt"
   },
@@ -1762,6 +1766,10 @@ var recipes = [
   {
     "name": "New York Style Pizza Sauce",
     "path": "data/New York Style Pizza Sauce.txt"
+  },
+  {
+    "name": "No-Fuss Focaccia",
+    "path": "data/No-Fuss Focaccia.txt"
   },
   {
     "name": "No-Knead Brioche",
