@@ -136,6 +136,14 @@ var recipes = [
     "path": "data/Arugula Salad with Grapes, Fennel, Gorgonzola, and Pecans.txt"
   },
   {
+    "name": "Asian Noodle Salad - amindfullmom",
+    "path": "data/Asian Noodle Salad - amindfullmom.txt"
+  },
+  {
+    "name": "Asian Noodle Salad",
+    "path": "data/Asian Noodle Salad.txt"
+  },
+  {
     "name": "ATK Recipes 2007 Season",
     "path": "data/ATK Recipes 2007 Season.txt"
   },
@@ -730,6 +738,10 @@ var recipes = [
   {
     "name": "Cooks Illustrated Millionaires Shortbread",
     "path": "data/Cooks Illustrated Millionaires Shortbread.txt"
+  },
+  {
+    "name": "Cooks Illustrated Pad Thai",
+    "path": "data/Cooks Illustrated Pad Thai.txt"
   },
   {
     "name": "Cooks Illustrated Shepards Pie",
