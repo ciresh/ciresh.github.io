@@ -1500,6 +1500,10 @@ var recipes = [
     "path": "data/Kofta Kebabs.txt"
   },
   {
+    "name": "Lasagna Layers",
+    "path": "data/Lasagna Layers.txt"
+  },
+  {
     "name": "Latin Love",
     "path": "data/Latin Love.txt"
   },
@@ -2068,6 +2072,10 @@ var recipes = [
     "path": "data/Pusser's Pain Killer.txt"
   },
   {
+    "name": "Queso Dip",
+    "path": "data/Queso Dip.txt"
+  },
+  {
     "name": "Quick and Crispy Home Fries",
     "path": "data/Quick and Crispy Home Fries.txt"
   },
@@ -2614,6 +2622,10 @@ var recipes = [
   {
     "name": "Summer Peach Cake",
     "path": "data/Summer Peach Cake.txt"
+  },
+  {
+    "name": "Super Juice",
+    "path": "data/Super Juice.txt"
   },
   {
     "name": "Sweet and Sour Chicken",

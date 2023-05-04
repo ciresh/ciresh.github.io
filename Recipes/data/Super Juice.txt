@@ -1,0 +1,15 @@
+Super Juice
+
+Lime
+Citric  .67
+Malic   .33
+Water 16.66
+
+Lemon
+Citric  1.0
+Water 16.66
+
+Orange
+Citric  .90
+Malic   .10
+Water 16.66
