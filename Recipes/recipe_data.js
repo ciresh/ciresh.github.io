@@ -2757,7 +2757,7 @@ var recipes = [
   },
   {
     "name": "Turkey Meatloaf - myrecipes",
-    "path": "data/Turkey Meatloaf - myrecipes"
+    "path": "data/Turkey Meatloaf - myrecipes.txt"
   },
   {
     "name": "Tuscan White Bean Soup",
@@ -2858,6 +2858,10 @@ var recipes = [
   {
     "name": "Yellow Cupcakes with Chocolate Ganache Frosting",
     "path": "data/Yellow Cupcakes with Chocolate Ganache Frosting.txt"
+  },
+  {
+    "name": "Zelda Fruitcake (half recipe)",
+    "path": "data/Zelda Fruitcake (half recipe).txt"
   },
   {
     "name": "Zelda Fruitcake",
