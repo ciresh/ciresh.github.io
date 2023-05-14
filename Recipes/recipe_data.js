@@ -608,6 +608,10 @@ var recipes = [
     "path": "data/Chocolate Sour Cream Coffee Cake.txt"
   },
   {
+    "name": "Chocolate Swiss Buttercream Half Recipe",
+    "path": "data/Chocolate Swiss Buttercream Half Recipe.txt"
+  },
+  {
     "name": "Chocolate Tart",
     "path": "data/Chocolate Tart.txt"
   },
