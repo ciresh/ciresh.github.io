@@ -796,6 +796,10 @@ var recipes = [
     "path": "data/Cranberry-Nut Bread.txt"
   },
   {
+    "name": "Creamed Spinach (Cooks Country)",
+    "path": "data/Creamed Spinach (Cooks Country).txt"
+  },
+  {
     "name": "Creamed Spinach - Baby Bistro",
     "path": "data/Creamed Spinach - Baby Bistro.txt"
   },
@@ -1046,6 +1050,10 @@ var recipes = [
   {
     "name": "Falafel",
     "path": "data/Falafel.txt"
+  },
+  {
+    "name": "Fast and Easy Creamed Spinach (Chef John)",
+    "path": "data/Fast and Easy Creamed Spinach (Chef John).txt"
   },
   {
     "name": "Feather's McGraw Drink",
@@ -1870,6 +1878,10 @@ var recipes = [
   {
     "name": "Oven Grilled Reuben Sandwiches",
     "path": "data/Oven Grilled Reuben Sandwiches.txt"
+  },
+  {
+    "name": "Oven-Roasted Breakfast Potatoes (Chef John)",
+    "path": "data/Oven-Roasted Breakfast Potatoes (Chef John).txt"
   },
   {
     "name": "Overnight Belgian Waffles - barefoot contessas",
