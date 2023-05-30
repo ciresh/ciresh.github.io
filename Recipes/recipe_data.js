@@ -2452,12 +2452,16 @@ var recipes = [
     "path": "data/Smoked Salmon - Alton Brown.txt"
   },
   {
-    "name": "Smoked Salmon - EJS - light on sugar and salt",
-    "path": "data/Smoked Salmon - EJS - light on sugar and salt.txt"
+    "name": "Smoked Salmon - EJS - light on sugar and salt -Notes",
+    "path": "data/Smoked Salmon - EJS - light on sugar and salt -Notes.txt"
   },
   {
-    "name": "Smoked Salmon - light on sugar and salt",
-    "path": "data/Smoked Salmon - light on sugar and salt.txt"
+    "name": "Smoked Salmon - light on sugar and salt - original",
+    "path": "data/Smoked Salmon - light on sugar and salt - original.txt"
+  },
+  {
+    "name": "Smoked Salmon - Light on sugar and salt",
+    "path": "data/Smoked Salmon - Light on sugar and salt.txt"
   },
   {
     "name": "Smoked Salmon Sauce",
@@ -2614,6 +2618,10 @@ var recipes = [
   {
     "name": "Strawberry pie",
     "path": "data/Strawberry pie.txt"
+  },
+  {
+    "name": "Strawberry Rhubarb Drop Biscuits",
+    "path": "data/Strawberry Rhubarb Drop Biscuits.txt"
   },
   {
     "name": "Strawberry Smoothie",
