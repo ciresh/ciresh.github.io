@@ -712,6 +712,10 @@ var recipes = [
     "path": "data/COD BAKED IN FOIL.txt"
   },
   {
+    "name": "Cold Miso-Sesame Noodles",
+    "path": "data/Cold Miso-Sesame Noodles.txt"
+  },
+  {
     "name": "Cook's Grilled Fish Tacos",
     "path": "data/Cook's Grilled Fish Tacos.txt"
   },
@@ -892,8 +896,12 @@ var recipes = [
     "path": "data/Cup of Everything.txt"
   },
   {
-    "name": "Curried Chicken Salad With Cashews.txt",
-    "path": "data/Curried Chicken Salad With Cashews.txt.txt"
+    "name": "Curried Chicken Salad With Cashews - CI",
+    "path": "data/Curried Chicken Salad With Cashews - CI.txt"
+  },
+  {
+    "name": "Curried Chicken Salad",
+    "path": "data/Curried Chicken Salad.txt"
   },
   {
     "name": "Czech Bread Dumplings (Knedl\u00edky)",
@@ -1696,6 +1704,10 @@ var recipes = [
     "path": "data/Mini Meatloaf Ghosts.txt"
   },
   {
+    "name": "Miso Honey Chicken",
+    "path": "data/Miso Honey Chicken.txt"
+  },
+  {
     "name": "Miso Soup",
     "path": "data/Miso Soup.txt"
   },
@@ -2098,6 +2110,10 @@ var recipes = [
   {
     "name": "Quick and Easy French Toast Casserole - Rachael Ray",
     "path": "data/Quick and Easy French Toast Casserole - Rachael Ray.txt"
+  },
+  {
+    "name": "Quick and Easy Refrigerator Pickles",
+    "path": "data/Quick and Easy Refrigerator Pickles.txt"
   },
   {
     "name": "Quick Chicken Couscous",
@@ -2504,6 +2520,10 @@ var recipes = [
     "path": "data/Sourdough Bread (Chain Baker).txt"
   },
   {
+    "name": "Sous Vide Carnitas",
+    "path": "data/Sous Vide Carnitas.txt"
+  },
+  {
     "name": "Sous Vide Fried Chicken",
     "path": "data/Sous Vide Fried Chicken.txt"
   },
@@ -2622,6 +2642,10 @@ var recipes = [
   {
     "name": "Strawberry Rhubarb Drop Biscuits",
     "path": "data/Strawberry Rhubarb Drop Biscuits.txt"
+  },
+  {
+    "name": "Strawberry Shortcake Layer Cake",
+    "path": "data/Strawberry Shortcake Layer Cake.txt"
   },
   {
     "name": "Strawberry Smoothie",
@@ -2794,6 +2818,10 @@ var recipes = [
   {
     "name": "Twice-Baked Potatoes with Smoked Salmon and Chives",
     "path": "data/Twice-Baked Potatoes with Smoked Salmon and Chives.txt"
+  },
+  {
+    "name": "Tzatziki Sauce",
+    "path": "data/Tzatziki Sauce.txt"
   },
   {
     "name": "Ultimate Flourless",
