@@ -468,6 +468,10 @@ var recipes = [
     "path": "data/Chef John Cast Iron Cornbread.txt"
   },
   {
+    "name": "Chef John's Classic Strawberry Shortcake",
+    "path": "data/Chef John's Classic Strawberry Shortcake.txt"
+  },
+  {
     "name": "Chef John's Country Bread",
     "path": "data/Chef John's Country Bread.txt"
   },
@@ -1428,6 +1432,10 @@ var recipes = [
     "path": "data/Instant Pot Chili.txt"
   },
   {
+    "name": "Instant Pot Cilantro Lime Rice",
+    "path": "data/Instant Pot Cilantro Lime Rice.txt"
+  },
+  {
     "name": "Instant Pot Corned Beef and Cabbage",
     "path": "data/Instant Pot Corned Beef and Cabbage.txt"
   },
@@ -1916,6 +1924,10 @@ var recipes = [
     "path": "data/Overnight Yeasted Waffles.txt"
   },
   {
+    "name": "Pad Thai (Kenji)",
+    "path": "data/Pad Thai (Kenji).txt"
+  },
+  {
     "name": "Pan Pizza Dough",
     "path": "data/Pan Pizza Dough.txt"
   },
@@ -2066,6 +2078,10 @@ var recipes = [
   {
     "name": "Potted Shrimp",
     "path": "data/Potted Shrimp.txt"
+  },
+  {
+    "name": "Poutine Gravy",
+    "path": "data/Poutine Gravy.txt"
   },
   {
     "name": "Prawleens (pralines)",
