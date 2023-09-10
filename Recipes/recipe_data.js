@@ -1144,6 +1144,10 @@ var recipes = [
     "path": "data/Freezer Chicken Enchiladas.txt"
   },
   {
+    "name": "French Apple Cake (Chef John)",
+    "path": "data/French Apple Cake (Chef John).txt"
+  },
+  {
     "name": "French Apple Cake",
     "path": "data/French Apple Cake.txt"
   },
