@@ -500,6 +500,10 @@ var recipes = [
     "path": "data/Chicken and Rice with Broccoli.txt"
   },
   {
+    "name": "Chicken Bacon Ranch Enchiladas",
+    "path": "data/Chicken Bacon Ranch Enchiladas.txt"
+  },
+  {
     "name": "Chicken Fajitas Indoors",
     "path": "data/Chicken Fajitas Indoors.txt"
   },
