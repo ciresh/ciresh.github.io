@@ -1720,6 +1720,10 @@ var recipes = [
     "path": "data/Mini Meatloaf Ghosts.txt"
   },
   {
+    "name": "Miso Beef Noodles",
+    "path": "data/Miso Beef Noodles.txt"
+  },
+  {
     "name": "Miso Honey Chicken",
     "path": "data/Miso Honey Chicken.txt"
   },
