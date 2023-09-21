@@ -52,6 +52,10 @@ var recipes = [
     "path": "data/All-Occasion Downy Yellow Butter Cup Cake.txt"
   },
   {
+    "name": "All-Purpose Cornbread",
+    "path": "data/All-Purpose Cornbread.txt"
+  },
+  {
     "name": "All-purpose Gravy",
     "path": "data/All-purpose Gravy.txt"
   },
@@ -98,6 +102,14 @@ var recipes = [
   {
     "name": "Apple Butter - Cooks Illustrated",
     "path": "data/Apple Butter - Cooks Illustrated.txt"
+  },
+  {
+    "name": "Apple Butter Muffins (filled)",
+    "path": "data/Apple Butter Muffins (filled).txt"
+  },
+  {
+    "name": "Apple Butter Muffins",
+    "path": "data/Apple Butter Muffins.txt"
   },
   {
     "name": "Apple Crumble",
@@ -194,6 +206,10 @@ var recipes = [
   {
     "name": "Banana Bread Mug Cake in a Minute",
     "path": "data/Banana Bread Mug Cake in a Minute.txt"
+  },
+  {
+    "name": "Banana Butter Cream",
+    "path": "data/Banana Butter Cream.txt"
   },
   {
     "name": "Barbara's Milk Chocolate Fudge",
@@ -294,6 +310,10 @@ var recipes = [
   {
     "name": "Better Than A-1 Steak Marinade",
     "path": "data/Better Than A-1 Steak Marinade.txt"
+  },
+  {
+    "name": "Biscuit and Gravy",
+    "path": "data/Biscuit and Gravy.txt"
   },
   {
     "name": "Bittersweet Chocolate Mousse Cake",
@@ -908,6 +928,10 @@ var recipes = [
     "path": "data/Curried Chicken Salad With Cashews - CI.txt"
   },
   {
+    "name": "Curried Chicken Salad With Cashews",
+    "path": "data/Curried Chicken Salad With Cashews.Txt"
+  },
+  {
     "name": "Curried Chicken Salad",
     "path": "data/Curried Chicken Salad.txt"
   },
@@ -986,6 +1010,10 @@ var recipes = [
   {
     "name": "Eastrer 2018",
     "path": "data/Eastrer 2018.txt"
+  },
+  {
+    "name": "Easy Chicken Lo Mein",
+    "path": "data/Easy Chicken Lo Mein.txt"
   },
   {
     "name": "Easy Chicken Tacos",
@@ -1444,6 +1472,10 @@ var recipes = [
     "path": "data/Instant Pot Cilantro Lime Rice.txt"
   },
   {
+    "name": "Instant Pot Classic Hummus",
+    "path": "data/Instant Pot Classic Hummus.TXT"
+  },
+  {
     "name": "Instant Pot Corned Beef and Cabbage",
     "path": "data/Instant Pot Corned Beef and Cabbage.txt"
   },
@@ -1524,6 +1556,10 @@ var recipes = [
     "path": "data/King Arthur Italian Merigue.txt"
   },
   {
+    "name": "King Author Italian Merigue",
+    "path": "data/King Author Italian Merigue.txt"
+  },
+  {
     "name": "Kofta Kebabs (3x)",
     "path": "data/Kofta Kebabs (3x).txt"
   },
@@ -1542,6 +1578,10 @@ var recipes = [
   {
     "name": "Latin Love",
     "path": "data/Latin Love.txt"
+  },
+  {
+    "name": "Latin_Love",
+    "path": "data/Latin_Love.txt"
   },
   {
     "name": "Latkes",
@@ -2180,6 +2220,10 @@ var recipes = [
     "path": "data/Raspberry Chiffon Pie.txt"
   },
   {
+    "name": "Raspberry Cream Cheese Danish",
+    "path": "data/Raspberry Cream Cheese Danish.txt"
+  },
+  {
     "name": "Raspberry Macarons",
     "path": "data/Raspberry Macarons.txt"
   },
@@ -2498,6 +2542,10 @@ var recipes = [
   {
     "name": "Smoked Salmon - EJS - light on sugar and salt -Notes",
     "path": "data/Smoked Salmon - EJS - light on sugar and salt -Notes.txt"
+  },
+  {
+    "name": "Smoked Salmon - EJS - light on sugar and salt",
+    "path": "data/Smoked Salmon - EJS - light on sugar and salt.txt"
   },
   {
     "name": "Smoked Salmon - light on sugar and salt - original",
