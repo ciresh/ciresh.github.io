@@ -2024,6 +2024,10 @@ var recipes = [
     "path": "data/Peach Cobbler.txt"
   },
   {
+    "name": "Peanut Butter Chocolate Lava Cakes",
+    "path": "data/Peanut Butter Chocolate Lava Cakes.txt"
+  },
+  {
     "name": "Peanut Dipping Sauce",
     "path": "data/Peanut Dipping Sauce.txt"
   },
