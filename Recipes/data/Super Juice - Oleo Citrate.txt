@@ -1,0 +1,16 @@
+Super Juice
+
+Lime 
+Citric Acid - 0.66 × weight of lime peels  
+Malic Acid - 0.33 × weight of lime peels  
+Water - 16.66 × weight of lime peels  
+
+Lemon 
+Citric Acid - the equal weight of lemon peels 
+Water - 16.66x weight of lemon peels  
+
+
+Orange
+Citric Acid - 0.9 × weight of orange peels  
+Malic Acid - 0.1 × weight of orange peels  
+Water - 16.66 × weight of orange peels  

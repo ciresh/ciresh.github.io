@@ -1080,6 +1080,10 @@ var recipes = [
     "path": "data/Eric Recipe Markup Language.txt"
   },
   {
+    "name": "Eric's Rub",
+    "path": "data/Eric's Rub.txt"
+  },
+  {
     "name": "Eric's Shawarma",
     "path": "data/Eric's Shawarma.txt"
   },
@@ -2750,6 +2754,10 @@ var recipes = [
   {
     "name": "Summer Peach Cake",
     "path": "data/Summer Peach Cake.txt"
+  },
+  {
+    "name": "Super Juice - Oleo Citrate",
+    "path": "data/Super Juice - Oleo Citrate.txt"
   },
   {
     "name": "Super Juice",
