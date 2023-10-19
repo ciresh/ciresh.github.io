@@ -456,6 +456,10 @@ var recipes = [
     "path": "data/Caramelized Pears with Blue Cheese and Black Pepper-Caramel Sauce.txt"
   },
   {
+    "name": "Cardamom Buns",
+    "path": "data/Cardamom Buns.txt"
+  },
+  {
     "name": "Cast Iron Skillet Corn Bread 8 in",
     "path": "data/Cast Iron Skillet Corn Bread 8 in.txt"
   },
