@@ -32,10 +32,6 @@ var recipes = [
     "path": "data/All Purpose Cornbread abbr.txt"
   },
   {
-    "name": "All Purpose Cornbread Eric's Mod",
-    "path": "data/All Purpose Cornbread Eric's Mod.txt"
-  },
-  {
     "name": "All Purpose Cornbread",
     "path": "data/All Purpose Cornbread.txt"
   },
@@ -178,6 +174,10 @@ var recipes = [
   {
     "name": "Bake Autin Pestos",
     "path": "data/Bake Autin Pestos.txt"
+  },
+  {
+    "name": "Baked Apple Cider Donuts",
+    "path": "data/Baked Apple Cider Donuts.txt"
   },
   {
     "name": "Baked French Toast Casserole with Maple Syrup",
@@ -394,6 +394,10 @@ var recipes = [
   {
     "name": "Brown Butter Blondies",
     "path": "data/Brown Butter Blondies.txt"
+  },
+  {
+    "name": "Brown Sugar Boba Pearls",
+    "path": "data/Brown Sugar Boba Pearls.txt"
   },
   {
     "name": "Burnt Sugar Ice Cream",
@@ -2582,6 +2586,10 @@ var recipes = [
   {
     "name": "Smores Bar (8x8)",
     "path": "data/Smores Bar (8x8).txt"
+  },
+  {
+    "name": "Soft Boiled Eggs",
+    "path": "data/Soft Boiled Eggs.txt"
   },
   {
     "name": "Soft Sandwich Bread with Flax",
