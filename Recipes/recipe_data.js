@@ -120,6 +120,10 @@ var recipes = [
     "path": "data/Apple Muffins.txt"
   },
   {
+    "name": "Apple Pie Sous Vide Filling",
+    "path": "data/Apple Pie Sous Vide Filling.txt"
+  },
+  {
     "name": "Apple Walnut Canadian Butter Tarts",
     "path": "data/Apple Walnut Canadian Butter Tarts.txt"
   },
@@ -1088,6 +1092,10 @@ var recipes = [
     "path": "data/Eric Recipe Markup Language.txt"
   },
   {
+    "name": "Eric's Ricotta Pie",
+    "path": "data/Eric's Ricotta Pie.txt"
+  },
+  {
     "name": "Eric's Rub",
     "path": "data/Eric's Rub.txt"
   },
@@ -1396,6 +1404,10 @@ var recipes = [
     "path": "data/Ham and Potato Soup.txt"
   },
   {
+    "name": "Hamburger or Hot Dog Buns (KAF)",
+    "path": "data/Hamburger or Hot Dog Buns (KAF).txt"
+  },
+  {
     "name": "Heart Pan Chocolate Cakes",
     "path": "data/Heart Pan Chocolate Cakes.txt"
   },
@@ -1606,6 +1618,10 @@ var recipes = [
   {
     "name": "Leaner Fresh Peach Ice Cream",
     "path": "data/Leaner Fresh Peach Ice Cream.txt"
+  },
+  {
+    "name": "Lemon bread - Reddit",
+    "path": "data/Lemon bread - Reddit.txt"
   },
   {
     "name": "Lemon Bread-2",
