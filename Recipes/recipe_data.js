@@ -2608,6 +2608,10 @@ var recipes = [
     "path": "data/Soft Boiled Eggs.txt"
   },
   {
+    "name": "Soft Cinnamon Rolls",
+    "path": "data/Soft Cinnamon Rolls.txt"
+  },
+  {
     "name": "Soft Sandwich Bread with Flax",
     "path": "data/Soft Sandwich Bread with Flax.txt"
   },
