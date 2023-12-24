@@ -88,6 +88,10 @@ var recipes = [
     "path": "data/American Sandwich Bread.txt"
   },
   {
+    "name": "Amish Dinner Rolls",
+    "path": "data/Amish Dinner Rolls.txt"
+  },
+  {
     "name": "Amy's Ricotta Pie (3 pies)",
     "path": "data/Amy's Ricotta Pie (3 pies).txt"
   },
