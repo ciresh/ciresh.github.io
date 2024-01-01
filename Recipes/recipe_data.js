@@ -1292,6 +1292,10 @@ var recipes = [
     "path": "data/General Eric's Chicken.txt"
   },
   {
+    "name": "Ghost Cream Cheese Brownies",
+    "path": "data/Ghost Cream Cheese Brownies.txt"
+  },
+  {
     "name": "Giblet Pan Gravy for a Crowd",
     "path": "data/Giblet Pan Gravy for a Crowd.txt"
   },
