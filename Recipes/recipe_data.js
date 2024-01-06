@@ -1272,6 +1272,10 @@ var recipes = [
     "path": "data/Garlic Naan grilled on oven grates.txt"
   },
   {
+    "name": "Garlic Tuscan Bread 1.5x",
+    "path": "data/Garlic Tuscan Bread 1.5x.txt"
+  },
+  {
     "name": "Garlic Tuscan Bread",
     "path": "data/Garlic Tuscan Bread.txt"
   },
