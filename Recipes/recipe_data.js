@@ -12,6 +12,10 @@ var recipes = [
     "path": "data/Agave Margarita.txt"
   },
   {
+    "name": "Air Fryer Candied Pecans",
+    "path": "data/Air Fryer Candied Pecans.txt"
+  },
+  {
     "name": "Alenas Mac and Pasta Salad",
     "path": "data/Alenas Mac and Pasta Salad.txt"
   },
