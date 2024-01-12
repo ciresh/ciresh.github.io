@@ -816,6 +816,10 @@ var recipes = [
     "path": "data/Copy of Malaysian Chicken Pizza.txt"
   },
   {
+    "name": "Coq Au Vin (Chef John)",
+    "path": "data/Coq Au Vin (Chef John).txt"
+  },
+  {
     "name": "Coquito (Egg Nog)",
     "path": "data/Coquito (Egg Nog).txt"
   },
@@ -1274,6 +1278,10 @@ var recipes = [
   {
     "name": "Garlic Naan grilled on oven grates",
     "path": "data/Garlic Naan grilled on oven grates.txt"
+  },
+  {
+    "name": "Garlic Tuscan Bread 1.25x",
+    "path": "data/Garlic Tuscan Bread 1.25x.txt"
   },
   {
     "name": "Garlic Tuscan Bread 1.5x",
