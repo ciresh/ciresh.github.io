@@ -452,6 +452,10 @@ var recipes = [
     "path": "data/Buttermilk Waffles2 (seltzer).txt"
   },
   {
+    "name": "Buttermilk",
+    "path": "data/Buttermilk.txt"
+  },
+  {
     "name": "Butternut Squash Soup",
     "path": "data/Butternut Squash Soup.txt"
   },
