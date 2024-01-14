@@ -44,6 +44,10 @@ var recipes = [
     "path": "data/All-American Potato Salad.txt"
   },
   {
+    "name": "All-Butter Pie Crust for 7-inch Crust (King Arthur)",
+    "path": "data/All-Butter Pie Crust for 7-inch Crust (King Arthur).txt"
+  },
+  {
     "name": "All-Occasion Downy Yellow Butter Cake",
     "path": "data/All-Occasion Downy Yellow Butter Cake.txt"
   },
@@ -2088,6 +2092,10 @@ var recipes = [
     "path": "data/Peanut Dipping Sauce.txt"
   },
   {
+    "name": "Pecan Pie - 7 Inch",
+    "path": "data/Pecan Pie - 7 Inch.txt"
+  },
+  {
     "name": "Pecan Pie",
     "path": "data/Pecan Pie.txt"
   },
@@ -2118,6 +2126,10 @@ var recipes = [
   {
     "name": "Persian-Style Rice with Golden Crust",
     "path": "data/Persian-Style Rice with Golden Crust.txt"
+  },
+  {
+    "name": "Pie Crust (Kenji)",
+    "path": "data/Pie Crust (Kenji).txt"
   },
   {
     "name": "Pie Crust",
