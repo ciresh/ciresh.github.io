@@ -64,6 +64,10 @@ var recipes = [
     "path": "data/All-purpose Gravy.txt"
   },
   {
+    "name": "Almond Paste (KAF)",
+    "path": "data/Almond Paste (KAF).txt"
+  },
+  {
     "name": "Almost No-Knead Bread",
     "path": "data/Almost No-Knead Bread.txt"
   },
@@ -574,6 +578,10 @@ var recipes = [
   {
     "name": "Chicken Pan Pie",
     "path": "data/Chicken Pan Pie.txt"
+  },
+  {
+    "name": "Chicken Parm Burgers (Chef John)",
+    "path": "data/Chicken Parm Burgers (Chef John).txt"
   },
   {
     "name": "Chicken Pasta e Fagiole with Smoked Paprika",
