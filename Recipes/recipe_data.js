@@ -1296,6 +1296,10 @@ var recipes = [
     "path": "data/Garlic Naan grilled on oven grates.txt"
   },
   {
+    "name": "Garlic Tuscan Bread 1.25x Yundane",
+    "path": "data/Garlic Tuscan Bread 1.25x Yundane.txt"
+  },
+  {
     "name": "Garlic Tuscan Bread 1.25x",
     "path": "data/Garlic Tuscan Bread 1.25x.txt"
   },
@@ -3082,6 +3086,10 @@ var recipes = [
   {
     "name": "Yellow Cupcakes with Chocolate Ganache Frosting",
     "path": "data/Yellow Cupcakes with Chocolate Ganache Frosting.txt"
+  },
+  {
+    "name": "Yudan Bread",
+    "path": "data/Yudan Bread.txt"
   },
   {
     "name": "Zelda Fruitcake (half recipe)",
