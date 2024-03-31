@@ -760,6 +760,10 @@ var recipes = [
     "path": "data/Classic Cr\u00e8me Caramel.txt"
   },
   {
+    "name": "Classic Dill Pickles",
+    "path": "data/Classic Dill Pickles.txt"
+  },
+  {
     "name": "Clotted Cream",
     "path": "data/Clotted Cream.txt"
   },
@@ -1344,6 +1348,10 @@ var recipes = [
     "path": "data/Glazed All-Beef Meatloaf.txt"
   },
   {
+    "name": "Glazed Chocolate Donuts",
+    "path": "data/Glazed Chocolate Donuts.txt"
+  },
+  {
     "name": "Glazed Spiral-Sliced Ham",
     "path": "data/Glazed Spiral-Sliced Ham.txt"
   },
@@ -1890,6 +1898,10 @@ var recipes = [
   {
     "name": "Moroccan Lamb Tangine with Green Couscous",
     "path": "data/Moroccan Lamb Tangine with Green Couscous.txt"
+  },
+  {
+    "name": "Morton's Steakhouse Creamed Spinach",
+    "path": "data/Morton's Steakhouse Creamed Spinach.txt"
   },
   {
     "name": "Mrs. Gartner's Banana Bread",
