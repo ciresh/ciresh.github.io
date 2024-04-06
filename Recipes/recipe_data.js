@@ -1612,6 +1612,10 @@ var recipes = [
     "path": "data/Kale Chips.txt"
   },
   {
+    "name": "Kenji Food Lab Meatballs",
+    "path": "data/Kenji Food Lab Meatballs.txt"
+  },
+  {
     "name": "Kenji Updated Chicken Wings",
     "path": "data/Kenji Updated Chicken Wings.txt"
   },
