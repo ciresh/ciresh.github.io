@@ -764,6 +764,10 @@ var recipes = [
     "path": "data/Classic Dill Pickles.txt"
   },
   {
+    "name": "Classic Rice Pilaf (Chef John)",
+    "path": "data/Classic Rice Pilaf (Chef John).txt"
+  },
+  {
     "name": "Clotted Cream",
     "path": "data/Clotted Cream.txt"
   },
