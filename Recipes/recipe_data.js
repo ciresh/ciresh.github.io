@@ -1784,6 +1784,10 @@ var recipes = [
     "path": "data/Malaysian Chicken Pizza.txt"
   },
   {
+    "name": "Mango Cake Recipe",
+    "path": "data/Mango Cake Recipe.txt"
+  },
+  {
     "name": "Maple Walnut Ice Cream",
     "path": "data/Maple Walnut Ice Cream.txt"
   },
