@@ -752,8 +752,8 @@ var recipes = [
     "path": "data/Clambake.txt"
   },
   {
-    "name": "CLASSIC CHICKEN SALAD",
-    "path": "data/CLASSIC CHICKEN SALAD.txt"
+    "name": "Classic Chicken Salad",
+    "path": "data/Classic Chicken Salad.txt"
   },
   {
     "name": "Classic Cr\u00e8me Caramel",
@@ -776,12 +776,12 @@ var recipes = [
     "path": "data/Coconut Ice Cream.txt"
   },
   {
-    "name": "COD BAKED IN FOIL WITH LEEKS AND CARROTS",
-    "path": "data/COD BAKED IN FOIL WITH LEEKS AND CARROTS.txt"
+    "name": "Cod Baked in Foil with Leeks and Carrots",
+    "path": "data/Cod Baked in Foil with Leeks and Carrots.txt"
   },
   {
-    "name": "COD BAKED IN FOIL",
-    "path": "data/COD BAKED IN FOIL.txt"
+    "name": "Cod Baked in Foil",
+    "path": "data/Cod Baked in Foil.txt"
   },
   {
     "name": "Cold Miso-Sesame Noodles",
@@ -1557,7 +1557,7 @@ var recipes = [
   },
   {
     "name": "Instant Pot Classic Hummus",
-    "path": "data/Instant Pot Classic Hummus.TXT"
+    "path": "data/Instant Pot Classic Hummus.txt"
   },
   {
     "name": "Instant Pot Corned Beef and Cabbage",
@@ -1570,6 +1570,10 @@ var recipes = [
   {
     "name": "Instant Pot Leftofter Hambone Soup",
     "path": "data/Instant Pot Leftofter Hambone Soup.txt"
+  },
+  {
+    "name": "Instant Pot Polenta Single Serving",
+    "path": "data/Instant Pot Polenta Single Serving.txt"
   },
   {
     "name": "Instant Pot Risotto a la Carbonara",
@@ -1648,16 +1652,8 @@ var recipes = [
     "path": "data/King Arthur Italian Merigue.txt"
   },
   {
-    "name": "King Author Italian Merigue",
-    "path": "data/King Author Italian Merigue.txt"
-  },
-  {
     "name": "Kofta Kebabs (3x)",
     "path": "data/Kofta Kebabs (3x).txt"
-  },
-  {
-    "name": "Kofta Kebabs - 2",
-    "path": "data/Kofta Kebabs - 2.txt"
   },
   {
     "name": "Kofta Kebabs",
@@ -2596,8 +2592,8 @@ var recipes = [
     "path": "data/Skillet Apple Crisp.txt"
   },
   {
-    "name": "SKILLET APPLE PIE",
-    "path": "data/SKILLET APPLE PIE.txt"
+    "name": "Skillet Apple Pie",
+    "path": "data/Skillet Apple Pie.txt"
   },
   {
     "name": "Skillet Baked Ziti",
@@ -3002,6 +2998,10 @@ var recipes = [
   {
     "name": "Tres Leches Cake Recipe,txt",
     "path": "data/Tres Leches Cake Recipe,txt.txt"
+  },
+  {
+    "name": "Turkey Burgers With Herb-Grilled Vidalia Onion Rings",
+    "path": "data/Turkey Burgers With Herb-Grilled Vidalia Onion Rings.txt"
   },
   {
     "name": "Turkey Meat Loaf",
