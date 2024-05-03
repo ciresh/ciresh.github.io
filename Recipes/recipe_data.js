@@ -416,6 +416,10 @@ var recipes = [
     "path": "data/Brown Butter Blondies.txt"
   },
   {
+    "name": "Brown Butter Bourbon Pecan Chocolate Chunk Cookies",
+    "path": "data/Brown Butter Bourbon Pecan Chocolate Chunk Cookies.txt"
+  },
+  {
     "name": "Brown Sugar Boba Pearls",
     "path": "data/Brown Sugar Boba Pearls.txt"
   },
@@ -2974,6 +2978,10 @@ var recipes = [
   {
     "name": "Toasted Thanksgiving Sub",
     "path": "data/Toasted Thanksgiving Sub.txt"
+  },
+  {
+    "name": "Tomatillo Minestra Mayo Sloppy Chicken Pizza",
+    "path": "data/Tomatillo Minestra Mayo Sloppy Chicken Pizza.txt"
   },
   {
     "name": "Tomato and Artichoke Casserole",
