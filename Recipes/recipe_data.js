@@ -864,6 +864,10 @@ var recipes = [
     "path": "data/Corn Dogs.txt"
   },
   {
+    "name": "Corn Ribs",
+    "path": "data/Corn Ribs.txt"
+  },
+  {
     "name": "Corned Beef Hash",
     "path": "data/Corned Beef Hash.txt"
   },
@@ -1102,6 +1106,10 @@ var recipes = [
   {
     "name": "Eggnog Brioche Cinnamon Rolls",
     "path": "data/Eggnog Brioche Cinnamon Rolls.txt"
+  },
+  {
+    "name": "Eggplant Parmesan Casserole",
+    "path": "data/Eggplant Parmesan Casserole.txt"
   },
   {
     "name": "Elote Appetizer from the Elote Cafe",
@@ -1422,6 +1430,10 @@ var recipes = [
   {
     "name": "Grilled Chicken Souvlaki",
     "path": "data/Grilled Chicken Souvlaki.txt"
+  },
+  {
+    "name": "Grilled Chicken Teriyaki Skewers with Miso Ranch",
+    "path": "data/Grilled Chicken Teriyaki Skewers with Miso Ranch.txt"
   },
   {
     "name": "Grilled Chocolate Sandwiches",
@@ -3004,8 +3016,8 @@ var recipes = [
     "path": "data/Touch of Grace Biscuits.txt"
   },
   {
-    "name": "Tres Leches Cake Recipe,txt",
-    "path": "data/Tres Leches Cake Recipe,txt.txt"
+    "name": "Tres Leches Cake Recipe",
+    "path": "data/Tres Leches Cake Recipe.txt"
   },
   {
     "name": "Turkey Burgers With Herb-Grilled Vidalia Onion Rings",
