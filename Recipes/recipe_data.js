@@ -1760,6 +1760,10 @@ var recipes = [
     "path": "data/Lime-Cilantro Rice with Pineapple.txt"
   },
   {
+    "name": "Louis Charles Henley's All-Purpose Rub (Brisket)",
+    "path": "data/Louis Charles Henley's All-Purpose Rub (Brisket).txt"
+  },
+  {
     "name": "Low Fat Banana Bread",
     "path": "data/Low Fat Banana Bread.txt"
   },
@@ -2250,6 +2254,10 @@ var recipes = [
   {
     "name": "Potato and Cheese Pierogi",
     "path": "data/Potato and Cheese Pierogi.txt"
+  },
+  {
+    "name": "Potato Salad Recipe - Kenji",
+    "path": "data/Potato Salad Recipe - Kenji.txt"
   },
   {
     "name": "Potatoes Lyonnaise",
@@ -2850,6 +2858,10 @@ var recipes = [
   {
     "name": "Strawberry pie",
     "path": "data/Strawberry pie.txt"
+  },
+  {
+    "name": "Strawberry Pretzel Salad",
+    "path": "data/Strawberry Pretzel Salad.txt"
   },
   {
     "name": "Strawberry Rhubarb Drop Biscuits",
