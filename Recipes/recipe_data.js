@@ -236,6 +236,10 @@ var recipes = [
     "path": "data/Barbara's Milk Chocolate Fudge.txt"
   },
   {
+    "name": "Barbecue Sauce - Chef John",
+    "path": "data/Barbecue Sauce - Chef John.txt"
+  },
+  {
     "name": "Barbecued Pork Skewers",
     "path": "data/Barbecued Pork Skewers.txt"
   },
@@ -1472,8 +1476,8 @@ var recipes = [
     "path": "data/Grilled Shrimp with Spicy Garlic Paste.txt"
   },
   {
-    "name": "ham and chicken",
-    "path": "data/ham and chicken.txt"
+    "name": "Ham and chicken",
+    "path": "data/Ham and chicken.txt"
   },
   {
     "name": "Ham and Potato Soup",
@@ -1774,6 +1778,10 @@ var recipes = [
   {
     "name": "Macaroni and Cheese with Grape Tomatoes",
     "path": "data/Macaroni and Cheese with Grape Tomatoes.txt"
+  },
+  {
+    "name": "Macaroni Salad - Chef John",
+    "path": "data/Macaroni Salad - Chef John.txt"
   },
   {
     "name": "Macaroni Salad",
