@@ -2156,6 +2156,10 @@ var recipes = [
     "path": "data/Peanut Butter Chocolate Lava Cakes.txt"
   },
   {
+    "name": "Peanut Butter Frosting",
+    "path": "data/Peanut Butter Frosting.txt"
+  },
+  {
     "name": "Peanut Dipping Sauce",
     "path": "data/Peanut Dipping Sauce.txt"
   },
