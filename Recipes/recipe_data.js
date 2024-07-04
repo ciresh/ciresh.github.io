@@ -600,6 +600,10 @@ var recipes = [
     "path": "data/Chicken Salad.txt"
   },
   {
+    "name": "Chicken Souvlaki",
+    "path": "data/Chicken Souvlaki.txt"
+  },
+  {
     "name": "Chicken Teriyaki",
     "path": "data/Chicken Teriyaki.txt"
   },
