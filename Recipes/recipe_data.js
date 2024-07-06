@@ -3076,6 +3076,10 @@ var recipes = [
     "path": "data/Tzatziki Sauce.txt"
   },
   {
+    "name": "Ultimate Burger Seasoning",
+    "path": "data/Ultimate Burger Seasoning.txt"
+  },
+  {
     "name": "Ultimate Flourless",
     "path": "data/Ultimate Flourless.txt"
   },
