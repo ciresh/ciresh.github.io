@@ -2936,6 +2936,10 @@ var recipes = [
     "path": "data/Sweet and Tangy Tartar Sauce.txt"
   },
   {
+    "name": "Sweet Cherry",
+    "path": "data/Sweet Cherry.txt"
+  },
+  {
     "name": "Sweet Dark Cherry Cobbler",
     "path": "data/Sweet Dark Cherry Cobbler.txt"
   },
