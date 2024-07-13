@@ -3084,6 +3084,10 @@ var recipes = [
     "path": "data/Ultimate Burger Seasoning.txt"
   },
   {
+    "name": "Ultimate Cowboy Caviar",
+    "path": "data/Ultimate Cowboy Caviar.txt"
+  },
+  {
     "name": "Ultimate Flourless",
     "path": "data/Ultimate Flourless.txt"
   },
