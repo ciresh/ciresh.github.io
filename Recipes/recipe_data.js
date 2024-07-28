@@ -12,6 +12,10 @@ var recipes = [
     "path": "data/Agave Margarita.txt"
   },
   {
+    "name": "Air Fryer Biscuits",
+    "path": "data/Air Fryer Biscuits.txt"
+  },
+  {
     "name": "Air Fryer Candied Pecans",
     "path": "data/Air Fryer Candied Pecans.txt"
   },
@@ -2340,6 +2344,10 @@ var recipes = [
     "path": "data/Quick Chicken Couscous.txt"
   },
   {
+    "name": "Quick Chicken Shawarma Taco",
+    "path": "data/Quick Chicken Shawarma Taco.txt"
+  },
+  {
     "name": "Quick Cinnamon Buns with Buttermilk Icing",
     "path": "data/Quick Cinnamon Buns with Buttermilk Icing.txt"
   },
@@ -2558,6 +2566,10 @@ var recipes = [
   {
     "name": "Shawarma - Binging With Babish",
     "path": "data/Shawarma - Binging With Babish.txt"
+  },
+  {
+    "name": "Shawarma-Spiced Grilled Chicken with Garlic Yogurt Sauce",
+    "path": "data/Shawarma-Spiced Grilled Chicken with Garlic Yogurt Sauce.txt"
   },
   {
     "name": "Sheet Pan Kielbasa Potatoes and Green Beeens",
