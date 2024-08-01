@@ -604,8 +604,8 @@ var recipes = [
     "path": "data/Chicken Salad.txt"
   },
   {
-    "name": "Chicken Souvlaki",
-    "path": "data/Chicken Souvlaki.txt"
+    "name": "Chicken Souvlaki with Pitas",
+    "path": "data/Chicken Souvlaki with Pitas.txt"
   },
   {
     "name": "Chicken Teriyaki",
@@ -2306,6 +2306,10 @@ var recipes = [
   {
     "name": "Pressure Cooker Split Pea and Ham Soup",
     "path": "data/Pressure Cooker Split Pea and Ham Soup.txt"
+  },
+  {
+    "name": "Proper Pesto",
+    "path": "data/Proper Pesto.txt"
   },
   {
     "name": "Pull Pork May 2017",
