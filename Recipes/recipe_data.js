@@ -840,8 +840,8 @@ var recipes = [
     "path": "data/Cooks Illustrated Pad Thai.txt"
   },
   {
-    "name": "Cooks Illustrated Shepards Pie",
-    "path": "data/Cooks Illustrated Shepards Pie.txt"
+    "name": "Cooks Illustrated Shepherds Pie",
+    "path": "data/Cooks Illustrated Shepherds Pie.txt"
   },
   {
     "name": "Cooks Make Ahead Waffles",
