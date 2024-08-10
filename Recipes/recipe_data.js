@@ -2936,6 +2936,10 @@ var recipes = [
     "path": "data/Super Juice.txt"
   },
   {
+    "name": "Supersized, Super-Soft Chocolate Chip Cookies",
+    "path": "data/Supersized, Super-Soft Chocolate Chip Cookies.txt"
+  },
+  {
     "name": "Sweet and Sour Chicken",
     "path": "data/Sweet and Sour Chicken.txt"
   },
