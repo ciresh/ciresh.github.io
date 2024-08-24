@@ -3056,6 +3056,10 @@ var recipes = [
     "path": "data/Tomato Feta Pasta Salad.txt"
   },
   {
+    "name": "Tony Chachere Pull Pork Finishing Sauce",
+    "path": "data/Tony Chachere Pull Pork Finishing Sauce.txt"
+  },
+  {
     "name": "Tortilla Soup Abbr",
     "path": "data/Tortilla Soup Abbr.txt"
   },
@@ -3098,6 +3102,10 @@ var recipes = [
   {
     "name": "Tzatziki Sauce",
     "path": "data/Tzatziki Sauce.txt"
+  },
+  {
+    "name": "Ube Cupcakes with Ube Whipped Cream",
+    "path": "data/Ube Cupcakes with Ube Whipped Cream.txt"
   },
   {
     "name": "Ultimate Burger Seasoning",
