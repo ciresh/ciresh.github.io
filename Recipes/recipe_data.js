@@ -540,6 +540,10 @@ var recipes = [
     "path": "data/Chef John's Country Bread.txt"
   },
   {
+    "name": "Chef John's Creamy Mushroom Pasta",
+    "path": "data/Chef John's Creamy Mushroom Pasta.txt"
+  },
+  {
     "name": "Chef John's Italian Meatballs",
     "path": "data/Chef John's Italian Meatballs.txt"
   },
