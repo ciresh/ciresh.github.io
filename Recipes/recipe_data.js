@@ -1960,6 +1960,10 @@ var recipes = [
     "path": "data/Muhalabia \u2013 milk and orange-blossom pudding.txt"
   },
   {
+    "name": "Mushroom Lasagna (NY Times)",
+    "path": "data/Mushroom Lasagna (NY Times).txt"
+  },
+  {
     "name": "Nana's Menastra",
     "path": "data/Nana's Menastra.txt"
   },
