@@ -1020,6 +1020,10 @@ var recipes = [
     "path": "data/Dan's Baked Stuffed Shrimp.txt"
   },
   {
+    "name": "Dark Chocolate Mouse",
+    "path": "data/Dark Chocolate Mouse.txt"
+  },
+  {
     "name": "data",
     "path": "data/data.txt"
   },
@@ -2174,6 +2178,10 @@ var recipes = [
   {
     "name": "Peanut Butter Frosting",
     "path": "data/Peanut Butter Frosting.txt"
+  },
+  {
+    "name": "Peanut Butter Mouse",
+    "path": "data/Peanut Butter Mouse.txt"
   },
   {
     "name": "Peanut Dipping Sauce",
