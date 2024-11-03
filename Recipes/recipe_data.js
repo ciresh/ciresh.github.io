@@ -416,6 +416,10 @@ var recipes = [
     "path": "data/Brighams Hot Fudge Sauce.txt"
   },
   {
+    "name": "Brined Smoked Chicken Breast",
+    "path": "data/Brined Smoked Chicken Breast.txt"
+  },
+  {
     "name": "Broccoli Cheese Soup",
     "path": "data/Broccoli Cheese Soup.txt"
   },
@@ -3186,6 +3190,10 @@ var recipes = [
   {
     "name": "Weber beer can chicken",
     "path": "data/Weber beer can chicken.txt"
+  },
+  {
+    "name": "Weeknight Turkish Kebabs Pasta",
+    "path": "data/Weeknight Turkish Kebabs Pasta.txt"
   },
   {
     "name": "Whirley Pop Popcorn",
