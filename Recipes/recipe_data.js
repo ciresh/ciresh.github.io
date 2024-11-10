@@ -1673,7 +1673,7 @@ var recipes = [
   },
   {
     "name": "Kenji, Chef John Meatballs",
-    "path": "data/Kenji, Chef John Meatballs.mp4"
+    "path": "data/Kenji, Chef John Meatballs.txt"
   },
   {
     "name": "Keri's Blue Ribbon Corn Bread",
