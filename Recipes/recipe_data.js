@@ -592,6 +592,10 @@ var recipes = [
     "path": "data/Chicken Karaage.txt"
   },
   {
+    "name": "Chicken Massaman Curry (All Recipes)",
+    "path": "data/Chicken Massaman Curry (All Recipes).txt"
+  },
+  {
     "name": "Chicken Mole",
     "path": "data/Chicken Mole.txt"
   },
@@ -1416,6 +1420,10 @@ var recipes = [
     "path": "data/Grand Marnier Shrimp Linguine.txt"
   },
   {
+    "name": "Grate Apple Crisp",
+    "path": "data/Grate Apple Crisp.txt"
+  },
+  {
     "name": "gravy",
     "path": "data/gravy.txt"
   },
@@ -1622,6 +1630,10 @@ var recipes = [
   {
     "name": "Instant Pot Risotto a la Carbonara",
     "path": "data/Instant Pot Risotto a la Carbonara.txt"
+  },
+  {
+    "name": "Instant Pot Turkey Stock",
+    "path": "data/Instant Pot Turkey Stock.txt"
   },
   {
     "name": "Instant Pot Yogurt",
@@ -1866,6 +1878,10 @@ var recipes = [
   {
     "name": "Mashed Potatoes",
     "path": "data/Mashed Potatoes.txt"
+  },
+  {
+    "name": "Massaman Curry Recipe",
+    "path": "data/Massaman Curry Recipe.txt"
   },
   {
     "name": "Meat Loaf - Everyday Food",
@@ -2302,6 +2318,10 @@ var recipes = [
   {
     "name": "Potato and Cheese Pierogi",
     "path": "data/Potato and Cheese Pierogi.txt"
+  },
+  {
+    "name": "Potato Puree",
+    "path": "data/Potato Puree.txt"
   },
   {
     "name": "Potato Salad Recipe - Kenji",
@@ -3030,6 +3050,10 @@ var recipes = [
   {
     "name": "Thanksgiving 2018",
     "path": "data/Thanksgiving 2018.txt"
+  },
+  {
+    "name": "Thanksgiving Plan",
+    "path": "data/Thanksgiving Plan.md"
   },
   {
     "name": "Thanksgiving",
