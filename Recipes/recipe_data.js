@@ -1508,6 +1508,10 @@ var recipes = [
     "path": "data/Grilled Shrimp with Spicy Garlic Paste.txt"
   },
   {
+    "name": "Guiltless Alfredo Sauced",
+    "path": "data/Guiltless Alfredo Sauced.txt"
+  },
+  {
     "name": "Ham and chicken",
     "path": "data/Ham and chicken.txt"
   },
