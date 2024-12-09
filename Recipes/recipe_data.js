@@ -2388,6 +2388,10 @@ var recipes = [
     "path": "data/Quick and Crispy Home Fries.txt"
   },
   {
+    "name": "Quick and Easy Alfredo Sauce",
+    "path": "data/Quick and Easy Alfredo Sauce.txt"
+  },
+  {
     "name": "Quick and Easy French Toast Casserole - Rachael Ray",
     "path": "data/Quick and Easy French Toast Casserole - Rachael Ray.txt"
   },
