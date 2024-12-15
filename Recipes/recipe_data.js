@@ -772,6 +772,10 @@ var recipes = [
     "path": "data/Cinnamon Rolls (Paula Deen).txt"
   },
   {
+    "name": "Cinnamon Star Bread",
+    "path": "data/Cinnamon Star Bread.txt"
+  },
+  {
     "name": "City Ham with Gingersnap Crust",
     "path": "data/City Ham with Gingersnap Crust.txt"
   },
@@ -1936,6 +1940,10 @@ var recipes = [
     "path": "data/Miso Beef Noodles.txt"
   },
   {
+    "name": "Miso Butter Glazed Carrots",
+    "path": "data/Miso Butter Glazed Carrots.txt"
+  },
+  {
     "name": "Miso Honey Chicken",
     "path": "data/Miso Honey Chicken.txt"
   },
@@ -1978,6 +1986,10 @@ var recipes = [
   {
     "name": "Monkey Bread - Short",
     "path": "data/Monkey Bread - Short.txt"
+  },
+  {
+    "name": "Monkey Bread Third Recipe",
+    "path": "data/Monkey Bread Third Recipe.txt"
   },
   {
     "name": "Monkey Bread",
@@ -2190,6 +2202,10 @@ var recipes = [
   {
     "name": "Pasta with Artichokes, Red Bell Pepper, and Goat Cheese",
     "path": "data/Pasta with Artichokes, Red Bell Pepper, and Goat Cheese.txt"
+  },
+  {
+    "name": "Pasta with Chicken and Broccoli",
+    "path": "data/Pasta with Chicken and Broccoli.txt"
   },
   {
     "name": "Pastrami Rub",
