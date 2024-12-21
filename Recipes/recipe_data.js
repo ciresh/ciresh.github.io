@@ -504,6 +504,10 @@ var recipes = [
     "path": "data/Caramelized Pears with Blue Cheese and Black Pepper-Caramel Sauce.txt"
   },
   {
+    "name": "Caramelized Shallot Pasta",
+    "path": "data/Caramelized Shallot Pasta.txt"
+  },
+  {
     "name": "Cardamom Buns",
     "path": "data/Cardamom Buns.txt"
   },
