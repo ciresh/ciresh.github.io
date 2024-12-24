@@ -2200,6 +2200,10 @@ var recipes = [
     "path": "data/Pan-Seared Thick-Cut Strip Steaks.txt"
   },
   {
+    "name": "Parker House Rolls",
+    "path": "data/Parker House Rolls.txt"
+  },
+  {
     "name": "Parmesan",
     "path": "data/Parmesan.txt"
   },
