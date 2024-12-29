@@ -1008,6 +1008,10 @@ var recipes = [
     "path": "data/Crunchy Oven Fried Fish.txt"
   },
   {
+    "name": "Crusty European Style Hard Rolls",
+    "path": "data/Crusty European Style Hard Rolls.txt"
+  },
+  {
     "name": "Cuban Shredded Beef",
     "path": "data/Cuban Shredded Beef.txt"
   },
