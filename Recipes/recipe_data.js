@@ -3196,6 +3196,10 @@ var recipes = [
     "path": "data/Tzatziki Sauce.txt"
   },
   {
+    "name": "Ube Cupcakes (unlikely baker)",
+    "path": "data/Ube Cupcakes (unlikely baker).txt"
+  },
+  {
     "name": "Ube Cupcakes with Ube Whipped Cream",
     "path": "data/Ube Cupcakes with Ube Whipped Cream.txt"
   },
