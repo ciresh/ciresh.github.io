@@ -2992,6 +2992,10 @@ var recipes = [
     "path": "data/Strawberry Smoothie.txt"
   },
   {
+    "name": "Street Corn Chicken Rice Bowl 2",
+    "path": "data/Street Corn Chicken Rice Bowl 2.txt"
+  },
+  {
     "name": "Street Corn Chicken Rice Bowl",
     "path": "data/Street Corn Chicken Rice Bowl.txt"
   },
