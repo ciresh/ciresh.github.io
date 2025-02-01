@@ -60,6 +60,10 @@ var recipes = [
     "path": "data/All-Occasion Downy Yellow Butter Cup Cake.txt"
   },
   {
+    "name": "All-Purpose Cornbread - Erics Mod 8 Inch",
+    "path": "data/All-Purpose Cornbread - Erics Mod 8 Inch.txt"
+  },
+  {
     "name": "All-Purpose Cornbread",
     "path": "data/All-Purpose Cornbread.txt"
   },
