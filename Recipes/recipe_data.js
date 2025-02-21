@@ -1848,6 +1848,10 @@ var recipes = [
     "path": "data/Macaroni Salad.txt"
   },
   {
+    "name": "Maesri Massaman Curry Paste Can Recipe",
+    "path": "data/Maesri Massaman Curry Paste Can Recipe.txt"
+  },
+  {
     "name": "Magic Dust Rub",
     "path": "data/Magic Dust Rub.txt"
   },
@@ -3074,6 +3078,10 @@ var recipes = [
   {
     "name": "Tandoori-Style Chicken Burgers with Cumin Yogurt Sauce",
     "path": "data/Tandoori-Style Chicken Burgers with Cumin Yogurt Sauce.txt"
+  },
+  {
+    "name": "Thai Massaman Curry Chicken (Hot Thai Kitchen)",
+    "path": "data/Thai Massaman Curry Chicken (Hot Thai Kitchen).txt"
   },
   {
     "name": "Thanks Giving 2016 List",
