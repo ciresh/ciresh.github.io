@@ -1140,6 +1140,10 @@ var recipes = [
     "path": "data/Easy Peppermint Buttercream.txt"
   },
   {
+    "name": "Easy Pull-Apart Pepperoni Garlic Knots Recipe",
+    "path": "data/Easy Pull-Apart Pepperoni Garlic Knots Recipe.txt"
+  },
+  {
     "name": "Easy, Creamy One-Pot Salmon Chowder Recipe",
     "path": "data/Easy, Creamy One-Pot Salmon Chowder Recipe.txt"
   },
