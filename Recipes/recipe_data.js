@@ -180,6 +180,10 @@ var recipes = [
     "path": "data/Asian Noodle Salad.txt"
   },
   {
+    "name": "Asian Turkey Burgers",
+    "path": "data/Asian Turkey Burgers.txt"
+  },
+  {
     "name": "ATK Recipes 2007 Season",
     "path": "data/ATK Recipes 2007 Season.txt"
   },
@@ -246,6 +250,10 @@ var recipes = [
   {
     "name": "Barbecue Sauce - Chef John",
     "path": "data/Barbecue Sauce - Chef John.txt"
+  },
+  {
+    "name": "Barbecue Turkey Burgers",
+    "path": "data/Barbecue Turkey Burgers.txt"
   },
   {
     "name": "Barbecued Pork Skewers",
@@ -3186,6 +3194,10 @@ var recipes = [
   {
     "name": "Tres Leches Cake Recipe",
     "path": "data/Tres Leches Cake Recipe.txt"
+  },
+  {
+    "name": "Turkey Burger - Reddit",
+    "path": "data/Turkey Burger - Reddit.txt"
   },
   {
     "name": "Turkey Burgers With Herb-Grilled Vidalia Onion Rings",
