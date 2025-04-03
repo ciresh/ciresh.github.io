@@ -1720,6 +1720,10 @@ var recipes = [
     "path": "data/Kenji Updated Chicken Wings.txt"
   },
   {
+    "name": "Kenji's Chicken Wings",
+    "path": "data/Kenji's Chicken Wings.txt"
+  },
+  {
     "name": "Kenji, Chef John Meatballs",
     "path": "data/Kenji, Chef John Meatballs.txt"
   },
@@ -1750,6 +1754,10 @@ var recipes = [
   {
     "name": "Kofta Kebabs",
     "path": "data/Kofta Kebabs.txt"
+  },
+  {
+    "name": "Korean Street Toast",
+    "path": "data/Korean Street Toast.txt"
   },
   {
     "name": "Lasagna Layers",
@@ -2130,6 +2138,10 @@ var recipes = [
   {
     "name": "One Minute Salsa",
     "path": "data/One Minute Salsa.txt"
+  },
+  {
+    "name": "One Pot Lasagna (Babish recipe)",
+    "path": "data/One Pot Lasagna (Babish recipe).txt"
   },
   {
     "name": "One Pot Salmon Chowder Recipe",
@@ -3078,6 +3090,10 @@ var recipes = [
   {
     "name": "sync",
     "path": "data/sync.ffs_db"
+  },
+  {
+    "name": "Szechuan Noodles (Ina Garten)",
+    "path": "data/Szechuan Noodles (Ina Garten).txt"
   },
   {
     "name": "Tagliatelle With Artichokes And Olive Oil For Two",
