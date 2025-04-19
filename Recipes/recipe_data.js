@@ -2960,6 +2960,10 @@ var recipes = [
     "path": "data/Spiked and Spiced Apple Cider.txt"
   },
   {
+    "name": "Spinach and Artichoke Potato Casserole",
+    "path": "data/Spinach and Artichoke Potato Casserole.txt"
+  },
+  {
     "name": "Spinach Dip with Blue Cheese and Bacon",
     "path": "data/Spinach Dip with Blue Cheese and Bacon.txt"
   },
