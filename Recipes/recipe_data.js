@@ -568,6 +568,10 @@ var recipes = [
     "path": "data/Chef John's Creamy Mushroom Pasta.txt"
   },
   {
+    "name": "Chef John's Hot Spinach Artichoke Dip",
+    "path": "data/Chef John's Hot Spinach Artichoke Dip.txt"
+  },
+  {
     "name": "Chef John's Italian Meatballs",
     "path": "data/Chef John's Italian Meatballs.txt"
   },
@@ -1774,6 +1778,10 @@ var recipes = [
   {
     "name": "Latkes",
     "path": "data/Latkes.txt"
+  },
+  {
+    "name": "Layered Cream Cheese and Salsa Dip",
+    "path": "data/Layered Cream Cheese and Salsa Dip.txt"
   },
   {
     "name": "Leaner Fresh Peach Ice Cream abbr",
