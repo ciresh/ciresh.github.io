@@ -2964,6 +2964,10 @@ var recipes = [
     "path": "data/Spinach and Artichoke Potato Casserole.txt"
   },
   {
+    "name": "Spinach Artichoke Quiche",
+    "path": "data/Spinach Artichoke Quiche.txt"
+  },
+  {
     "name": "Spinach Dip with Blue Cheese and Bacon",
     "path": "data/Spinach Dip with Blue Cheese and Bacon.txt"
   },
