@@ -2132,6 +2132,10 @@ var recipes = [
     "path": "data/No. 5 Sauce.txt"
   },
   {
+    "name": "Official Cardogs BBQ Salmon",
+    "path": "data/Official Cardogs BBQ Salmon.txt"
+  },
+  {
     "name": "Old Fashioned Onion Rings",
     "path": "data/Old Fashioned Onion Rings.txt"
   },
@@ -2746,6 +2750,10 @@ var recipes = [
   {
     "name": "Simple Creamy Southern Coleslaw",
     "path": "data/Simple Creamy Southern Coleslaw.txt"
+  },
+  {
+    "name": "Simple Hot Smoked Salmon",
+    "path": "data/Simple Hot Smoked Salmon.txt"
   },
   {
     "name": "Simple Red Lentil Curry",
