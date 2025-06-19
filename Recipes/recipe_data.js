@@ -2440,6 +2440,10 @@ var recipes = [
     "path": "data/Pull Pork May 2017.txt"
   },
   {
+    "name": "Pulled Chicken Shawarma Sandwich",
+    "path": "data/Pulled Chicken Shawarma Sandwich.txt"
+  },
+  {
     "name": "Pulled Chicken Sloppy Joes",
     "path": "data/Pulled Chicken Sloppy Joes.txt"
   },
