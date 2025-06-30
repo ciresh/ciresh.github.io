@@ -1592,6 +1592,10 @@ var recipes = [
     "path": "data/Home Fries.txt"
   },
   {
+    "name": "Homemade Ratatouille Recipe (Layered)",
+    "path": "data/Homemade Ratatouille Recipe (Layered).txt"
+  },
+  {
     "name": "Homemade Soft Pretzels",
     "path": "data/Homemade Soft Pretzels.txt"
   },
