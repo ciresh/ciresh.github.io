@@ -1096,6 +1096,10 @@ var recipes = [
     "path": "data/Devils Food Cupcakes.txt"
   },
   {
+    "name": "Disney's Ratatouille",
+    "path": "data/Disney's Ratatouille.txt"
+  },
+  {
     "name": "Doug's Smoked Mushroom Dip",
     "path": "data/Doug's Smoked Mushroom Dip.txt"
   },
