@@ -584,6 +584,10 @@ var recipes = [
     "path": "data/Chef John's Scones.txt"
   },
   {
+    "name": "Chef John's Tiramisu",
+    "path": "data/Chef John's Tiramisu.txt"
+  },
+  {
     "name": "Chick Peas",
     "path": "data/Chick Peas.txt"
   },
@@ -3210,6 +3214,10 @@ var recipes = [
   {
     "name": "Three Layer Lasagna",
     "path": "data/Three Layer Lasagna.txt"
+  },
+  {
+    "name": "Tiramisu",
+    "path": "data/Tiramisu.txt"
   },
   {
     "name": "Toasted Thanksgiving Sub",
