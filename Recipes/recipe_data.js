@@ -804,6 +804,10 @@ var recipes = [
     "path": "data/City Ham with Gingersnap Crust.txt"
   },
   {
+    "name": "Claire Saffitz Makes Tiramisu",
+    "path": "data/Claire Saffitz Makes Tiramisu.txt"
+  },
+  {
     "name": "Clam Chowder Shell Pasta",
     "path": "data/Clam Chowder Shell Pasta.txt"
   },
