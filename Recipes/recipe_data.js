@@ -720,6 +720,10 @@ var recipes = [
     "path": "data/Chocolate Peanut Butter Pie.txt"
   },
   {
+    "name": "Chocolate Raspberry Mousse Cake",
+    "path": "data/Chocolate Raspberry Mousse Cake.txt"
+  },
+  {
     "name": "Chocolate Sour Cream Bundt Cake",
     "path": "data/Chocolate Sour Cream Bundt Cake.txt"
   },
