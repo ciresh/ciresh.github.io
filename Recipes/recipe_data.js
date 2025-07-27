@@ -1936,6 +1936,14 @@ var recipes = [
     "path": "data/Margarita Cheesecake.txt"
   },
   {
+    "name": "Margarita Cookies With Salty Sweet Tequila Glaze",
+    "path": "data/Margarita Cookies With Salty Sweet Tequila Glaze.txt"
+  },
+  {
+    "name": "Margarita Cookies",
+    "path": "data/Margarita Cookies.txt"
+  },
+  {
     "name": "Masala Curry",
     "path": "data/Masala Curry.txt"
   },
