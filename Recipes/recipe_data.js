@@ -596,6 +596,14 @@ var recipes = [
     "path": "data/Chick-Fil-A Sandwiches.txt"
   },
   {
+    "name": "Chicken and Chickpea Masala Recipe (Kenji)",
+    "path": "data/Chicken and Chickpea Masala Recipe (Kenji).txt"
+  },
+  {
+    "name": "Chicken and Chickpea Masala",
+    "path": "data/Chicken and Chickpea Masala.txt"
+  },
+  {
     "name": "Chicken and Rice with Broccoli",
     "path": "data/Chicken and Rice with Broccoli.txt"
   },
@@ -986,6 +994,10 @@ var recipes = [
   {
     "name": "Creamy Coleslaw",
     "path": "data/Creamy Coleslaw.txt"
+  },
+  {
+    "name": "Creamy Garlic Shrimp Toast",
+    "path": "data/Creamy Garlic Shrimp Toast.txt"
   },
   {
     "name": "Creamy Milk Chocolate Frosting",
@@ -2314,6 +2326,10 @@ var recipes = [
   {
     "name": "Peanut Butter Mouse",
     "path": "data/Peanut Butter Mouse.txt"
+  },
+  {
+    "name": "Peanut Butter Thing",
+    "path": "data/Peanut Butter Thing.txt"
   },
   {
     "name": "Peanut Dipping Sauce",
