@@ -3396,6 +3396,10 @@ var recipes = [
     "path": "data/Weeknight Turkish Kebabs Pasta.txt"
   },
   {
+    "name": "Weights",
+    "path": "data/Weights.txt"
+  },
+  {
     "name": "Whirley Pop Popcorn",
     "path": "data/Whirley Pop Popcorn.txt"
   },
