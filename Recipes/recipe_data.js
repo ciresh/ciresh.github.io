@@ -228,6 +228,10 @@ var recipes = [
     "path": "data/Baked Mushroom Risotto.txt"
   },
   {
+    "name": "Baked Soft Polenta",
+    "path": "data/Baked Soft Polenta.txt"
+  },
+  {
     "name": "Baked Stuffed Shrimp with Crabmeat Stuffing Recipe",
     "path": "data/Baked Stuffed Shrimp with Crabmeat Stuffing Recipe.txt"
   },
@@ -2402,10 +2406,6 @@ var recipes = [
   {
     "name": "Pocketless Pita",
     "path": "data/Pocketless Pita.txt"
-  },
-  {
-    "name": "Polenta",
-    "path": "data/Polenta.txt"
   },
   {
     "name": "Popovers - King Authur",
