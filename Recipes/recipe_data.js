@@ -704,6 +704,10 @@ var recipes = [
     "path": "data/Chocolate Cream Pie2.txt"
   },
   {
+    "name": "Chocolate Creme Caramel (Dessert Bible Mode)",
+    "path": "data/Chocolate Creme Caramel (Dessert Bible Mode).txt"
+  },
+  {
     "name": "Chocolate Creme Caramel",
     "path": "data/Chocolate Creme Caramel.txt"
   },
