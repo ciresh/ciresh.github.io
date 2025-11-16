@@ -2528,6 +2528,10 @@ var recipes = [
     "path": "data/Quick Chicken Couscous.txt"
   },
   {
+    "name": "Quick Chicken Piccata",
+    "path": "data/Quick Chicken Piccata.txt"
+  },
+  {
     "name": "Quick Chicken Shawarma Taco",
     "path": "data/Quick Chicken Shawarma Taco.txt"
   },
@@ -2674,6 +2678,10 @@ var recipes = [
   {
     "name": "Roasted Brined Turkey",
     "path": "data/Roasted Brined Turkey.txt"
+  },
+  {
+    "name": "Roasted Cauliflower \u2013 Miznon Style",
+    "path": "data/Roasted Cauliflower \u2013 Miznon Style.txt"
   },
   {
     "name": "Robin's Spinach Dip",
