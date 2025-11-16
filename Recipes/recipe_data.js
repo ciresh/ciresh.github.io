@@ -2528,8 +2528,8 @@ var recipes = [
     "path": "data/Quick Chicken Couscous.txt"
   },
   {
-    "name": "Quick Chicken Piccata",
-    "path": "data/Quick Chicken Piccata.txt"
+    "name": "Quick Chicken Picata",
+    "path": "data/Quick Chicken Picata.txt"
   },
   {
     "name": "Quick Chicken Shawarma Taco",
