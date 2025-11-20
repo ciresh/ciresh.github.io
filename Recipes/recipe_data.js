@@ -2780,6 +2780,10 @@ var recipes = [
     "path": "data/Shrimp Cocktail - Alton Brown.txt"
   },
   {
+    "name": "Shrimp Gumbo",
+    "path": "data/Shrimp Gumbo.txt"
+  },
+  {
     "name": "Shrimp Scampi",
     "path": "data/Shrimp Scampi.txt"
   },
