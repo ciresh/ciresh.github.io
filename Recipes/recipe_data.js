@@ -1,5 +1,9 @@
 var recipes = [
   {
+    "name": "30-Minute Tuscan White Bean Soup,txt",
+    "path": "data/30-Minute Tuscan White Bean Soup,txt.txt"
+  },
+  {
     "name": "75-Minute Pizza Dough",
     "path": "data/75-Minute Pizza Dough.txt"
   },
