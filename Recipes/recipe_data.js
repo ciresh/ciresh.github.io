@@ -2728,6 +2728,10 @@ var recipes = [
     "path": "data/Santa Sandwich Cookies.txt"
   },
   {
+    "name": "Sausage and Mushroom Stuffing (for stuffing)",
+    "path": "data/Sausage and Mushroom Stuffing (for stuffing).txt"
+  },
+  {
     "name": "Sausage and Mushroom Stuffing",
     "path": "data/Sausage and Mushroom Stuffing.txt"
   },
