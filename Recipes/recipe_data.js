@@ -2024,6 +2024,10 @@ var recipes = [
     "path": "data/Mexican-style charcoal-grilled corn (CI).txt"
   },
   {
+    "name": "Microwave Poached Egg",
+    "path": "data/Microwave Poached Egg.txt"
+  },
+  {
     "name": "Milk Chocolate Cheesecake",
     "path": "data/Milk Chocolate Cheesecake.txt"
   },
@@ -2388,6 +2392,10 @@ var recipes = [
     "path": "data/Pie Crust (Kenji).txt"
   },
   {
+    "name": "Pie Crust 7 Inch",
+    "path": "data/Pie Crust 7 Inch.txt"
+  },
+  {
     "name": "Pie Crust",
     "path": "data/Pie Crust.txt"
   },
@@ -2502,6 +2510,10 @@ var recipes = [
   {
     "name": "Pulled Pork Alton Brown",
     "path": "data/Pulled Pork Alton Brown.txt"
+  },
+  {
+    "name": "Pumpkin Spice Latte Sweet Potato Pie",
+    "path": "data/Pumpkin Spice Latte Sweet Potato Pie.txt"
   },
   {
     "name": "Pusser's Pain Killer",
