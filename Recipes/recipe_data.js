@@ -108,6 +108,10 @@ var recipes = [
     "path": "data/Altons's Devil's Food Cake.txt"
   },
   {
+    "name": "American French Onion Soup",
+    "path": "data/American French Onion Soup.txt"
+  },
+  {
     "name": "American Sandwich Bread",
     "path": "data/American Sandwich Bread.txt"
   },
@@ -1088,8 +1092,8 @@ var recipes = [
     "path": "data/Czech Bread Dumplings (Knedl\u00edky).txt"
   },
   {
-    "name": "Dad's Meat Loaf",
-    "path": "data/Dad's Meat Loaf.txt"
+    "name": "Dad's Meatloaf",
+    "path": "data/Dad's Meatloaf.txt"
   },
   {
     "name": "Dan's Baked Stuffed Shrimp",
@@ -1360,6 +1364,10 @@ var recipes = [
     "path": "data/French Fries.txt"
   },
   {
+    "name": "French Onion Soup",
+    "path": "data/French Onion Soup.txt"
+  },
+  {
     "name": "French Toast Casserole",
     "path": "data/French Toast Casserole.txt"
   },
@@ -1474,10 +1482,6 @@ var recipes = [
   {
     "name": "Glazed Spiral-Sliced Ham",
     "path": "data/Glazed Spiral-Sliced Ham.txt"
-  },
-  {
-    "name": "Good Eats Meat Loaf",
-    "path": "data/Good Eats Meat Loaf.txt"
   },
   {
     "name": "Good Eats Meatloaf",
@@ -1988,20 +1992,20 @@ var recipes = [
     "path": "data/Massaman Curry Recipe.txt"
   },
   {
-    "name": "Meat Loaf - Everyday Food",
-    "path": "data/Meat Loaf - Everyday Food.txt"
-  },
-  {
-    "name": "Meat Loaf",
-    "path": "data/Meat Loaf.txt"
-  },
-  {
     "name": "Meathead's Memphis Dust Rub Recipe",
     "path": "data/Meathead's Memphis Dust Rub Recipe.txt"
   },
   {
     "name": "Meathead's Memphis Dust Rub",
     "path": "data/Meathead's Memphis Dust Rub.txt"
+  },
+  {
+    "name": "meatloaf - Everyday Food",
+    "path": "data/meatloaf - Everyday Food.txt"
+  },
+  {
+    "name": "meatloaf",
+    "path": "data/meatloaf.txt"
   },
   {
     "name": "Memphis Rub",
@@ -2888,8 +2892,8 @@ var recipes = [
     "path": "data/Skillet Ziti with Chicken and Broccoli.txt"
   },
   {
-    "name": "Skinny Turkey-Spinach Meat Loaf",
-    "path": "data/Skinny Turkey-Spinach Meat Loaf.txt"
+    "name": "Skinny Turkey-Spinach meatloaf",
+    "path": "data/Skinny Turkey-Spinach meatloaf.txt"
   },
   {
     "name": "Sloppy Joes",
@@ -3332,12 +3336,12 @@ var recipes = [
     "path": "data/Turkey Burgers With Herb-Grilled Vidalia Onion Rings.txt"
   },
   {
-    "name": "Turkey Meat Loaf",
-    "path": "data/Turkey Meat Loaf.txt"
-  },
-  {
     "name": "Turkey Meatloaf - myrecipes",
     "path": "data/Turkey Meatloaf - myrecipes.txt"
+  },
+  {
+    "name": "Turkey meatloaf",
+    "path": "data/Turkey meatloaf.txt"
   },
   {
     "name": "Tuscan White Bean Soup",
@@ -3430,6 +3434,10 @@ var recipes = [
   {
     "name": "Weeknight Turkish Kebabs Pasta",
     "path": "data/Weeknight Turkish Kebabs Pasta.txt"
+  },
+  {
+    "name": "Wegmans Turkey Meatloaf",
+    "path": "data/Wegmans Turkey Meatloaf.txt"
   },
   {
     "name": "Weights",
