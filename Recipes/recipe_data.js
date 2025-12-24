@@ -964,6 +964,10 @@ var recipes = [
     "path": "data/Cornflake-Crusted Baked Chicken.txt"
   },
   {
+    "name": "Country Club Potatoes",
+    "path": "data/Country Club Potatoes.txt"
+  },
+  {
     "name": "Crab Dip",
     "path": "data/Crab Dip.txt"
   },
@@ -1500,8 +1504,8 @@ var recipes = [
     "path": "data/Grate Apple Crisp.txt"
   },
   {
-    "name": "gravy",
-    "path": "data/gravy.txt"
+    "name": "Gravy Flour Percent",
+    "path": "data/Gravy Flour Percent.txt"
   },
   {
     "name": "Greek salad",
@@ -1738,6 +1742,10 @@ var recipes = [
   {
     "name": "Jasmine Rice",
     "path": "data/Jasmine Rice.txt"
+  },
+  {
+    "name": "Jelly Doughnut Cake",
+    "path": "data/Jelly Doughnut Cake.txt"
   },
   {
     "name": "Jim Lahey's No-Knead Pizza Dough",
@@ -3334,6 +3342,10 @@ var recipes = [
   {
     "name": "Turkey Burgers With Herb-Grilled Vidalia Onion Rings",
     "path": "data/Turkey Burgers With Herb-Grilled Vidalia Onion Rings.txt"
+  },
+  {
+    "name": "Turkey Gravy with Pan Drippings",
+    "path": "data/Turkey Gravy with Pan Drippings.txt"
   },
   {
     "name": "Turkey Meatloaf - myrecipes",
