@@ -1,5 +1,9 @@
 var recipes = [
   {
+    "name": "3-Ingredient Stovetop Mac and Cheese Recipe",
+    "path": "data/3-Ingredient Stovetop Mac and Cheese Recipe.txt"
+  },
+  {
     "name": "30-Minute Tuscan White Bean Soup,txt",
     "path": "data/30-Minute Tuscan White Bean Soup,txt.txt"
   },
@@ -1710,6 +1714,10 @@ var recipes = [
   {
     "name": "Instant Pot Leftofter Hambone Soup",
     "path": "data/Instant Pot Leftofter Hambone Soup.txt"
+  },
+  {
+    "name": "Instant Pot Leftover Hambone Soup",
+    "path": "data/Instant Pot Leftover Hambone Soup.txt"
   },
   {
     "name": "Instant Pot Polenta Single Serving",
