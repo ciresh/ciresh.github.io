@@ -612,6 +612,10 @@ var recipes = [
     "path": "data/Chick-Fil-A Sandwiches.txt"
   },
   {
+    "name": "Chicken Al Pastor Tacos",
+    "path": "data/Chicken Al Pastor Tacos.txt"
+  },
+  {
     "name": "Chicken and Chickpea Masala Recipe (Kenji)",
     "path": "data/Chicken and Chickpea Masala Recipe (Kenji).txt"
   },
