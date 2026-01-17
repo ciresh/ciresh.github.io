@@ -3476,6 +3476,10 @@ var recipes = [
     "path": "data/Whoopie Pie.txt"
   },
   {
+    "name": "Willa Jean Cornbread",
+    "path": "data/Willa Jean Cornbread.txt"
+  },
+  {
     "name": "Wilton Buttercream Icing",
     "path": "data/Wilton Buttercream Icing.txt"
   },
