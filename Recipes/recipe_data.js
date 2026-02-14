@@ -1360,6 +1360,10 @@ var recipes = [
     "path": "data/Foolproof pie dough for a single-crust pie.txt"
   },
   {
+    "name": "Foolproof Tarte Tatin",
+    "path": "data/Foolproof Tarte Tatin.txt"
+  },
+  {
     "name": "Freezer Chicken Enchiladas",
     "path": "data/Freezer Chicken Enchiladas.txt"
   },
@@ -2210,6 +2214,10 @@ var recipes = [
   {
     "name": "No. 5 Sauce",
     "path": "data/No. 5 Sauce.txt"
+  },
+  {
+    "name": "NYT Chocolate Chip Cookies",
+    "path": "data/NYT Chocolate Chip Cookies.txt"
   },
   {
     "name": "Official Cardogs BBQ Salmon",
