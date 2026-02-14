@@ -1004,6 +1004,10 @@ var recipes = [
     "path": "data/Creamed Spinach Chicken.txt"
   },
   {
+    "name": "Creamed Spinach Recipe (Kenji)",
+    "path": "data/Creamed Spinach Recipe (Kenji).txt"
+  },
+  {
     "name": "Creamed Spinach",
     "path": "data/Creamed Spinach.txt"
   },
