@@ -3004,6 +3004,10 @@ var recipes = [
     "path": "data/Soft Sandwich Bread with Flax.txt"
   },
   {
+    "name": "Souerkraut",
+    "path": "data/Souerkraut.txt"
+  },
+  {
     "name": "Sour and Cream Cheese Chocolate Frosting",
     "path": "data/Sour and Cream Cheese Chocolate Frosting.txt"
   },
@@ -3292,12 +3296,12 @@ var recipes = [
     "path": "data/The Best Banana Bread.txt"
   },
   {
-    "name": "The Best Chocolate Chip Cookies Recipe abbr",
-    "path": "data/The Best Chocolate Chip Cookies Recipe abbr.txt"
+    "name": "The Best Chocolate Chip Cookies Recipe (Kenji)",
+    "path": "data/The Best Chocolate Chip Cookies Recipe (Kenji).txt"
   },
   {
-    "name": "The Best Chocolate Chip Cookies Recipe",
-    "path": "data/The Best Chocolate Chip Cookies Recipe.txt"
+    "name": "The Best Chocolate Chip Cookies Recipe abbr (Kenji)",
+    "path": "data/The Best Chocolate Chip Cookies Recipe abbr (Kenji).txt"
   },
   {
     "name": "The Best Potato-Leek Soup Recipe",
