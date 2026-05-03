@@ -1964,6 +1964,10 @@ var recipes = [
     "path": "data/Mahogany Chicken Thighs.txt"
   },
   {
+    "name": "Mai Tai",
+    "path": "data/Mai Tai.txt"
+  },
+  {
     "name": "Make Ahead Mashed Potatoes",
     "path": "data/Make Ahead Mashed Potatoes.txt"
   },
