@@ -1188,6 +1188,10 @@ var recipes = [
     "path": "data/Eastrer 2018.txt"
   },
   {
+    "name": "Easy Chicken Gyros and Tzatziki Sauce",
+    "path": "data/Easy Chicken Gyros and Tzatziki Sauce.txt"
+  },
+  {
     "name": "Easy Chicken Lo Mein",
     "path": "data/Easy Chicken Lo Mein.txt"
   },
@@ -1826,6 +1830,10 @@ var recipes = [
   {
     "name": "King Arthur Italian Merigue",
     "path": "data/King Arthur Italian Merigue.txt"
+  },
+  {
+    "name": "Kofta and Sauce - Treks and Bites",
+    "path": "data/Kofta and Sauce - Treks and Bites.txt"
   },
   {
     "name": "Kofta Kebabs (3x)",
