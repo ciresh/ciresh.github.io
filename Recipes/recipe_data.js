@@ -1188,6 +1188,10 @@ var recipes = [
     "path": "data/Eastrer 2018.txt"
   },
   {
+    "name": "Easy Butter Cream (egg whites)",
+    "path": "data/Easy Butter Cream (egg whites).txt"
+  },
+  {
     "name": "Easy Chicken Gyros and Tzatziki Sauce",
     "path": "data/Easy Chicken Gyros and Tzatziki Sauce.txt"
   },
@@ -1278,6 +1282,10 @@ var recipes = [
   {
     "name": "Eric's Shawarma",
     "path": "data/Eric's Shawarma.txt"
+  },
+  {
+    "name": "Ermine Frosting (flour frosting) Recipe",
+    "path": "data/Ermine Frosting (flour frosting) Recipe.txt"
   },
   {
     "name": "Esquites (Mexican Corn Salad)",
@@ -1840,6 +1848,10 @@ var recipes = [
     "path": "data/Kofta Kebabs (3x).txt"
   },
   {
+    "name": "Kofta Kebabs (Erics Mod)",
+    "path": "data/Kofta Kebabs (Erics Mod).txt"
+  },
+  {
     "name": "Kofta Kebabs",
     "path": "data/Kofta Kebabs.txt"
   },
@@ -2168,6 +2180,10 @@ var recipes = [
     "path": "data/Navy Bean and Artichoke Dip with Parsley.txt"
   },
   {
+    "name": "New Buttercream Frosting",
+    "path": "data/New Buttercream Frosting.txt"
+  },
+  {
     "name": "New England Boiled Dinner",
     "path": "data/New England Boiled Dinner.txt"
   },
@@ -2352,6 +2368,10 @@ var recipes = [
     "path": "data/Pan-Seared Thick-Cut Strip Steaks.txt"
   },
   {
+    "name": "Pancakes (Ethan Chlebowski)",
+    "path": "data/Pancakes (Ethan Chlebowski).txt"
+  },
+  {
     "name": "Parker House Rolls",
     "path": "data/Parker House Rolls.txt"
   },
@@ -2384,12 +2404,24 @@ var recipes = [
     "path": "data/Peanut Butter Chocolate Lava Cakes.txt"
   },
   {
+    "name": "Peanut Butter Cream Cheese Frosting 2",
+    "path": "data/Peanut Butter Cream Cheese Frosting 2.txt"
+  },
+  {
+    "name": "Peanut Butter Cream Cheese Frosting",
+    "path": "data/Peanut Butter Cream Cheese Frosting.txt"
+  },
+  {
     "name": "Peanut Butter Frosting",
     "path": "data/Peanut Butter Frosting.txt"
   },
   {
     "name": "Peanut Butter Mouse",
     "path": "data/Peanut Butter Mouse.txt"
+  },
+  {
+    "name": "Peanut Butter Swiss Meringue Buttercream",
+    "path": "data/Peanut Butter Swiss Meringue Buttercream.txt"
   },
   {
     "name": "Peanut Butter Thing",
@@ -2670,6 +2702,10 @@ var recipes = [
   {
     "name": "Reverse-Seared Steak Recipe",
     "path": "data/Reverse-Seared Steak Recipe.txt"
+  },
+  {
+    "name": "Rhubarb Sauce",
+    "path": "data/Rhubarb Sauce.txt"
   },
   {
     "name": "Rice Pilaf",
