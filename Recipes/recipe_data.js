@@ -328,6 +328,10 @@ var recipes = [
     "path": "data/Beef Tacos.txt"
   },
   {
+    "name": "Beet Salad with Goat Cheese and Balsamic",
+    "path": "data/Beet Salad with Goat Cheese and Balsamic.txt"
+  },
+  {
     "name": "Ben Mims Perfect Cornbread",
     "path": "data/Ben Mims Perfect Cornbread.txt"
   },
