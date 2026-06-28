@@ -256,8 +256,8 @@ var recipes = [
     "path": "data/Banana Bread Mug Cake in a Minute.txt"
   },
   {
-    "name": "Banana Butter Cream",
-    "path": "data/Banana Butter Cream.txt"
+    "name": "Banana Buttercream",
+    "path": "data/Banana Buttercream.txt"
   },
   {
     "name": "Barbara's Milk Chocolate Fudge",
@@ -1192,8 +1192,8 @@ var recipes = [
     "path": "data/Eastrer 2018.txt"
   },
   {
-    "name": "Easy Butter Cream (egg whites)",
-    "path": "data/Easy Butter Cream (egg whites).txt"
+    "name": "Easy Buttercream (egg whites)",
+    "path": "data/Easy Buttercream (egg whites).txt"
   },
   {
     "name": "Easy Chicken Gyros and Tzatziki Sauce",
@@ -2408,14 +2408,6 @@ var recipes = [
     "path": "data/Peanut Butter Chocolate Lava Cakes.txt"
   },
   {
-    "name": "Peanut Butter Cream Cheese Frosting 2",
-    "path": "data/Peanut Butter Cream Cheese Frosting 2.txt"
-  },
-  {
-    "name": "Peanut Butter Cream Cheese Frosting",
-    "path": "data/Peanut Butter Cream Cheese Frosting.txt"
-  },
-  {
     "name": "Peanut Butter Frosting",
     "path": "data/Peanut Butter Frosting.txt"
   },
@@ -2430,6 +2422,14 @@ var recipes = [
   {
     "name": "Peanut Butter Thing",
     "path": "data/Peanut Butter Thing.txt"
+  },
+  {
+    "name": "Peanut Buttercream Cheese Frosting 2",
+    "path": "data/Peanut Buttercream Cheese Frosting 2.txt"
+  },
+  {
+    "name": "Peanut Buttercream Cheese Frosting",
+    "path": "data/Peanut Buttercream Cheese Frosting.txt"
   },
   {
     "name": "Peanut Dipping Sauce",
