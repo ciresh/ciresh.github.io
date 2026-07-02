@@ -1752,6 +1752,10 @@ var recipes = [
     "path": "data/Instant Pot Polenta Single Serving.txt"
   },
   {
+    "name": "Instant Pot Ribs",
+    "path": "data/Instant Pot Ribs.txt"
+  },
+  {
     "name": "Instant Pot Risotto a la Carbonara",
     "path": "data/Instant Pot Risotto a la Carbonara.txt"
   },
