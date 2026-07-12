@@ -1192,8 +1192,12 @@ var recipes = [
     "path": "data/Eastrer 2018.txt"
   },
   {
-    "name": "Easy Buttercream (egg whites)",
-    "path": "data/Easy Buttercream (egg whites).txt"
+    "name": "Easy Butter Cream Oreo Frosting (pasteurized egg whites)",
+    "path": "data/Easy Butter Cream Oreo Frosting (pasteurized egg whites).txt"
+  },
+  {
+    "name": "Easy Buttercream Frosting (egg whites)",
+    "path": "data/Easy Buttercream Frosting (egg whites).txt"
   },
   {
     "name": "Easy Chicken Gyros and Tzatziki Sauce",
@@ -2188,8 +2192,8 @@ var recipes = [
     "path": "data/Navy Bean and Artichoke Dip with Parsley.txt"
   },
   {
-    "name": "New Buttercream Frosting",
-    "path": "data/New Buttercream Frosting.txt"
+    "name": "New Buttercream Frosting (water)",
+    "path": "data/New Buttercream Frosting (water).txt"
   },
   {
     "name": "New England Boiled Dinner",
