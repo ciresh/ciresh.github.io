@@ -524,6 +524,10 @@ var recipes = [
     "path": "data/Caldo Verde Soup.txt"
   },
   {
+    "name": "Caramel Sauce",
+    "path": "data/Caramel Sauce.txt"
+  },
+  {
     "name": "Caramel Shortbread",
     "path": "data/Caramel Shortbread.txt"
   },
@@ -2452,8 +2456,8 @@ var recipes = [
     "path": "data/Pecan Pie.txt"
   },
   {
-    "name": "Pennie's CARAMELS",
-    "path": "data/Pennie's CARAMELS.txt"
+    "name": "Pennie\u2019s Caramels",
+    "path": "data/Pennie\u2019s Caramels.txt"
   },
   {
     "name": "Perfect Chocolate Chip Cookies (opt)",
