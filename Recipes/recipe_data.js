@@ -4,8 +4,8 @@ var recipes = [
     "path": "data/3-Ingredient Stovetop Mac and Cheese Recipe.txt"
   },
   {
-    "name": "30-Minute Tuscan White Bean Soup,txt",
-    "path": "data/30-Minute Tuscan White Bean Soup,txt.txt"
+    "name": "30-Minute Tuscan White Bean Soup",
+    "path": "data/30-Minute Tuscan White Bean Soup.txt"
   },
   {
     "name": "75-Minute Pizza Dough",
@@ -1180,6 +1180,10 @@ var recipes = [
     "path": "data/Dublin Coddle.txt"
   },
   {
+    "name": "Duross Potatoe Salad",
+    "path": "data/Duross Potatoe Salad.txt"
+  },
+  {
     "name": "Easier Fried Chicken",
     "path": "data/Easier Fried Chicken.txt"
   },
@@ -1630,6 +1634,10 @@ var recipes = [
   {
     "name": "Guiltless Alfredo Sauced",
     "path": "data/Guiltless Alfredo Sauced.txt"
+  },
+  {
+    "name": "Halal Cart-Style Chicken and Rice",
+    "path": "data/Halal Cart-Style Chicken and Rice.txt"
   },
   {
     "name": "Ham and chicken",
