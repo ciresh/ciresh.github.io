@@ -1352,6 +1352,10 @@ var recipes = [
     "path": "data/Fish Tacos (NY Times).txt"
   },
   {
+    "name": "Flannel Shirt Drink",
+    "path": "data/Flannel Shirt Drink.txt"
+  },
+  {
     "name": "Fleur De Sel Caramels",
     "path": "data/Fleur De Sel Caramels.txt"
   },
@@ -2330,6 +2334,10 @@ var recipes = [
   {
     "name": "Orange-Spice Banana Bread",
     "path": "data/Orange-Spice Banana Bread.txt"
+  },
+  {
+    "name": "Orgeat",
+    "path": "data/Orgeat.txt"
   },
   {
     "name": "Our Favorite Turkey Gravy",
