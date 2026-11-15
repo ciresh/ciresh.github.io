@@ -2280,6 +2280,10 @@ var recipes = [
     "path": "data/NYT Chocolate Chip Cookies.txt"
   },
   {
+    "name": "NYT Turkey Meatloaf",
+    "path": "data/NYT Turkey Meatloaf.txt"
+  },
+  {
     "name": "Official Cardogs BBQ Salmon",
     "path": "data/Official Cardogs BBQ Salmon.txt"
   },
