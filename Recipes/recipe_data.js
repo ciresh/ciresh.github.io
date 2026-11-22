@@ -16,6 +16,10 @@ var recipes = [
     "path": "data/African Chicken.txt"
   },
   {
+    "name": "After Hours Drink",
+    "path": "data/After Hours Drink.txt"
+  },
+  {
     "name": "Agave Margarita",
     "path": "data/Agave Margarita.txt"
   },
@@ -1914,6 +1918,10 @@ var recipes = [
   {
     "name": "Leaner Fresh Peach Ice Cream",
     "path": "data/Leaner Fresh Peach Ice Cream.txt"
+  },
+  {
+    "name": "Lebanese Chicken with 7-Spice",
+    "path": "data/Lebanese Chicken with 7-Spice.txt"
   },
   {
     "name": "Lemon bread - Reddit",
